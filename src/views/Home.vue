@@ -4,7 +4,7 @@
         <v-row no-gutters>
           <v-img
             :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-            src="https://image.freepik.com/free-photo/coronavirus-infection-with-copy-space_23-2148473749.jpg"
+            src="../assets/leaf.jpg"
           >
             <v-theme-provider dark>
               <v-container fill-height>
@@ -40,6 +40,7 @@
                     class="align-self-end"
                     fab
                     outlined
+                    color="icons"
                     @click="$vuetify.goTo('#about-me')"
                   >
                     <v-icon>mdi-chevron-double-down</v-icon>
@@ -84,12 +85,12 @@
 
         </v-container>
 
-        <div class="py-12"></div>
+        <div class="py-12" width="100%"></div>
       </section>
 
       <section
         id="features"
-        class="grey lighten-3"
+        class="white"
       >
         <div class="py-12"></div>
 
@@ -181,7 +182,7 @@
 
           <v-footer
       class="justify-center"
-      color="#292929"
+      color="styling"
       height="100"
     >
       <div class="title font-weight-light grey--text text--lighten-1 text-center">
