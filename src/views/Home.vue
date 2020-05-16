@@ -145,8 +145,9 @@
             >
               <v-card
                 class="py-12 px-4"
-                color="grey lighten-5"
+                color="styling"
                 flat
+                height="400"
               >
                 <v-theme-provider dark>
                   <div>
@@ -163,12 +164,12 @@
                 </v-theme-provider>
 
                 <v-card-title
-                  class="justify-center font-weight-black text-uppercase"
+                  class="justify-center font-weight-black white--text text-uppercase"
                   v-text="title"
                 ></v-card-title>
 
                 <v-card-text
-                  class="subtitle-1"
+                  class="subtitle-1 white--text"
                   v-text="text"
                 >
                 </v-card-text>
