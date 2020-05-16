@@ -40,7 +40,7 @@
                     class="align-self-end"
                     fab
                     outlined
-                    color="icons"
+                    color="white"
                     @click="$vuetify.goTo('#about-me')"
                   >
                     <v-icon>mdi-chevron-double-down</v-icon>
