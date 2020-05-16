@@ -1,7 +1,24 @@
 <template>
-  <v-app-bar app class="styling">
-    <v-spacer></v-spacer>
-        <h1>VIRALERT</h1>
-    <v-spacer></v-spacer>
-  </v-app-bar>
+   <v-app-bar
+      app
+      color="white"
+      height="100"
+    >
+      <v-avatar
+        class="mr-3"
+        color="grey lighten-5"
+        size="70"
+      >
+        <v-img
+          contain
+          max-height="70%"
+          src="../assets/smallvirus.png"
+        ></v-img>
+      </v-avatar>
+
+      <v-toolbar-title class="font-weight-black headline">
+        VIRALERT
+      </v-toolbar-title>
+    </v-app-bar>
+
 </template>
