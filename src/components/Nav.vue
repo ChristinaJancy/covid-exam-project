@@ -23,7 +23,9 @@
       <v-spacer></v-spacer>
        <!--<v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>-->
     </v-app-bar>
-  <v-card>
+      <!--
+        <v-card>
+
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant.sync="mini"
@@ -66,6 +68,7 @@
       </v-list>
     </v-navigation-drawer>
   </v-card>
+  -->
 </div>    
 
 </template>
