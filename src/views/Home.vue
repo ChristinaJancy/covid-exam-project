@@ -71,7 +71,7 @@
             class="mx-auto title font-weight-light mb-8"
             max-width="720"
           >
-            Here you can read all about the rules and guidelines concerning covis and the reopening of educational institutions. You can also read all about the daily developments, all around the school in the country.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati modi magnam quos aliquam eveniet, totam quasi expedita, ab hic, voluptatum alias voluptas cupiditate! Iure, esse modi exercitationem odit libero necessitatibus!
           </v-responsive>
 
           <v-avatar
