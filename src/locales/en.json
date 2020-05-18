@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "rules": "Rules",
+    "guidelines": "Guidelines",
+    "dailydevelopments": "Daily developments",
+    "language": "Language"
+  },
+  "about": {
+    "title": "About us",
+    "content": "We are Educovid. "
+  },
+  "values": {
+    "headline": "We believe in",
+    "message": "Hello I am message",
+    "goals": "We strive to be the number one trustworthy informational site about corona and the reopening of educational institutions.",
+    "values": "values",
+    "valuestitle": "Values",
+    "goalstitle": "Goals",
+    "messagetitle": "Message"
+  }
+}

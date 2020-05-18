@@ -41,7 +41,7 @@
     <section id="about-us">
       <div class="py-12"></div>
       <v-container class="text-center">
-        <h2 class="display-2 font-weight-bold mb-3">ABOUT US</h2>
+        <h2 class="display-2 font-weight-bold mb-3">{{$t('about.title')}}</h2>
         <v-responsive class="mx-auto mb-8" width="56">
           <v-divider class="mb-1"></v-divider>
           <v-divider></v-divider>
@@ -49,7 +49,7 @@
         <v-responsive
           class="mx-auto title font-weight-light mb-8"
           max-width="720"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati modi magnam quos aliquam eveniet, totam quasi expedita, ab hic, voluptatum alias voluptas cupiditate! Iure, esse modi exercitationem odit libero necessitatibus!</v-responsive>
+        >{{$t('about.content')}}</v-responsive>
         <v-avatar class="elevation-12 mb-12" size="128">
           <v-img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHoktTGQb9tL32jGRNJv8FWl9DtKgSzlDzuMqCxruRSQvXDohZ&usqp=CAU"
@@ -79,12 +79,65 @@
 
       <div class="py-12"></div>
       <v-container class="text-center">
-        <h2 class="display-2 font-weight-bold mb-3">Our values</h2>
+        <h2 class="display-2 font-weight-bold mb-3">{{$t('values.headline')}}</h2>
         <v-responsive class="mx-auto mb-12" width="56">
           <v-divider class="mb-1"></v-divider>
           <v-divider></v-divider>
         </v-responsive>
         <v-row>
+<v-col cols="12" md="4">
+  
+            <v-card class="py-12 px-4" color="styling" flat height="400">
+              <v-theme-provider dark>
+                <div>
+                  <v-avatar color="primary" size="88">
+                    <v-icon large> mdi-account</v-icon>
+                  </v-avatar>
+                </div>
+              </v-theme-provider>
+             <v-card-title
+                class="justify-center font-weight-black white--text text-uppercase"
+               
+              >{{$t('values.messagetitle')}}</v-card-title>
+              <v-card-text class="subtitle-1 white--text">{{$t('values.message')}}</v-card-text>
+            </v-card>
+          </v-col>
+          <v-col cols="12" md="4">
+  
+            <v-card class="py-12 px-4" color="styling" flat height="400">
+              <v-theme-provider dark>
+                <div>
+                  <v-avatar color="primary" size="88">
+                    <v-icon large>mdi-account</v-icon>
+                  </v-avatar>
+                </div>
+              </v-theme-provider>
+             <v-card-title
+                class="justify-center font-weight-black white--text text-uppercase"
+               
+              >{{$t('values.goalstitle')}}</v-card-title>
+              <v-card-text class="subtitle-1 white--text">{{$t('values.goals')}}</v-card-text>
+            </v-card>
+          </v-col>
+          <v-col cols="12" md="4">
+  
+            <v-card class="py-12 px-4" color="styling" flat height="400">
+              <v-theme-provider dark>
+                <div>
+                  <v-avatar color="primary" size="88">
+                    <v-icon large>mdi-account</v-icon>
+                  </v-avatar>
+                </div>
+              </v-theme-provider>
+              <v-card-title
+                class="justify-center font-weight-black white--text text-uppercase"
+               
+              >{{$t('values.valuestitle')}}</v-card-title>
+              <v-card-text class="subtitle-1 white--text">{{$t('values.values')}}</v-card-text>
+            </v-card>
+          </v-col>
+          <!--          Col before lang switch     
+
           <v-col v-for="({ icon, title, text }, i) in features" :key="i" cols="12" md="4">
             <v-card class="py-12 px-4" color="styling" flat height="400">
               <v-theme-provider dark>
@@ -101,6 +154,7 @@
               <v-card-text class="subtitle-1 white--text" v-text="text"></v-card-text>
             </v-card>
           </v-col>
+          -->
         </v-row>
       </v-container>
       <div class="py-12"></div>
