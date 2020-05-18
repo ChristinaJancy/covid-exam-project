@@ -1,16 +1,17 @@
 <template>
   <div>
-    <v-app-bar app color="white" height="100">
+    <v-app-bar app color="white">
       <v-avatar class="mr-3" color="grey lighten-5" size="70">
         <v-img contain max-height="70%" src="../assets/smallvirus.png"></v-img>
       </v-avatar>
       <router-link to="/">
         <v-toolbar-title class="font-weight-black headline">EDUCOVID</v-toolbar-title>
       </router-link>
-    
-
       <v-spacer></v-spacer>
+      <h3>DK/ENG</h3>
 
+   <template v-slot:extension>
+     <v-spacer></v-spacer>
       <router-link to="/rules">
         <div class="pa-5">
           <h3>Rules</h3>
@@ -28,6 +29,7 @@
           <h3>Daily Developments</h3>
         </div>
       </router-link>
+   </template>
       <!--<v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>-->
     </v-app-bar>
     <!--
