@@ -1,29 +1,36 @@
 <template>
-<div>
-   <v-app-bar
-      app
-      color="white"
-      height="100"
-    >
-      <v-avatar
-        class="mr-3"
-        color="grey lighten-5"
-        size="70"
-      >
-        <v-img
-          contain
-          max-height="70%"
-          src="../assets/smallvirus.png"
-        ></v-img>
+  <div>
+    <v-app-bar app color="white" height="100">
+      <v-avatar class="mr-3" color="grey lighten-5" size="70">
+        <v-img contain max-height="70%" src="../assets/smallvirus.png"></v-img>
       </v-avatar>
+      <router-link to="/">
+        <v-toolbar-title class="font-weight-black headline">EDUCOVID</v-toolbar-title>
+      </router-link>
+    
 
-      <v-toolbar-title class="font-weight-black headline">
-        EDUCOVID
-      </v-toolbar-title>
       <v-spacer></v-spacer>
-       <!--<v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>-->
+
+      <router-link to="/rules">
+        <div class="pa-5">
+          <h3>Rules</h3>
+        </div>
+      </router-link>
+
+      <router-link to="/guidelines">
+        <div class="pa-5">
+          <h3>Guidelines</h3>
+        </div>
+      </router-link>
+
+      <router-link to="/dailydevelopments">
+        <div class="pa-5">
+          <h3>Daily Developments</h3>
+        </div>
+      </router-link>
+      <!--<v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>-->
     </v-app-bar>
-      <!--
+    <!--
         <v-card>
 
     <v-navigation-drawer
@@ -68,24 +75,23 @@
       </v-list>
     </v-navigation-drawer>
   </v-card>
-  -->
-</div>    
-
+    -->
+  </div>
 </template>
 
 
 <script>
-  export default {
-    data () {
-      return {
-        drawer: true,
-        items: [
-          { title: 'Home', icon: 'mdi-home-city' },
-          { title: 'My Account', icon: 'mdi-account' },
-          { title: 'Users', icon: 'mdi-account-group-outline' },
-        ],
-        mini: true,
-      }
-    },
+export default {
+  data() {
+    return {
+      drawer: true,
+      items: [
+        { title: "Home", icon: "mdi-home-city" },
+        { title: "My Account", icon: "mdi-account" },
+        { title: "Users", icon: "mdi-account-group-outline" }
+      ],
+      mini: true
+    };
   }
+};
 </script>

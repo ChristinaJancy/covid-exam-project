@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Rules from '../views/Rules.vue'
+import Guidelines from '../views/Guidelines.vue'
+import Dailydevelopments from '../views/Dailydevelopments.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +12,21 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/rules',
+    name: 'Rules',
+    component: Rules
+  },
+  {
+    path: '/guidelines',
+    name: 'Guidelines',
+    component: Guidelines
+  },
+  {
+    path: '/dailydevelopments',
+    name: 'Dailydevelopments',
+    component: Dailydevelopments
   },
   {
     path: '/about',
