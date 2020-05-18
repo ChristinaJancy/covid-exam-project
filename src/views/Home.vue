@@ -125,7 +125,7 @@
       </section>
       <div class="py-12"></div>
         <v-container class="text-center">
-          <h2 class="display-2 font-weight-bold mb-3">Core message and values</h2>
+          <h2 class="display-2 font-weight-bold mb-3">Our values</h2>
 
           <v-responsive
             class="mx-auto mb-12"
