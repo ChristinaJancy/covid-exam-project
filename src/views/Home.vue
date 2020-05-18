@@ -14,7 +14,7 @@
                   <span
                     :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
                     class="font-weight-light"
-                  >WELCOME TO</span>
+                  >{{$t('home.welcometo')}}</span>
                   <br />
                   <span
                     :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
@@ -51,8 +51,8 @@
           max-width="720"
         >{{$t('about.content')}}</v-responsive>
         <v-avatar class="elevation-12 mb-12" size="128">
-          <v-img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHoktTGQb9tL32jGRNJv8FWl9DtKgSzlDzuMqCxruRSQvXDohZ&usqp=CAU"
+          <v-img id="onlyvirus"
+            src="../assets/onlyvirus.png" contain
           ></v-img>
         </v-avatar>
         <div></div>
@@ -190,7 +190,7 @@ export default {
       }
     ],
     stats: [
-      ["<3", "Stay safe"],
+      ["", ""],
       ["", ""],
       ["", ""],
       ["", ""]
@@ -198,3 +198,12 @@ export default {
   })
 };
 </script>
+
+<style lang="scss" scoped>
+#onlyvirus:hover{
+ transform: rotate(360deg);
+}
+#onlyvirus{
+    transition:transform .8s ease-in-out; 
+}
+</style>

@@ -3,13 +3,13 @@
         "rules": "Regler",
         "guidelines": "Retningslinjer",
         "dailydevelopments": "Dalige opdateringer",
-        "language": "Sprog"
+        "language": "Sprog:"
         },
-        "about": {
+    "about": {
         "title": "Om os",
         "content": "Vi er Educovid. "
         },
-        "values": {
+    "values": {
             "headline": "Vi tror på",
             "message": "Hej jeg er et budskab",
             "goals": "Vi stræber efter at være den mest pålidelige og informerende platform angående covid og genåbningen af uddannelsesinstitutioner.",
@@ -17,5 +17,8 @@
             "valuestitle": "Værdier",
             "goalstitle": "Mål",
             "messagetitle": "Budskab"
-          }
+          },
+    "home" :{
+        "welcometo": "VELKOMMEN TIL"
+    }
   }

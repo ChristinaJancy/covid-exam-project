@@ -3,7 +3,7 @@
     "rules": "Rules",
     "guidelines": "Guidelines",
     "dailydevelopments": "Daily developments",
-    "language": "Language"
+    "language": "Language:"
   },
   "about": {
     "title": "About us",
@@ -17,5 +17,8 @@
     "valuestitle": "Values",
     "goalstitle": "Goals",
     "messagetitle": "Message"
-  }
+  },
+  "home" :{
+    "welcometo": "WELCOME TO"
+}
 }

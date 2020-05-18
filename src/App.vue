@@ -28,5 +28,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+h1{
+  font-family: 'Roboto', sans-serif;
+}
 </style>

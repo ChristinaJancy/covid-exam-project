@@ -1,12 +1,11 @@
 <template>
   <div>
     <v-app-bar app color="white">
-      <v-avatar class="mr-3" color="grey lighten-5" size="70">
-        <v-img contain max-height="70%" src="../assets/smallvirus.png"></v-img>
+      <router-link to="/">
+      <v-avatar class="mr-3 mt-10" size="200">
+        <v-img contain max-height="70%" src="../assets/edulogo.png"></v-img>
       </v-avatar>
       <!-- <router-link :to="`/${$i18n.locale}`"> -->
-      <router-link to="/">
-        <v-toolbar-title class="font-weight-black headline">EDUCOVID</v-toolbar-title>
       </router-link>
       <v-spacer></v-spacer>
 
@@ -19,23 +18,24 @@
       <template v-slot:extension>
         <v-spacer></v-spacer>
         <!-- <router-link :to="`/${$i18n.locale}/rules`">-->
-        <router-link to="/rules">
-          <div class="pa-5">
-            <h3>{{$t('nav.rules')}}</h3>
+        <router-link class="router-links" to="/rules">
+          <div class="mx-5 pa-2">
+            <h3 class="black--text">{{$t('nav.rules')}}</h3>
           </div>
+
         </router-link>
 
        <!-- <router-link :to="`/${$i18n.locale}/guidelines`">-->
-       <router-link to="/guidelines">
-          <div class="pa-5">
-            <h3>{{$t('nav.guidelines')}}</h3>
+       <router-link class="router-links" to="/guidelines">
+          <div class="mx-5 pa-2">
+            <h3 class="black--text">{{$t('nav.guidelines')}}</h3>
           </div>
         </router-link>
 
        <!-- <router-link :to="`/${$i18n.locale}/dailydevelopments`">-->
-       <router-link to="/dailydevelopments">
-          <div class="pa-5">
-            <h3>{{$t('nav.dailydevelopments')}}</h3>
+       <router-link class="router-links" to="/dailydevelopments">
+          <div class="mx-5 pa-2">
+            <h3 class="black--text">{{$t('nav.dailydevelopments')}}</h3>
           </div>
         </router-link>
       </template>
@@ -69,3 +69,16 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.router-links:hover{
+  font-size: 103%;
+  background-color: rgba(4, 0, 63, 0.171);
+  transition: .2s ease;
+
+.router-links{
+  transition: 1s;
+  
+}
+}
+</style>
