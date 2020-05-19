@@ -9,11 +9,20 @@
         </router-link>
         <v-spacer></v-spacer>
 
-        <!--Language dropdown menu-->
-        <div>
-          {{$t('nav.language')}}
+        <!-----------------------
+        Language dropdown menu
+        ------------------------>
+ 
+        <h4 style="color:black !important;" class="mr-2 mb-3"> {{$t('nav.language')}}</h4>
+        <div style="color:#385170 !important;">
+          <h2 class="mr-1">
           <Languageswitcher />
+          </h2>
         </div>
+
+          <!------------------------------
+                      TABS
+          ----------------------------------->
         <template v-slot:extension>
           <v-spacer></v-spacer>
           <div id="nav">
