@@ -1,28 +1,46 @@
 <template>
   <div>
     <div>
-    <v-app-bar app color="white">
-      <router-link to="/">
-        <div class="mt-10 pa-4" size="10">
-          <v-img contain width="200" src="../assets/edulogo.png"></v-img>
-        </div>
-      </router-link>
-      <v-spacer></v-spacer>
-
-      <!--Language dropdown menu-->
-
-      <Languageswitcher />
-      <template v-slot:extension>
+      <v-app-bar app color="white">
+        <router-link to="/">
+          <div class="mt-10 pa-4" size="10">
+            <v-img contain width="200" src="../assets/edulogo.png"></v-img>
+          </div>
+        </router-link>
         <v-spacer></v-spacer>
-        <div id="nav">
-          <router-link to="/" class="mx-2">Home</router-link>|
-          <router-link to="/rules" class="mx-2">{{$t('nav.rules')}}</router-link>|
-          <router-link to="/guidelines" class="mx-2">{{$t('nav.guidelines')}}</router-link>|
-          <router-link to="/dailydevelopments" class="mx-2">{{$t('nav.dailydevelopments')}}</router-link>
-        </div>
-        <v-spacer></v-spacer>
-      </template>
-    </v-app-bar>
+
+        <!--Language dropdown menu-->
+        <Languageswitcher />
+        <template v-slot:extension>
+          <v-spacer></v-spacer>
+          <div id="nav">
+            <div style="display:table-cell;" class="pr-5">
+              <router-link to="/" class="mx-1">
+                <v-img contain style="float: left;" width="25" src="../assets/onlyvirus.png"></v-img>Home
+              </router-link>
+            </div>
+
+            <div style="display:table-cell;" class="pr-5">
+              <router-link to="/rules" class="mx-1">
+                <v-img contain style="float: left;" width="35" src="../assets/icons/rules-alone.png"></v-img>{{$t('nav.rules')}}
+              </router-link>
+            </div>
+
+            <div style="display:table-cell;" class="pr-5">
+              <router-link to="/guidelines" class="mx-1">
+                <v-img contain style="float: left;" width="25" src="../assets/icons/guidelines-alone.png"></v-img>{{$t('nav.guidelines')}}
+              </router-link> 
+            </div>
+
+            <div style="display:table-cell;">
+              <router-link to="/dailydevelopments" class="mx-1">
+                <v-img contain style="float: left;" width="35" src="../assets/icons/info-alone.png"></v-img>{{$t('nav.dailydevelopments')}}
+              </router-link>
+            </div>
+          </div>
+          <v-spacer></v-spacer>
+        </template>
+      </v-app-bar>
     </div>
   </div>
 </template>
