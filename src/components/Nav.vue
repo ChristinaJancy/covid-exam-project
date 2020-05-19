@@ -14,27 +14,28 @@
         <template v-slot:extension>
           <v-spacer></v-spacer>
           <div id="nav">
-            <div style="display:table-cell;" class="pr-5">
+            <div style="display:table-cell;" class="pr-5 img-gradient">
               <router-link to="/" class="mx-1">
-                <v-img contain style="float: left;" width="25" src="../assets/onlyvirus.png"></v-img>Home
+                <v-img contain style="float: left;" class="grayscale" width="25" src="../assets/onlyvirus.png">
+                </v-img>Home
               </router-link>
             </div>
 
             <div style="display:table-cell;" class="pr-5">
               <router-link to="/rules" class="mx-1">
-                <v-img contain style="float: left;" width="35" src="../assets/icons/rules-alone.png"></v-img>{{$t('nav.rules')}}
+                <v-img contain class="grayscale" style="float: left;" width="35" src="../assets/icons/rules-alone.png"></v-img>{{$t('nav.rules')}}
               </router-link>
             </div>
 
             <div style="display:table-cell;" class="pr-5">
               <router-link to="/guidelines" class="mx-1">
-                <v-img contain style="float: left;" width="25" src="../assets/icons/guidelines-alone.png"></v-img>{{$t('nav.guidelines')}}
+                <v-img contain class="grayscale" style="float: left;" width="25" src="../assets/icons/guidelines-alone.png"></v-img>{{$t('nav.guidelines')}}
               </router-link> 
             </div>
 
             <div style="display:table-cell;">
               <router-link to="/dailydevelopments" class="mx-1">
-                <v-img contain style="float: left;" width="35" src="../assets/icons/info-alone.png"></v-img>{{$t('nav.dailydevelopments')}}
+                <v-img contain class="grayscale" style="float: left;" width="35" src="../assets/icons/info-alone.png"></v-img>{{$t('nav.dailydevelopments')}}
               </router-link>
             </div>
           </div>
@@ -68,26 +69,26 @@ export default {
   font-size: 2.5vh;
   a {
     font-weight: bold;
-    color: #cc6600;
+    //color: #cc6600;
+    color: rgb(24, 24, 24);
     text-decoration: none;
 
     &.router-link-exact-active {
       text-decoration: none;
-      border-bottom-style: outset;
-      color: rgb(24, 24, 24);
-      border-radius: 10%;
-      border-bottom-width: 1.2px;
+      //border-bottom-style: outset;
+      color: #cc6600;
+      //border-radius: 10%;
+      //border-bottom-width: 1.2px;
     }
   }
 }
 
-.router-links:hover {
-  font-size: 103%;
-  background-color: rgba(4, 0, 63, 0.171);
-  transition: 0.2s ease;
+.grayscale{ 
+filter: invert(0%) sepia(0%) grayscale(100%) saturate(100%) hue-rotate(201deg) brightness(99%) contrast(1000%);
 
-  .router-links {
-    transition: 1s;
-  }
+    a{
+      filter: invert(0%) sepia(0%) grayscale(100%) saturate(100%) hue-rotate(201deg) brightness(99%) contrast(5%);
+    }
+
 }
 </style>
