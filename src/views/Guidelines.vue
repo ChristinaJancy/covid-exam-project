@@ -47,7 +47,7 @@
 
  @media screen and (max-width: 700px) {
     #guidelines{
-   margin-top:-110px;
+   margin-top:-80px;
     }   
  } 
 </style>

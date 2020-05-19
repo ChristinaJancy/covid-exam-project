@@ -9,7 +9,7 @@
 
  @media screen and (max-width: 700px) {
     #daily{
-   margin-top:-110px;
+   margin-top:-80px;
     }   
  } 
 </style>
