@@ -79,14 +79,16 @@
 
     -------------------->
     <div id="navphone">
+
       <v-system-bar color="primary" fixed>
         <v-spacer></v-spacer>
         <div class="pt-2" style="color:white !important;">
-          <h2>
+          <h1>
           <Languageswitcher />
-          </h2>
+          </h1>
         </div>
       </v-system-bar>
+
       <v-app-bar app bottom height="60" color="white">
         <v-row dense>
           <v-col cols="3" align="center">
