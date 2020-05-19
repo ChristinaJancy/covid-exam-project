@@ -28,6 +28,10 @@ export default {
 </script>
 
 <style lang="scss">
+#app{
+  margin: 0 auto;
+  padding: 0 auto;
+}
 h1{
   font-family: Arial, Helvetica, sans-serif;
 }

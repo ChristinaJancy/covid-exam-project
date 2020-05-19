@@ -1,7 +1,7 @@
 <template>
   <div>
     <section id="hero">
-      <v-row no-gutters>
+      <v-row no-gutters id="home">
         <v-img
           :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
           src="../assets/covid1.jpg"
@@ -91,7 +91,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="4">
-            <v-card  class="py-12 px-4" color="styling" flat height="300">
+            <v-card class="py-12 px-4" color="styling" flat height="300">
               <v-theme-provider dark>
                 
                 <!--<div>
@@ -258,10 +258,17 @@ export default {
 
 .para-to-contact{
   display: flex;
-
       @media screen and (max-width:815px){
         display: none;
         
       }
 }
+
+ @media screen and (max-width: 700px) {
+    #home{
+   margin-top:-110px;
+    }   
+
+ } 
+
 </style>

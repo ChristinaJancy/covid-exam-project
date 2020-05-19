@@ -1,5 +1,5 @@
 <template>
-  <div class="about text-center">
+  <div id="guidelines" class="about text-center">
     <h1 class="pt-5">Guidelines</h1>
     <!-- search bar-->
      <div class="search-wrapper">
@@ -44,3 +44,13 @@
     </v-container>
   </div>
 </template>
+
+
+<style lang="scss" scoped>
+
+ @media screen and (max-width: 700px) {
+    #guidelines{
+   margin-top:-110px;
+    }   
+ } 
+</style>
