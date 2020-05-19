@@ -100,7 +100,7 @@
       </v-system-bar>
 
       <v-app-bar app bottom height="60" color="white">
-        <v-row dense>
+        <v-row >
           <v-col cols="3" align="center">
             <div class="img-gradient">
               <router-link to="/">
