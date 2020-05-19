@@ -82,9 +82,9 @@
       <v-system-bar color="primary" fixed>
         <v-spacer></v-spacer>
         <div class="pt-2" style="color:white !important;">
-          <h3>
+          <h2>
           <Languageswitcher />
-          </h3>
+          </h2>
         </div>
       </v-system-bar>
       <v-app-bar app bottom height="60" color="white">
