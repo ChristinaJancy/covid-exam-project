@@ -14,7 +14,7 @@
         <template v-slot:extension>
           <v-spacer></v-spacer>
           <div id="nav">
-            <div style="display:table-cell;" class="pr-5 img-gradient">
+            <div style="display:table-cell;" class="pr-5 pl-5 img-gradient">
               <router-link to="/" class="mx-1">
                 <v-img contain style="float: left;" class="grayscale" width="25" src="../assets/onlyvirus.png">
                 </v-img>Home
