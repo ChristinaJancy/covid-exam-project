@@ -1,5 +1,5 @@
 <template>
-  <div>
+
     <div>
       <v-app-bar app color="white">
         <router-link to="/">
@@ -43,7 +43,7 @@
         </template>
       </v-app-bar>
     </div>
-  </div>
+
 </template>
 
 
