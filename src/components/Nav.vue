@@ -3,7 +3,7 @@
     <div>
       <v-app-bar app color="white">
         <router-link to="/">
-          <div class="mt-10 pa-4" size="10">
+          <div class="mt-10 " size="10">
             <v-img contain width="200" src="../assets/edulogo.png"></v-img>
           </div>
         </router-link>
