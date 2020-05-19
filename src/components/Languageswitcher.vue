@@ -37,7 +37,7 @@
   -->
   <div class="locale-changer">
  <p align="right">
-      {{$t('nav.language')}}
+    
       
       
       <b class="router-links">

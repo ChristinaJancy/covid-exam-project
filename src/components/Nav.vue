@@ -10,7 +10,10 @@
         <v-spacer></v-spacer>
 
         <!--Language dropdown menu-->
+        <div>
+          {{$t('nav.language')}}
         <Languageswitcher />
+        </div>
         <template v-slot:extension>
           <v-spacer></v-spacer>
           <div id="nav">
@@ -115,30 +118,9 @@
             </div>
           </v-col>
           <v-col cols="1">
-            <template>
-              <div class="text-center">
-                <v-menu v-model="menu" :close-on-content-click="false" :nudge-width="40" offset-x>
-                  <template v-slot:activator="{ on }">
-                    <v-btn color="grey darken-3" dark v-on="on" icon>
-                      <v-icon>mdi-dots-vertical</v-icon>
-                    </v-btn>
-                  </template>
-
-                  <v-card width="auto" elevation="12" class="text-right primary">
-                    <v-list class="text-center primary">
-                      <v-list-item >
-                        <v-list-item-action class="text-right" >
-                          <h3>
-                          <Languageswitcher />
-                          </h3>
-                        </v-list-item-action>
-                      </v-list-item>
-                    </v-list>
-                    <v-divider></v-divider>
-                  </v-card>
-                </v-menu>
-              </div>
-            </template>
+            <div class="my-3">
+<Languageswitcher />
+</div>
           </v-col>
         </v-row>
       </v-app-bar>
