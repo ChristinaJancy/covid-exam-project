@@ -124,7 +124,7 @@
                     </v-btn>
                   </template>
 
-                  <v-card width="auto" elevation="12" class="text-right">
+                  <v-card width="auto" elevation="12" class="text-right primary">
                     <v-list class="text-center primary">
                       <v-list-item >
                         <v-list-item-action class="text-right" >
