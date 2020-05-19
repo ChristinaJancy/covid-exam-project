@@ -66,16 +66,17 @@ export default {
 #nav {
   padding: 30px;
   font-size: 2.5vh;
-
   a {
     font-weight: bold;
     color: #cc6600;
     text-decoration: none;
 
     &.router-link-exact-active {
-      color: #cc6600;
-      font-size: 105%;
       text-decoration: none;
+      border-bottom-style: outset;
+      color: black;
+      border-color: rgba(0, 0, 0, 0.719);
+      border-radius: 10%;
     }
   }
 }
