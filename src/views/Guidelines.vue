@@ -15,27 +15,24 @@
       <v-row class="mx-6 pa-0 ma-0">
         <v-col md="3" sm="6">
           <v-img
-            src="https://via.placeholder.com/150"
-            gradient="to top right, rgba(25,32,72,.7), rgba(25,32,72,.7)"
+            src="../assets/guidelines/7steps.png"
           ></v-img>
-          <h1 class="black--text">Poster</h1>
+          <h2 class="black--text">Social distancing</h2>
         </v-col>
 
         <v-col md="3" sm="6">
-          <v-img src="https://via.placeholder.com/150"
-          gradient="to top right, rgba(25,32,72,.7), rgba(25,32,72,.7)"></v-img>
-          <h1 class="black--text">Poster</h1>
+          <v-img src="../assets/guidelines/symptoms.png" />
+           <h2 class="black--text">Symptoms</h2>
         </v-col>
 
         <v-col md="3" sm="6">
-          <v-img src="https://via.placeholder.com/150"
-          gradient="to top right, rgba(25,32,72,.7), rgba(25,32,72,.7)"></v-img>
-          <h1 class="black--text">Poster</h1>
+          <v-img src="../assets/guidelines/maskuse.png" />
+         
+           <h2 class="black--text">Mask use</h2>
         </v-col>
         <v-col sm="6" md="3">
-          <v-img src="https://via.placeholder.com/150"
-          gradient="to top right, rgba(25,32,72,.7), rgba(25,32,72,.7)"></v-img>
-          <h1 class="black--text">Poster</h1>
+          <v-img src="../assets/guidelines/stopspread.png" />
+           <h2 class="black--text">Stop the spread</h2>
           <br />
           <br />
           <br />

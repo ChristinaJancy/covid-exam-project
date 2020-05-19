@@ -79,6 +79,12 @@
 
     -------------------->
     <div id="navphone">
+      <v-system-bar color="primary" fixed>
+        <v-spacer></v-spacer>
+        <div class="pt-2">
+          <Languageswitcher />
+        </div>
+      </v-system-bar>
       <v-app-bar app bottom height="60" color="white">
         <v-row dense>
           <v-col cols="3" align="center">
@@ -110,18 +116,19 @@
             </div>
           </v-col>
 
-          <v-col cols="2" align="right">
+          <v-col cols="3" align="center">
             <div class="img-gradient">
               <router-link to="/dailydevelopments">
                 <v-img contain class="grayscale" width="50" src="../assets/icons/info-alone.png"></v-img>
               </router-link>
             </div>
           </v-col>
+          <!--
           <v-col cols="1" align="right">
             <div class="my-2" style="color:#385170 !important;">
               <Languageswitcher />
             </div>
-          </v-col>
+          </v-col>-->
         </v-row>
       </v-app-bar>
     </div>
