@@ -82,8 +82,8 @@
 
       <v-system-bar color="primary" height="35">
         <v-spacer></v-spacer>
-        <h2 style="color:white !important;" class="mr-2"> {{$t('nav.language')}}</h2>
-        <div class="pt-2" style="color:#cc6600 !important;">
+        <h2 style="color:white !important;" class="mr-2 pb-1"> {{$t('nav.language')}}</h2>
+        <div class="pt-2" style="color:#cc7500 !important;">
           <h1>
           <Languageswitcher />
           </h1>
