@@ -75,7 +75,7 @@ export default {
       text-decoration: none;
       border-bottom-style: outset;
       color: black;
-      border-color: rgba(0, 0, 0, 0.719);
+      border-color: rgb(61, 57, 57);
       border-radius: 10%;
     }
   }

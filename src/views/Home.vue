@@ -65,46 +65,43 @@
         <v-row>
           <div class="py-12"></div>
           <v-col cols="12" md="4">
-            <v-card class="py-12 px-4" color="styling" flat height="400">
+            <v-card class="py-12 px-4" color="styling" flat height="300">
               <v-theme-provider dark>
-                <div>
+                <!--<div>
                   <v-avatar color="white" size="88">
                     <v-icon large color="icons">mdi-account</v-icon>
                   </v-avatar>
-                </div>
+                </div> -->
               </v-theme-provider>
               <v-card-title
-                class="justify-center font-weight-black white--text text-uppercase"
+               class="justify-center font-weight-black white--text text-uppercase" style="font-size:40px; padding-bottom:30px;"
               >{{$t('values.messagetitle')}}</v-card-title>
               <v-card-text class="subtitle-1 white--text">{{$t('values.message')}}</v-card-text>
             </v-card>
           </v-col>
           <v-col cols="12" md="4">
-            <v-card class="py-12 px-4" color="styling" flat height="400">
+            <v-card class="py-12 px-4" color="primary" flat height="300">
               <v-theme-provider dark>
-                <div>
-                  <v-avatar color="white" size="88">
-                    <v-icon large color="icons">mdi-account</v-icon>
-                  </v-avatar>
-                </div>
+  
               </v-theme-provider>
               <v-card-title
-                class="justify-center font-weight-black white--text text-uppercase"
+                class="justify-center font-weight-black white--text text-uppercase" style="font-size:40px; padding-bottom:30px;"
               >{{$t('values.goalstitle')}}</v-card-title>
               <v-card-text class="subtitle-1 white--text">{{$t('values.goals')}}</v-card-text>
             </v-card>
           </v-col>
           <v-col cols="12" md="4">
-            <v-card class="py-12 px-4" color="styling" flat height="400">
+            <v-card class="py-12 px-4" color="styling" flat height="300">
               <v-theme-provider dark>
-                <div>
+                
+                <!--<div>
                   <v-avatar color="white" size="88">
                     <v-icon large color="icons">mdi-account</v-icon>
                   </v-avatar>
-                </div>
+                </div> -->
               </v-theme-provider>
               <v-card-title
-                class="justify-center font-weight-black white--text text-uppercase"
+               class="justify-center font-weight-black white--text text-uppercase" style="font-size:40px; padding-bottom:30px;"
               >{{$t('values.valuestitle')}}</v-card-title>
               <v-card-text class="subtitle-1 white--text">{{$t('values.values')}}</v-card-text>
             </v-card>
