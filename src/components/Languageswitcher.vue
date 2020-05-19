@@ -36,7 +36,7 @@
 
   -->
   <div class="locale-changer">
- <p align="right">
+ <p color="#1f1f1f" align="right">
     
       
       
