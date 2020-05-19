@@ -12,7 +12,7 @@
         <!--Language dropdown menu-->
         <div>
           {{$t('nav.language')}}
-        <Languageswitcher />
+          <Languageswitcher />
         </div>
         <template v-slot:extension>
           <v-spacer></v-spacer>
@@ -117,10 +117,10 @@
               </router-link>
             </div>
           </v-col>
-          <v-col cols="1">
-            <div class="my-3">
-<Languageswitcher />
-</div>
+          <v-col cols="1" align="right">
+            <div class="my-2" style="color:#385170 !important;">
+              <Languageswitcher />
+            </div>
           </v-col>
         </v-row>
       </v-app-bar>
