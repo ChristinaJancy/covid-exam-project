@@ -1,11 +1,11 @@
 <template>
   <div>
+    <div>
     <v-app-bar app color="white">
       <router-link to="/">
-        <v-avatar class="mr-3 mt-10" size="200">
-          <v-img contain max-height="70%" src="../assets/edulogo.png"></v-img>
-        </v-avatar>
-        <!-- <router-link :to="`/${$i18n.locale}`"> -->
+        <div class="mt-10 pa-4" size="10">
+          <v-img contain width="200" src="../assets/edulogo.png"></v-img>
+        </div>
       </router-link>
       <v-spacer></v-spacer>
 
@@ -14,8 +14,6 @@
       <Languageswitcher />
       <template v-slot:extension>
         <v-spacer></v-spacer>
-        <!-- <router-link :to="`/${$i18n.locale}/rules`">-->
-
         <div id="nav">
           <router-link to="/" class="mx-2">Home</router-link>|
           <router-link to="/rules" class="mx-2">{{$t('nav.rules')}}</router-link>|
@@ -25,6 +23,7 @@
         <v-spacer></v-spacer>
       </template>
     </v-app-bar>
+    </div>
   </div>
 </template>
 
