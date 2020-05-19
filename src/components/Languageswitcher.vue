@@ -36,18 +36,24 @@
 
   -->
   <div class="locale-changer">
-    <p>
+ <p align="right">
       {{$t('nav.language')}}
+      
+      
       <b class="router-links">
         <select v-model="$i18n.locale">
           <option
             v-for="(lang, i) in langs"
             :key="`Lang${i}`"
             :value="lang"
-          >{{ lang }}</option>
+          >
+          
+          {{ lang }}
+          </option>
         </select>
       </b>
-    </p>
+      </p>
+   
   </div>
 </template>
 

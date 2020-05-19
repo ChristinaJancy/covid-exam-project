@@ -76,7 +76,7 @@
 
     -------------------->
     <div id="navphone">
-      <v-app-bar app bottom height="60" color="white" >
+      <v-app-bar app bottom height="60" color="white">
         <v-row dense>
           <v-col cols="3" align="center">
             <div class="img-gradient">
@@ -86,63 +86,61 @@
             </div>
           </v-col>
 
-           <v-col cols="3" align="center"> 
+          <v-col cols="3" align="center">
             <div class="img-gradient">
-               <router-link to="/rules">
+              <router-link to="/rules">
                 <v-img contain class="grayscale" width="50" src="../assets/icons/rules-alone.png"></v-img>
               </router-link>
             </div>
           </v-col>
 
-           <v-col cols="3" align="center">
+          <v-col cols="3" align="center">
             <div class="img-gradient">
-               <router-link to="/guidelines">
-                <v-img contain class="grayscale" width="40" src="../assets/icons/guidelines-alone.png"></v-img>
-              </router-link> 
+              <router-link to="/guidelines">
+                <v-img
+                  contain
+                  class="grayscale"
+                  width="40"
+                  src="../assets/icons/guidelines-alone.png"
+                ></v-img>
+              </router-link>
             </div>
           </v-col>
 
-           <v-col cols="3" align="center">
+          <v-col cols="2" align="right">
             <div class="img-gradient">
-               <router-link to="/dailydevelopments">
+              <router-link to="/dailydevelopments">
                 <v-img contain class="grayscale" width="50" src="../assets/icons/info-alone.png"></v-img>
               </router-link>
             </div>
           </v-col>
+          <v-col cols="1">
+            <template>
+              <div class="text-center">
+                <v-menu v-model="menu" :close-on-content-click="false" :nudge-width="40" offset-x>
+                  <template v-slot:activator="{ on }">
+                    <v-btn color="grey darken-3" dark v-on="on" icon>
+                      <v-icon>mdi-dots-vertical</v-icon>
+                    </v-btn>
+                  </template>
 
+                  <v-card width="auto" elevation="12" class="text-right">
+                    <v-list class="text-center primary">
+                      <v-list-item >
+                        <v-list-item-action class="text-right" >
+                          <h3>
+                          <Languageswitcher />
+                          </h3>
+                        </v-list-item-action>
+                      </v-list-item>
+                    </v-list>
+                    <v-divider></v-divider>
+                  </v-card>
+                </v-menu>
+              </div>
+            </template>
+          </v-col>
         </v-row>
-
-        <!-- <template>
-          <div id="nav">
-            <div class="img-gradient">
-              <router-link to="/">
-                <v-img contain class="grayscale" width="40" src="../assets/onlyvirus.png">
-                </v-img>
-              </router-link>
-            </div>
-  <v-spacer></v-spacer>
-            <div style="display:table-cell;">
-              <router-link to="/rules">
-                <v-img contain class="grayscale" style="float: left;" width="50" src="../assets/icons/rules-alone.png"></v-img>
-              </router-link>
-            </div>
-  <v-spacer></v-spacer>
-            <div style="display:table-cell;" >
-              <router-link to="/guidelines">
-                <v-img contain class="grayscale" style="float: left;" width="40" src="../assets/icons/guidelines-alone.png"></v-img>
-              </router-link> 
-            </div>
-
-            <div style="display:table-cell;">
-              <router-link to="/dailydevelopments">
-                <v-img contain class="grayscale" style="float: left;" width="50" src="../assets/icons/info-alone.png"></v-img>
-              </router-link>
-            </div>
-          </div>
-          <v-spacer></v-spacer>
-
-             <Languageswitcher />
-        </template>-->
       </v-app-bar>
     </div>
   </div>
@@ -175,11 +173,11 @@ export default {
 
 #navphone {
   display: none;
-    @media screen and (max-width: 700px) {
-      display: initial;
-    }
-    
-   a {
+  @media screen and (max-width: 700px) {
+    display: initial;
+  }
+
+  a {
     font-weight: bold;
     //color: #cc6600;
     color: rgb(24, 24, 24);
@@ -197,7 +195,7 @@ export default {
           brightness(100%) contrast(101%);
       }
     }
-    }
+  }
 }
 
 #nav {
