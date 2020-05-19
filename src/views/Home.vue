@@ -106,28 +106,10 @@
               <v-card-text class="subtitle-1 white--text">{{$t('values.values')}}</v-card-text>
             </v-card>
           </v-col>
-          <!--          Col before lang switch     
-
-          <v-col v-for="({ icon, title, text }, i) in features" :key="i" cols="12" md="4">
-            <v-card class="py-12 px-4" color="styling" flat height="400">
-              <v-theme-provider dark>
-                <div>
-                  <v-avatar color="primary" size="88">
-                    <v-icon large v-text="icon"></v-icon>
-                  </v-avatar>
-                </div>
-              </v-theme-provider>
-              <v-card-title
-                class="justify-center font-weight-black white--text text-uppercase"
-                v-text="title"
-              ></v-card-title>
-              <v-card-text class="subtitle-1 white--text" v-text="text"></v-card-text>
-            </v-card>
-          </v-col>
-          -->
         </v-row>
       </v-container>
       <div class="py-12"></div>
+
       <section id="stats">
         <v-parallax :height="$vuetify.breakpoint.smAndDown ? 700 : 500" src="../assets/covid1.jpg">
           <v-container fill-height>
@@ -142,10 +124,88 @@
           </v-container>
         </v-parallax>
       </section>
-      <div class="py-12"></div>
+      <div class="py-12 white para-to-contact"></div>
     </section>
+
+    <!-- contact us section-->
     <section>
-      <h1 class="text-center">Contact us</h1>
+            <v-sheet
+            elevation="12"
+        id="contact"
+        color="#333333"
+        class="mx-auto"
+        dark
+        tag="section"
+        tile
+        max-width="800"
+        
+      >
+        <div class="py-12"></div>
+
+        <v-container>
+          <h2 class="display-2 font-weight-bold mb-3 text-uppercase text-center white--text">Contact Us</h2>
+
+          <v-responsive
+            class="mx-auto mb-12"
+            width="56"
+          >
+            <v-divider class="mb-1"></v-divider>
+
+            <v-divider></v-divider>
+          </v-responsive>
+
+          <v-theme-provider light class="dark" >
+            <v-row  elevation="12">
+              <v-col cols="12" class="pt-12">
+                <v-text-field
+
+                  flat
+                  label="Name*"
+                  solo
+                ></v-text-field>
+              </v-col>
+
+              <v-col cols="12">
+                <v-text-field
+                  flat
+                  label="Email*"
+                  solo
+                ></v-text-field>
+              </v-col>
+
+              <v-col cols="12">
+                <v-text-field
+                  flat
+                  label="Subject*"
+                  solo
+                ></v-text-field>
+              </v-col>
+
+              <v-col cols="12">
+                <v-textarea
+                  flat
+                  label="Message*"
+                  solo
+                ></v-textarea>
+              </v-col>
+
+              <v-col
+                class="mx-auto"
+                cols="auto"
+              >
+                <v-btn
+                  color="icons"
+                 large
+                >
+                  Submit
+                </v-btn>
+              </v-col>
+            </v-row>
+          </v-theme-provider>
+        </v-container>
+
+        <div class="py-12"></div>
+      </v-sheet>
     </section>
     <div class="py-12"></div>
   </div>
@@ -194,5 +254,14 @@ export default {
 }
 #onlyvirus {
   transition: transform 0.8s ease-in-out;
+}
+
+.para-to-contact{
+  display: flex;
+
+      @media screen and (max-width:815px){
+        display: none;
+        
+      }
 }
 </style>
