@@ -33,3 +33,7 @@ h1{
 }
 
 </style>
+
+<!-- Background image from 
+https://www.freepik.com/free-photo/coronavirus-infection-with-copy-space_7248142.htm#page=1&query=covid&position=26
+-->

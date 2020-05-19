@@ -74,9 +74,9 @@ export default {
     &.router-link-exact-active {
       text-decoration: none;
       border-bottom-style: outset;
-      color: black;
-      border-color: rgb(61, 57, 57);
+      color: rgb(24, 24, 24);
       border-radius: 10%;
+      border-bottom-width: 1.2px;
     }
   }
 }
