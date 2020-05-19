@@ -23,31 +23,7 @@
           <router-link to="/dailydevelopments" class="mx-2">{{$t('nav.dailydevelopments')}}</router-link>
         </div>
         <v-spacer></v-spacer>
-        <!--
-        <router-link class="router-links" to="/rules">
-          
-
-          <div class="mx-5 pa-2">
-            <h3 class="black--text">{{$t('nav.rules')}}</h3>
-          </div>
-
-        </router-link>
-
-       <router-link :to="`/${$i18n.locale}/guidelines`">
-       <router-link class="router-links" to="/guidelines">
-          <div class="mx-5 pa-2">
-            <h3 class="black--text">{{$t('nav.guidelines')}}</h3>
-          </div>
-        </router-link>
-
-       <router-link :to="`/${$i18n.locale}/dailydevelopments`">
-       <router-link class="router-links" to="/dailydevelopments">
-          <div class="mx-5 pa-2">
-            <h3 class="black--text">{{$t('nav.dailydevelopments')}}</h3>
-          </div>
-        </router-link>-->
       </template>
-      <!--<v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>-->
     </v-app-bar>
   </div>
 </template>
@@ -55,6 +31,7 @@
 
 <script>
 import Languageswitcher from "@/components/Languageswitcher.vue";
+//import { gsap } from "gsap";
 
 export default {
   components: {
