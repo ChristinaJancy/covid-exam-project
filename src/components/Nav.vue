@@ -18,26 +18,36 @@
       <template v-slot:extension>
         <v-spacer></v-spacer>
         <!-- <router-link :to="`/${$i18n.locale}/rules`">-->
+
+         <div id="nav">
+            <router-link to="/">Home</router-link> |
+            <router-link to="/rules">{{$t('nav.rules')}}</router-link> |
+             <router-link to="/guidelines">{{$t('nav.guidelines')}}</router-link> |
+            <router-link to="/dailydevelopments">{{$t('nav.dailydevelopments')}}</router-link>
+    </div>
+         <!--
         <router-link class="router-links" to="/rules">
+          
+
           <div class="mx-5 pa-2">
             <h3 class="black--text">{{$t('nav.rules')}}</h3>
           </div>
 
         </router-link>
 
-       <!-- <router-link :to="`/${$i18n.locale}/guidelines`">-->
+       <router-link :to="`/${$i18n.locale}/guidelines`">
        <router-link class="router-links" to="/guidelines">
           <div class="mx-5 pa-2">
             <h3 class="black--text">{{$t('nav.guidelines')}}</h3>
           </div>
         </router-link>
 
-       <!-- <router-link :to="`/${$i18n.locale}/dailydevelopments`">-->
+       <router-link :to="`/${$i18n.locale}/dailydevelopments`">
        <router-link class="router-links" to="/dailydevelopments">
           <div class="mx-5 pa-2">
             <h3 class="black--text">{{$t('nav.dailydevelopments')}}</h3>
           </div>
-        </router-link>
+        </router-link> -->
       </template>
       <!--<v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>-->
     </v-app-bar>
@@ -71,6 +81,22 @@ export default {
 </script>
 
 <style lang="scss">
+#nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+
+    &.router-link-exact-active {
+      color: #cc6600;
+      font-size: 110%;
+      text-decoration: none;
+    }
+  }
+}
+
 .router-links:hover{
   font-size: 103%;
   background-color: rgba(4, 0, 63, 0.171);
