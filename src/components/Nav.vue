@@ -80,11 +80,11 @@
     -------------------->
     <div id="navphone">
 
-      <v-system-bar color="grey darken-4" height="25">
+      <v-system-bar color="grey darken-4" height="27">
         <v-spacer></v-spacer>
-        <h3 style="color:white !important;" class="mr-2 pb-1"> {{$t('nav.language')}}</h3>
-        <div class="pt-2" style="color:#cc7500 !important;">
-          <h1>
+        <h3 style="color:white !important;" class="mr-2 pt-1"> {{$t('nav.language')}}</h3>
+        <div class="pt-4" style="color:#cc7500 !important;">
+          <h1 class="mr-1">
           <Languageswitcher />
           </h1>
         </div>
