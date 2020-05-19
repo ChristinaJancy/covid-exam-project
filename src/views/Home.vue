@@ -266,7 +266,7 @@ export default {
 
  @media screen and (max-width: 700px) {
     #home{
-   margin-top:-110px;
+   margin-top:-104px;
     }   
 
  } 
