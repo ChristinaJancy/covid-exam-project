@@ -79,16 +79,16 @@ export default {
       color: #cc6600;
       //border-radius: 10%;
       //border-bottom-width: 1.2px;
+      
+        .grayscale{ 
+        filter: invert(41%) sepia(100%) saturate(5295%) hue-rotate(22deg) brightness(100%) contrast(101%);
+
+      }
     }
   }
 }
 
-.grayscale{ 
-filter: invert(0%) sepia(0%) grayscale(100%) saturate(100%) hue-rotate(201deg) brightness(99%) contrast(1000%);
-
-    a{
-      filter: invert(0%) sepia(0%) grayscale(100%) saturate(100%) hue-rotate(201deg) brightness(99%) contrast(5%);
-    }
-
-}
+ .grayscale{ 
+        filter: invert(0%) sepia(0%) grayscale(100%) saturate(100%) hue-rotate(201deg) brightness(99%) contrast(1000%);
+   }
 </style>
