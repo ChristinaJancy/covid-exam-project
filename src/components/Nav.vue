@@ -81,8 +81,10 @@
     <div id="navphone">
       <v-system-bar color="primary" fixed>
         <v-spacer></v-spacer>
-        <div class="pt-2">
+        <div class="pt-2" style="color:white !important;">
+          <h3>
           <Languageswitcher />
+          </h3>
         </div>
       </v-system-bar>
       <v-app-bar app bottom height="60" color="white">
