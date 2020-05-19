@@ -2,30 +2,28 @@
   <div>
     <v-app-bar app color="white">
       <router-link to="/">
-      <v-avatar class="mr-3 mt-10" size="200">
-        <v-img contain max-height="70%" src="../assets/edulogo.png"></v-img>
-      </v-avatar>
-      <!-- <router-link :to="`/${$i18n.locale}`"> -->
+        <v-avatar class="mr-3 mt-10" size="200">
+          <v-img contain max-height="70%" src="../assets/edulogo.png"></v-img>
+        </v-avatar>
+        <!-- <router-link :to="`/${$i18n.locale}`"> -->
       </router-link>
       <v-spacer></v-spacer>
 
-<!--Language dropdown menu-->
+      <!--Language dropdown menu-->
 
-<Languageswitcher />
-
-
-
+      <Languageswitcher />
       <template v-slot:extension>
         <v-spacer></v-spacer>
         <!-- <router-link :to="`/${$i18n.locale}/rules`">-->
 
-         <div id="nav">
-            <router-link to="/">Home</router-link> |
-            <router-link to="/rules">{{$t('nav.rules')}}</router-link> |
-             <router-link to="/guidelines">{{$t('nav.guidelines')}}</router-link> |
-            <router-link to="/dailydevelopments">{{$t('nav.dailydevelopments')}}</router-link>
-    </div>
-         <!--
+        <div id="nav">
+          <router-link to="/" class="mx-2">Home</router-link>|
+          <router-link to="/rules" class="mx-2">{{$t('nav.rules')}}</router-link>|
+          <router-link to="/guidelines" class="mx-2">{{$t('nav.guidelines')}}</router-link>|
+          <router-link to="/dailydevelopments" class="mx-2">{{$t('nav.dailydevelopments')}}</router-link>
+        </div>
+        <v-spacer></v-spacer>
+        <!--
         <router-link class="router-links" to="/rules">
           
 
@@ -47,35 +45,25 @@
           <div class="mx-5 pa-2">
             <h3 class="black--text">{{$t('nav.dailydevelopments')}}</h3>
           </div>
-        </router-link> -->
+        </router-link>-->
       </template>
       <!--<v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>-->
     </v-app-bar>
-
   </div>
 </template>
 
 
 <script>
-import Languageswitcher from '@/components/Languageswitcher.vue'
+import Languageswitcher from "@/components/Languageswitcher.vue";
 
 export default {
   components: {
-  Languageswitcher,
+    Languageswitcher
   },
   data() {
-
     return {
-      drawer: true,
-      items: [
-        { title: "Home", icon: "mdi-home-city" },
-        { title: "My Account", icon: "mdi-account" },
-        { title: "Users", icon: "mdi-account-group-outline" }
-      ],
-      mini: true,
-     
+      //
     };
-    
   }
 };
 </script>
@@ -83,6 +71,7 @@ export default {
 <style lang="scss">
 #nav {
   padding: 30px;
+  font-size: 2.5vh;
 
   a {
     font-weight: bold;
@@ -91,20 +80,19 @@ export default {
 
     &.router-link-exact-active {
       color: #cc6600;
-      font-size: 110%;
+      font-size: 105%;
       text-decoration: none;
     }
   }
 }
 
-.router-links:hover{
+.router-links:hover {
   font-size: 103%;
   background-color: rgba(4, 0, 63, 0.171);
-  transition: .2s ease;
+  transition: 0.2s ease;
 
-.router-links{
-  transition: 1s;
-  
-}
+  .router-links {
+    transition: 1s;
+  }
 }
 </style>
