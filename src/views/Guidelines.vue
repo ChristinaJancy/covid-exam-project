@@ -6,8 +6,8 @@
         src="../assets/guidelines/background1.jpg"
       >
         <v-container fill-height>
-          <v-row class="mx-auto">
-            <v-col cols="12" md="3">
+          <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
+            <v-col cols="12">
               <div class="text-center">
                 <div class="display-3 font-weight-black mb-4">Guidelines</div>
               </div>
@@ -20,7 +20,7 @@
       class="pt-5 mx-10"
     >You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:</h3>
     <section style="line-height:40px;">
-      <v-row>
+      <v-row style="margin: 0 auto; padding: 0 auto;">
         <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">1. Wash your hands</h1>
           <v-img
