@@ -1,7 +1,7 @@
 <template>
   <div id="guidelines" class="about text-center">
     <section>
-      <v-parallax 
+      <v-parallax
         :height="$vuetify.breakpoint.smAndDown ? 400 : 300"
         src="../assets/guidelines/background1.jpg"
       >
@@ -21,12 +21,11 @@
     >You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:</h3>
     <section style="line-height:40px;">
       <v-row style="margin: 0 auto; padding: 0 auto;">
-        
-<!-----------------------------
+        <!-----------------------------
 
     1. Wash your hands
 
--------------------------------->
+        -------------------------------->
         <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">1. Wash your hands</h1>
           <v-img
@@ -53,11 +52,11 @@
             <li>After handling animals</li>
           </div>
         </v-col>
-<!---------- 
+        <!---------- 
 
     2. Avoid touching eyes, nose and mouth
 
--------->
+        -------->
         <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">2. Avoid touching eyes, nose and mouth</h1>
           <v-img
@@ -75,11 +74,11 @@
           </p>
         </v-col>
 
-<!---------------------
+        <!---------------------
 
     3. Maintain social distancing
 
---------------------->
+        --------------------->
         <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">3. Maintain social distancing</h1>
           <v-img
@@ -90,13 +89,15 @@
           ></v-img>
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
-          <p class="pt-5 mx-10 text-left" >
-           Maintain at least 1 metre distance yourself and others.
-           <br><br>
-When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus. 
-<br> <br>
+          <p class="pt-5 mx-10 text-left">
+            Maintain at least
+            <b class="primary--text">1 metre distance</b> yourself and others.
+            <br />
+            <br />When someone
+            <b class="primary--text">coughs, sneezes, or speaks</b> they spray small liquid droplets from their nose or mouth which may contain virus.
+            <br />
+            <br />
 If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.
-
           </p>
         </v-col>
       </v-row>
