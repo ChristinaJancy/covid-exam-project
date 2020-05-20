@@ -58,7 +58,7 @@
           ></v-img>
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
-          <p class="pt-5 mx-10 text-left">
+          <p class="pt-5 mx-10 text-left" style="font-size:20px; line-height:200%;">
             Hands touch many surfaces and can pick up viruses.
             <br />Once contaminated, hands can transfer the virus to your eyes, nose or mouth.
             <br />From there, the virus can enter your body and infect you.
