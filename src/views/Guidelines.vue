@@ -49,7 +49,7 @@
             <li>after coughing or sneezing</li>
             <li>before, during and after you prepare food</li>
             <li>after toilet use</li>
-            <li>After handling animals</li>
+            <li>after handling animals</li>
           </div>
         </v-col>
         <!---------- 
