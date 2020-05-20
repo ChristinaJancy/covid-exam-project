@@ -21,6 +21,12 @@
     >You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:</h3>
     <section style="line-height:40px;">
       <v-row style="margin: 0 auto; padding: 0 auto;">
+        
+<!-----------------------------
+
+    1. Wash your hands
+
+-------------------------------->
         <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">1. Wash your hands</h1>
           <v-img
@@ -47,7 +53,11 @@
             <li>After handling animals</li>
           </div>
         </v-col>
+<!---------- 
 
+    2. Avoid touching eyes, nose and mouth
+
+-------->
         <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">2. Avoid touching eyes, nose and mouth</h1>
           <v-img
@@ -64,6 +74,31 @@
             <br />From there, the virus can enter your body and infect you.
           </p>
         </v-col>
+
+<!---------------------
+
+    3. Maintain social distancing
+
+--------------------->
+        <v-col sm="12" md="6">
+          <h1 class="my-12 primary--text">3. Maintain social distancing</h1>
+          <v-img
+            class="mx-auto"
+            max-height="500"
+            style="width:calc(100% - 80px);"
+            src="../assets/guidelines/distance.jpg"
+          ></v-img>
+        </v-col>
+        <v-col sm="12" md="6" class="my-auto">
+          <p class="pt-5 mx-10 text-left" style="font-size:20px; line-height:200%;">
+           Maintain at least 1 metre distance yourself and others.
+           <br> <br>
+When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus. 
+<br>
+If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.
+
+          </p>
+        </v-col>
       </v-row>
     </section>
 
@@ -73,34 +108,6 @@ Posters
 
 --------------------------------------
 
-    <v-container fluid>
-      <v-row class="mx-6 pa-0 ma-0">
-        <v-col md="3" sm="6">
-          <v-img
-            src="../assets/guidelines/7steps.png"
-          ></v-img>
-          <h2 class="black--text">Social distancing</h2>
-        </v-col>
-
-        <v-col md="3" sm="6">
-          <v-img src="../assets/guidelines/symptoms.png" />
-           <h2 class="black--text">Symptoms</h2>
-        </v-col>
-
-        <v-col md="3" sm="6">
-          <v-img src="../assets/guidelines/maskuse.png" />
-         
-           <h2 class="black--text">Mask use</h2>
-        </v-col>
-        <v-col sm="6" md="3">
-          <v-img src="../assets/guidelines/stopspread.png" />
-           <h2 class="black--text">Stop the spread</h2>
-          <br />
-          <br />
-          <br />
-        </v-col>
-      </v-row>
-    </v-container>
     -->
   </div>
 </template>
