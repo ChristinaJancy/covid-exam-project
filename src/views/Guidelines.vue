@@ -1,7 +1,7 @@
 <template>
   <div id="guidelines" class="about text-center">
-    <section id="stats">
-      <v-parallax
+    <section>
+      <v-parallax 
         :height="$vuetify.breakpoint.smAndDown ? 400 : 300"
         src="../assets/guidelines/background1.jpg"
       >
@@ -116,7 +116,7 @@ Posters
 <style lang="scss" scoped>
 @media screen and (max-width: 700px) {
   #guidelines {
-    margin-top: -80px;
+    margin-top: -104px;
   }
 }
 </style>
