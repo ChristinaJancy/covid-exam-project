@@ -9,7 +9,7 @@
           <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
             <v-col cols="12">
               <div class="text-center">
-                <div class="display-3 font-weight-black mb-4">Guidelines</div>
+                <div class="display-3 font-weight-black mb-4">{{$t('guidelines.title')}}</div>
               </div>
             </v-col>
           </v-row>
@@ -18,7 +18,7 @@
     </section>
     <h3
       class="pt-5 mx-10"
-    >You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:</h3>
+    >{{$t('guidelines.intro')}}</h3>
     <section style="line-height:40px;">
       <v-row style="margin: 0 auto; padding: 0 auto;">
         <!-----------------------------
@@ -27,7 +27,7 @@
 
         -------------------------------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text">1. Wash your hands</h1>
+          <h1 class="my-12 primary--text">{{$t('guidelines.guide1.title')}}</h1>
           <v-img
             max-height="500"
             class="mx-auto"
@@ -39,17 +39,17 @@
         <v-col md="6" sm="12" class="my-auto">
           <br />
           <p class="pt-5 mx-10 text-left">
-            Wash your hands, always with soap and water for at least 20 seconds. It is good to also regularly use hand sanitizer when not being able to wash your hands.
+            {{$t('guidelines.guide1.context1')}}
             <br />
             <br />
-            <b class="primary--text">You should wash your hands...</b>
+            <b class="primary--text"> {{$t('guidelines.guide1.context2')}}</b>
             <br />
           </p>
           <div class="text-left mx-10">
-            <li>after coughing or sneezing</li>
-            <li>before, during and after you prepare food</li>
-            <li>after toilet use</li>
-            <li>after handling animals</li>
+            <li> {{$t('guidelines.guide1.context3.li1')}}</li>
+            <li>{{$t('guidelines.guide1.context3.li2')}}</li>
+            <li>{{$t('guidelines.guide1.context3.li3')}}</li>
+            <li>{{$t('guidelines.guide1.context3.li4')}}</li>
           </div>
         </v-col>
         <!---------- 
@@ -58,7 +58,7 @@
 
         -------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text">2. Avoid touching eyes, nose and mouth</h1>
+          <h1 class="my-12 primary--text">{{$t('guidelines.guide2.title')}}</h1>
           <v-img
             class="mx-auto"
             max-height="500"
@@ -68,9 +68,8 @@
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left">
-            Hands touch many surfaces and can pick up viruses.
-            <br />Once contaminated, hands can transfer the virus to your eyes, nose or mouth.
-            <br />From there, the virus can enter your body and infect you.
+            {{$t('guidelines.guide2.context1')}}
+            {{$t('guidelines.guide2.context2')}}
           </p>
         </v-col>
 

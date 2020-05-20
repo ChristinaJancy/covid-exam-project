@@ -20,5 +20,30 @@
   },
   "home" :{
     "welcometo": "WELCOME TO"
+},
+"guidelines" :{
+  "title" : "Guidelines",
+  "intro" : "You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:",
+  "guide1" :{
+      "title" : "1. Wash your hands",
+      "context1" : "Wash your hands, always with soap and water for at least 20 seconds. It is good to also regularly use hand sanitizer when not being able to wash your hands.",
+      "context2" : "You should wash your hands...",
+      "context3" : {
+          "li1" : "after coughing or sneezing",
+          "li2" : "before, during and after you prepare food",
+          "li3" : "after toilet use", 
+          "li4" : "after handling animals"
+      }
+    },
+  "guide2" : {
+      "title":  "2. Avoid touching eyes, nose and mouth",
+      "context1" : "Hands touch many surfaces and can pick up viruses.",
+      "context2" : "Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and infect you."
+  },
+  "guide3" : {
+      "title" : "3. Maintain social distancing",
+      "context1" : "Maintain at least 1 metre distance yourself and others.",
+      "context2" : "When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus."
+  }
 }
 }

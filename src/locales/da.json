@@ -20,5 +20,30 @@
           },
     "home" :{
         "welcometo": "VELKOMMEN TIL"
+    },
+    "guidelines" :{
+        "title" : "Retningslinjer",
+        "intro" : "Du kan reducere dine chancer for at blive smittet- eller sprede COVID-19 ved at tage nogle enkle forholdsregler:",
+        "guide1" :{
+            "title" : "1. Vask dine hænder",
+            "context1" : "Vask altid dine hænder med sæbe og vand, i mindst 20 sekunder. Det er også anbefalet at bruge håndsprit jævnligt, især når du ikke har mulighed for at vaske hænder",
+            "context2" : "Du skal vaske dine hænder...",
+            "context3" : {
+                "li1" : "after host eller nys",
+                "li2" : "før, imens og efter du har tilberedt mad",
+                "li3" : "efter toiletbesøg", 
+                "li4" : "efter du har rørt ved et dyr"
+            }
+        },
+        "guide2" : {
+            "title":  "2. Undgå at røre ved dine øjne, næse og mund",
+            "context1" : "Hænder rører ved mange overflader, og kan herigennem opfange virus.",
+            "context2" : " Er hænderne først inficerede, kan de overføre virus til dine øjne, næse eller mund og herigennem smitte dig."
+        },
+        "guide3" : {
+            "title" : "3. Hold fysisk afstand",
+            "context1" : "Sørg for at holde min. 1 meters afstand til personer der hoster eller nyser. Dæk for din mund og næse med dit ærme eller en serviet når du hoster eller nyser. Smid servietten væk straks bagefter.",
+            "context2" : "Når man hoster eller nyser, sendes en sky af små dråber ud i luften fra næsen eller munden, som kan indeholde virus. Er du for tæt på, risikerer du at inhalere dråberne inkl. COVID-19 virus, hvis personen er smittet."
+        }
     }
   }
