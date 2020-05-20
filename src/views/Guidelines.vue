@@ -92,9 +92,9 @@
         <v-col sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left" >
            Maintain at least 1 metre distance yourself and others.
-           <br>
+           <br><br>
 When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus. 
-<br>
+<br> <br>
 If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.
 
           </p>
