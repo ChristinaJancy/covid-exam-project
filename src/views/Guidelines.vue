@@ -68,7 +68,7 @@
           ></v-img>
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
-          <p class="pt-5 mx-10 text-left" style="font-size:20px; line-height:200%;">
+          <p class="pt-5 mx-10 text-left">
             Hands touch many surfaces and can pick up viruses.
             <br />Once contaminated, hands can transfer the virus to your eyes, nose or mouth.
             <br />From there, the virus can enter your body and infect you.
@@ -90,9 +90,9 @@
           ></v-img>
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
-          <p class="pt-5 mx-10 text-left" style="font-size:20px; line-height:200%;">
+          <p class="pt-5 mx-10 text-left" >
            Maintain at least 1 metre distance yourself and others.
-           <br> <br>
+           <br>
 When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus. 
 <br>
 If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.
