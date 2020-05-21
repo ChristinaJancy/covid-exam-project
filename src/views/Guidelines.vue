@@ -111,7 +111,7 @@
           <v-row dense>
             <v-col cols="6">
               <v-img
-                class="mx-auto orangefilter"
+                class="mx-auto"
                 max-height="250"
                 contain
                 style="width:calc(100% - 80px);"
