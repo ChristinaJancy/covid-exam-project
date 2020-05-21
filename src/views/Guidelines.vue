@@ -26,17 +26,18 @@
     1. Wash your hands
 
         -------------------------------->
-        <v-col sm="12" md="6" order="1">
+        <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">{{$t('guidelines.guide1.title')}}</h1>
           <v-img
-            max-height="500"
-            class="mx-auto"
+            max-height="450"
+            contain
+            class="mx-auto orangefilter"
             style="width:calc(100% - 80px);"
-            src="https://image.freepik.com/free-vector/washing-hands-with-soap-bathroom_23-2148498584.jpg"
+            src="../assets/icons/washinghands.png"
           ></v-img>
         </v-col>
 
-        <v-col order="2" md="6" sm="12" class="my-auto">
+        <v-col md="6" sm="12" class="my-auto">
           <br />
           <p class="pt-5 mx-10 text-left">
             {{$t('guidelines.guide1.context1')}}
@@ -57,16 +58,17 @@
     2. Avoid touching eyes, nose and mouth
 
         -------->
-        <v-col sm="12" md="6" order="3">
+        <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">{{$t('guidelines.guide2.title')}}</h1>
           <v-img
-            class="mx-auto"
-            max-height="500"
+            class="mx-auto orangefilter"
+            contain
+            max-height="450"
             style="width:calc(100% - 80px);"
-            src="https://image.freepik.com/free-vector/coronavirus-protection-by-avoid-touching-eyes-nose-mouth-fight-covid-19_40876-1760.jpg"
+            src="../assets/icons/touchingface.png"
           ></v-img>
         </v-col>
-        <v-col order="4" sm="12" md="6" class="my-auto">
+        <v-col sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left">
             {{$t('guidelines.guide2.context1')}}
             {{$t('guidelines.guide2.context2')}}   
@@ -78,16 +80,17 @@
     3. Maintain social distancing
 
         --------------------->
-        <v-col order="6" sm="12" md="6">
+        <v-col sm="12" md="6">
           <h1 class="my-12 primary--text">3. Maintain social distancing</h1>
           <v-img
-            class="mx-auto"
-            max-height="500"
+            class="mx-auto orangefilter"
+            max-height="450"
+            contain
             style="width:calc(100% - 80px);"
-            src="../assets/guidelines/distance.jpg"
+            src="../assets/icons/distance.png"
           ></v-img>
         </v-col>
-        <v-col order="7" sm="12" md="6" class="my-auto">
+        <v-col sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left">
             Maintain at least
             <b class="primary--text">1 metre distance</b> yourself and others.
@@ -114,7 +117,10 @@ Posters
 
 
 <style lang="scss" scoped>
-
+.orangefilter{
+        filter: invert(41%) sepia(100%) saturate(5295%) hue-rotate(22deg)
+          brightness(100%) contrast(101%);
+}
 
 @media screen and (max-width: 700px) {
   #guidelines {
