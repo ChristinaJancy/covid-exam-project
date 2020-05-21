@@ -3,7 +3,7 @@
     <section>
       <v-parallax
         :height="$vuetify.breakpoint.smAndDown ? 400 : 300"
-        src="../assets/guidelines/background1.jpg"
+        src="../assets/guidelines/background-rotated-cut.png"
       >
         <v-container fill-height>
           <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
