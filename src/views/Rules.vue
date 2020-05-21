@@ -86,7 +86,7 @@
 
  @media screen and (max-width: 700px) {
     #rules{
-   margin-top:-80px;
+   margin-top:-104px;
     }   
  } 
 </style>
