@@ -29,7 +29,7 @@
           <v-img
             max-height="350"
             contain
-            class="mx-auto orangefilter"
+            class="mx-auto"
             style="width:calc(100% - 80px);"
             src="../assets/icons/washinghands.png"
           ></v-img>
@@ -59,7 +59,7 @@
         <v-col sm="12" md="6">
           <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide2.title')}}</h1>
           <v-img
-            class="mx-auto orangefilter"
+            class="mx-auto"
             contain
             max-height="350"
             style="width:calc(100% - 80px);"
@@ -81,7 +81,7 @@
         <v-col sm="12" md="6">
           <h1 class="my-12 primary--text" style="font-size:32px;">3. Maintain social distancing</h1>
           <v-img
-            class="mx-auto orangefilter"
+            class="mx-auto"
             max-height="350"
             contain
             style="width:calc(100% - 80px);"
@@ -120,7 +120,7 @@
             </v-col>
             <v-col cols="6">
               <v-img
-                class="mx-auto orangefilter"
+                class="mx-auto"
                 max-height="250"
                 contain
                 style="width:calc(100% - 80px);"
@@ -129,7 +129,7 @@
             </v-col>
             <v-col cols="12">
               <v-img
-                class="mx-auto orangefilter"
+                class="mx-auto"
                 max-height="250"
                 contain
                 style="width:calc(100% - 80px);"
@@ -150,6 +150,36 @@
              Why? Avoiding contact with others will protect them from possible COVID-19 and other viruses.
           </p>
         </v-col>
+
+         <!---------------------
+
+5. Feeling worried?
+
+        --------------------->
+        <v-col sm="12" md="6">
+          <h1 class="my-12 primary--text" style="font-size:32px;">5. Feeling worried?</h1>
+          <v-img
+            class="mx-auto orangefilter"
+            max-height="350"
+            contain
+            style="width:calc(100% - 80px);"
+            src="../assets/icons/confused.png"
+          ></v-img>
+        </v-col>
+        <v-col sm="12" md="6" class="my-auto">
+          <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
+           In a situation like this it is normal to feel 
+            <br>
+            <b class="primary--text">sad, worried, confused, scared or angry. </b>
+            <br />
+            <br />Know that you are not alone and talk to someone you trust,
+           so that you can help keep yourself and your school safe and healthy. 
+
+            <br />
+            <br />If you have any questions or concerns, feel free to contact us at @educovid.outlook.com
+          </p>
+        </v-col>
+
       </v-row>
     </section>
   </div>
@@ -158,9 +188,9 @@
 
 <style lang="scss" scoped>
 
-/*.orangefilter {
-filter: invert(39%) sepia(22%) saturate(3102%) hue-rotate(2deg) brightness(104%) contrast(90%);
-}*/
+.orangefilter {
+filter: invert(40%) sepia(25%) saturate(10000%) hue-rotate(15deg) brightness(104%) contrast(90%);
+}
 
 @media screen and (max-width: 700px) {
   #guidelines {
