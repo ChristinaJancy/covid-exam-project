@@ -3,7 +3,7 @@
     <section>
       <v-parallax
         :height="$vuetify.breakpoint.smAndDown ? 400 : 300"
-        src="../assets/guidelines/background-rotated-cut.png"
+       src="../assets/home/virusblue2.jpg"
       >
         <v-container fill-height>
           <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
@@ -157,9 +157,10 @@
 
 
 <style lang="scss" scoped>
-.orangefilter {
+
+/*.orangefilter {
 filter: invert(39%) sepia(22%) saturate(3102%) hue-rotate(2deg) brightness(104%) contrast(90%);
-}
+}*/
 
 @media screen and (max-width: 700px) {
   #guidelines {
