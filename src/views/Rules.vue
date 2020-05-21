@@ -28,7 +28,7 @@
     1. Distance in the cafeteria
 
         -------------------------------->
-        <v-col cols="6">
+        <v-col md="6" sm="12">
           <h1 class="my-12 primary--text" style="font-size:32px;">1. Distance in the cafeteria</h1>
           <v-img
             max-height="500"
@@ -39,7 +39,7 @@
           ></v-img>
         </v-col>
 
-        <v-col cols="6" class="my-auto">
+        <v-col md="6" sm="12" class="my-auto">
           <br />
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
       There will be stickers on the floor telling you to keep at least 1. m distance. 
@@ -56,15 +56,8 @@
 
 -------------------------------->
         
-        <v-col cols="6" class="my-auto">
-          <br />
-          <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
-    There will be more space in between the tables, to make sure you and your fellow classmates can keep a safe distance. 
 
-          </p>
-        </v-col>
-        
-        <v-col cols="6">
+        <v-col md="6" sm="12">
           <h1 class="my-12 primary--text" style="font-size:32px;">2. in the classrooms</h1>
           <v-img
             max-height="500"
@@ -74,6 +67,14 @@
              src="../assets/rules/class.png"
           ></v-img>
         </v-col>
+                <v-col md="6" sm="12" class="my-auto">
+          <br />
+          <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
+    There will be more space in between the tables, to make sure you and your fellow classmates can keep a safe distance. 
+
+          </p>
+        </v-col>
+        
 
 
       </v-row>
