@@ -158,8 +158,7 @@
 
 <style lang="scss" scoped>
 .orangefilter {
-  filter: invert(41%) sepia(100%) saturate(5295%) hue-rotate(22deg)
-    brightness(100%) contrast(101%);
+filter: invert(39%) sepia(22%) saturate(3102%) hue-rotate(2deg) brightness(104%) contrast(90%);
 }
 
 @media screen and (max-width: 700px) {
