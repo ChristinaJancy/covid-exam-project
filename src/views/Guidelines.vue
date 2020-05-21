@@ -9,7 +9,7 @@
           <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
             <v-col cols="12">
               <div class="text-center">
-                <div class="display-3 font-weight-black mb-4">{{$t('guidelines.title')}}</div>
+                <div class="display-2 font-weight-black mb-4">{{$t('guidelines.title')}}</div>
               </div>
             </v-col>
           </v-row>
