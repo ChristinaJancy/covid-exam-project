@@ -37,6 +37,7 @@
                         :counter="12"
                         label="First name"
                         required
+                          rounded
                       ></v-text-field>
                     </v-col>
 
@@ -49,6 +50,7 @@
                         :counter="12"
                         label="Last name"
                         required
+                          rounded
                       ></v-text-field>
                     </v-col>
 
@@ -60,14 +62,17 @@
                         :rules="emailRules"
                         label="E-mail"
                         required
+                        rounded
                       ></v-text-field>
                     </v-col>
                     <v-col cols="12">
                       <v-textarea 
                       outlined 
+                        rounded
                       name="input-7-4" 
                       label="Your question(s)..." 
                       style="margin-top: -10%;"
+                       
                       >
                       </v-textarea>
                     </v-col>
@@ -77,6 +82,7 @@
 
               <v-col class="mx-auto" cols="auto">
                 <v-btn 
+                  rounded
                 color="icons" 
                 large 
                 width="300" 
