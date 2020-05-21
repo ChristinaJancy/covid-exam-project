@@ -1,11 +1,11 @@
 <template>
   <section>
     <v-sheet id="contact" color="white" class="mx-auto" tag="section" tile max-width="800">
-      <div class="py-12"></div>
+      <div class="py-5"></div>
 
       <v-container>
         <h2
-          class="display-1 font-weight-bold mb-3 text-uppercase text-center black--text"
+          class="display-2 font-weight-bold mb-3 text-uppercase text-center black--text"
         >Have some questions?</h2>
         <h4
           class="font-weight-bold mb-3 text-uppercase text-center black--text"
