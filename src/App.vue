@@ -33,7 +33,13 @@ export default {
   padding: 0 auto;
 }
 h1{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+h2{
+font-family: 'Nunito', sans-serif;
+}
+h3{
+font-family: 'Nunito', sans-serif;
 }
 
 </style>
