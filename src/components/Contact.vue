@@ -81,7 +81,7 @@
                 large 
                 width="300" 
                 class="white--text"
-                style="margin-top: -30%;"
+                style="margin-top: -30%; font-size:20px;"
                 >Send message</v-btn>
               </v-col>
             </v-form>
