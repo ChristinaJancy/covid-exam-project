@@ -27,7 +27,7 @@
 
         -------------------------------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text">{{$t('guidelines.guide1.title')}}</h1>
+          <h1 class="my-12 primary--text" style="font-size:35px;">{{$t('guidelines.guide1.title')}}</h1>
           <v-img
             max-height="450"
             contain
@@ -59,7 +59,7 @@
 
         -------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text">{{$t('guidelines.guide2.title')}}</h1>
+          <h1 class="my-12 primary--text" style="font-size:35px;">{{$t('guidelines.guide2.title')}}</h1>
           <v-img
             class="mx-auto orangefilter"
             contain
@@ -81,7 +81,7 @@
 
         --------------------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text">3. Maintain social distancing</h1>
+          <h1 class="my-12 primary--text" style="font-size:35px;">3. Maintain social distancing</h1>
           <v-img
             class="mx-auto orangefilter"
             max-height="450"
