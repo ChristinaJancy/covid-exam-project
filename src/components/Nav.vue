@@ -188,11 +188,7 @@ export default {
 
     &.router-link-exact-active {
       text-decoration: none;
-      //border-bottom-style: outset;
       color: #cc6600;
-      //border-radius: 10%;
-      //border-bottom-width: 1.2px;
-
       .grayscale {
         filter: invert(41%) sepia(100%) saturate(5295%) hue-rotate(22deg)
           brightness(100%) contrast(101%);
@@ -206,17 +202,13 @@ export default {
   font-size: 2.5vh;
   a {
     font-weight: bold;
-    //color: #cc6600;
     color: rgb(24, 24, 24);
     text-decoration: none;
 
     &.router-link-exact-active {
       text-decoration: none;
-      //border-bottom-style: outset;
       color: #cc6600;
-      //border-radius: 10%;
-      //border-bottom-width: 1.2px;
-
+      
       .grayscale {
         filter: invert(41%) sepia(100%) saturate(5295%) hue-rotate(22deg)
           brightness(100%) contrast(101%);

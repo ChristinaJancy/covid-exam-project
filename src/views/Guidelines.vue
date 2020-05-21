@@ -5,7 +5,7 @@
         :height="$vuetify.breakpoint.smAndDown ? 400 : 300"
         src="../assets/guidelines/background1.jpg"
       >
-        <v-container fill-height>
+        <v-container fill-height >
           <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
             <v-col cols="12">
               <div class="text-center">
@@ -26,7 +26,7 @@
     1. Wash your hands
 
         -------------------------------->
-        <v-col sm="12" md="6">
+        <v-col sm="12" md="6" order="1">
           <h1 class="my-12 primary--text">{{$t('guidelines.guide1.title')}}</h1>
           <v-img
             max-height="500"
@@ -36,7 +36,7 @@
           ></v-img>
         </v-col>
 
-        <v-col md="6" sm="12" class="my-auto">
+        <v-col order="2" md="6" sm="12" class="my-auto">
           <br />
           <p class="pt-5 mx-10 text-left">
             {{$t('guidelines.guide1.context1')}}
@@ -57,7 +57,7 @@
     2. Avoid touching eyes, nose and mouth
 
         -------->
-        <v-col sm="12" md="6">
+        <v-col sm="12" md="6" order="3">
           <h1 class="my-12 primary--text">{{$t('guidelines.guide2.title')}}</h1>
           <v-img
             class="mx-auto"
@@ -66,10 +66,10 @@
             src="https://image.freepik.com/free-vector/coronavirus-protection-by-avoid-touching-eyes-nose-mouth-fight-covid-19_40876-1760.jpg"
           ></v-img>
         </v-col>
-        <v-col sm="12" md="6" class="my-auto">
+        <v-col order="4" sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left">
             {{$t('guidelines.guide2.context1')}}
-            {{$t('guidelines.guide2.context2')}}
+            {{$t('guidelines.guide2.context2')}}   
           </p>
         </v-col>
 
@@ -78,7 +78,7 @@
     3. Maintain social distancing
 
         --------------------->
-        <v-col sm="12" md="6">
+        <v-col order="6" sm="12" md="6">
           <h1 class="my-12 primary--text">3. Maintain social distancing</h1>
           <v-img
             class="mx-auto"
@@ -87,7 +87,7 @@
             src="../assets/guidelines/distance.jpg"
           ></v-img>
         </v-col>
-        <v-col sm="12" md="6" class="my-auto">
+        <v-col order="7" sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left">
             Maintain at least
             <b class="primary--text">1 metre distance</b> yourself and others.
@@ -114,6 +114,8 @@ Posters
 
 
 <style lang="scss" scoped>
+
+
 @media screen and (max-width: 700px) {
   #guidelines {
     margin-top: -104px;
