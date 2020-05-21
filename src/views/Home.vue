@@ -40,7 +40,7 @@
     <section id="about-us">
       <div class="py-12"></div>
       <v-container class="text-center">
-        <h2 class="display-2 font-weight-bold mb-3">{{$t('about.title')}}</h2>
+        <h2 class="font-weight-bold mb-3" style="font-size:50px;">{{$t('about.title')}}</h2>
         <v-responsive class="mx-auto mb-8" width="56">
           <v-divider class="mb-1"></v-divider>
           <v-divider></v-divider>

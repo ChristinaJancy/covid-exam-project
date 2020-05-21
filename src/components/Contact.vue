@@ -5,10 +5,10 @@
 
       <v-container>
         <h2
-          class="display-2 font-weight-bold mb-3 text-uppercase text-center black--text"
+          class="font-weight-bold mb-3 text-uppercase text-center black--text" style="font-size:50px"
         >Have some questions?</h2>
         <h4
-          class="font-weight-bold mb-3 text-uppercase text-center black--text"
+          class="font-weight-bold mb-3 text-uppercase text-center black--text" style="font-size:20px"
         >GET IN TOUCH WITH US!</h4>
         <v-responsive class="mx-auto mb-12" width="56">
           <v-divider class="mb-1"></v-divider>
@@ -87,8 +87,8 @@
                 large 
                 width="300" 
                 class="white--text"
-                style="margin-top: -30%; font-size:20px;"
-                >Send message</v-btn>
+                style="margin-top: -30%; font-size:15px;"
+                ><h2>Send message</h2></v-btn>
               </v-col>
             </v-form>
           </v-row>

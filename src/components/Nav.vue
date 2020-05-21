@@ -27,7 +27,7 @@
           <v-spacer></v-spacer>
           <div id="nav">
             <div style="display:table-cell;" class="pr-5 pl-5 img-gradient">
-              <router-link to="/" class="mx-1">
+              <router-link to="/" class="mx-1" style="font-family: 'Nunito', sans-serif;">
                 <v-img
                   contain
                   style="float: left;"
@@ -39,7 +39,7 @@
             </div>
 
             <div style="display:table-cell;" class="pr-5">
-              <router-link to="/rules" class="mx-1">
+              <router-link to="/rules" class="mx-1" style="font-family: 'Nunito', sans-serif;">
                 <v-img
                   contain
                   class="grayscale"
@@ -52,7 +52,7 @@
             </div>
 
             <div style="display:table-cell;" class="pr-5">
-              <router-link to="/guidelines" class="mx-1">
+              <router-link to="/guidelines" class="mx-1" style="font-family: 'Nunito', sans-serif;">
                 <v-img
                   contain
                   class="grayscale"
@@ -65,7 +65,7 @@
             </div>
 
             <div style="display:table-cell;">
-              <router-link to="/dailydevelopments" class="mx-1">
+              <router-link to="/dailydevelopments" class="mx-1" style="font-family: 'Nunito', sans-serif;">
                 <v-img
                   contain
                   class="grayscale"
@@ -208,7 +208,7 @@ export default {
     &.router-link-exact-active {
       text-decoration: none;
       color: #cc6600;
-      
+
       .grayscale {
         filter: invert(41%) sepia(100%) saturate(5295%) hue-rotate(22deg)
           brightness(100%) contrast(101%);
