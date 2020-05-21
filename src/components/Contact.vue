@@ -34,7 +34,7 @@
                         outlined
                         v-model="firstname"
                         :rules="nameRules"
-                        :counter="10"
+                        :counter="12"
                         label="First name"
                         required
                       ></v-text-field>
@@ -46,7 +46,7 @@
                         outlined
                         v-model="lastname"
                         :rules="nameRules"
-                        :counter="10"
+                        :counter="12"
                         label="Last name"
                         required
                       ></v-text-field>
@@ -103,7 +103,7 @@ export default {
     lastname: "",
     nameRules: [
       v => !!v || "Name is required",
-      v => v.length <= 10 || "Name must be less than 10 characters"
+      v => v.length <= 12 || "Name must be less than 12 characters"
     ],
     email: "",
     emailRules: [
