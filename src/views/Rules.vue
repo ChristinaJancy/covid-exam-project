@@ -1,5 +1,5 @@
 <template>
-  <div id="guidelines" class="about text-center">
+  <div id="rules" class="about text-center">
     <section>
       <v-parallax
         :height="$vuetify.breakpoint.smAndDown ? 400 : 300"
