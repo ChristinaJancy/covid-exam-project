@@ -9,7 +9,11 @@
           <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
             <v-col cols="12">
               <div class="text-center">
-                <div class="font-weight-black mb-4" style="font-size:40px;"><h1>{{$t('guidelines.title')}}</h1></div>
+                 <span
+                    :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
+                    class="font-weight-light"
+                  ><h1>{{$t('guidelines.title')}}</h1></span>
+
               </div>
             </v-col>
           </v-row>
