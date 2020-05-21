@@ -27,9 +27,9 @@
 
         -------------------------------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text" style="font-size:35px;">{{$t('guidelines.guide1.title')}}</h1>
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide1.title')}}</h1>
           <v-img
-            max-height="450"
+            max-height="350"
             contain
             class="mx-auto orangefilter"
             style="width:calc(100% - 80px);"
@@ -39,14 +39,14 @@
 
         <v-col md="6" sm="12" class="my-auto">
           <br />
-          <p class="pt-5 mx-10 text-left">
+          <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
             {{$t('guidelines.guide1.context1')}}
             <br />
             <br />
             <b class="primary--text"> {{$t('guidelines.guide1.context2')}}</b>
             <br />
           </p>
-          <div class="text-left mx-10">
+          <div class="text-left mx-10" style="font-size: 20px;" >
             <li> {{$t('guidelines.guide1.context3.li1')}}</li>
             <li>{{$t('guidelines.guide1.context3.li2')}}</li>
             <li>{{$t('guidelines.guide1.context3.li3')}}</li>
@@ -59,17 +59,17 @@
 
         -------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text" style="font-size:35px;">{{$t('guidelines.guide2.title')}}</h1>
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide2.title')}}</h1>
           <v-img
             class="mx-auto orangefilter"
             contain
-            max-height="450"
+            max-height="350"
             style="width:calc(100% - 80px);"
             src="../assets/icons/touchingface.png"
           ></v-img>
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
-          <p class="pt-5 mx-10 text-left">
+          <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
             {{$t('guidelines.guide2.context1')}}
             {{$t('guidelines.guide2.context2')}}   
           </p>
@@ -81,17 +81,17 @@
 
         --------------------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text" style="font-size:35px;">3. Maintain social distancing</h1>
+          <h1 class="my-12 primary--text" style="font-size:32px;">3. Maintain social distancing</h1>
           <v-img
             class="mx-auto orangefilter"
-            max-height="450"
+            max-height="350"
             contain
             style="width:calc(100% - 80px);"
             src="../assets/icons/distance.png"
           ></v-img>
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
-          <p class="pt-5 mx-10 text-left">
+          <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
             Maintain at least
             <b class="primary--text">1 metre distance</b> yourself and others.
             <br />
