@@ -66,22 +66,31 @@
   "rules": {
     "title": "RULES",
     "intro1": "We hope you get a safe return to your educational institution.",
-    "intro2" :"For the reopening of these institutions, a new set of rules will be set in place, to stop the virus from spreading.",
+    "intro2": "For the reopening of these institutions, a new set of rules will be set in place, to stop the virus from spreading.",
     "rule1": {
-        "title": "1. In the canteen",
-        "context1" : "You need to keep 1. meter distance. There will be stickers on the floor to remind you of this.",
-        "context2" : "The tables will also have more space in between them, and we encourage you to go back to your classroom when eating lunch, to make sure the social distancing is being kept."
+      "title": "1. In the canteen",
+      "context1": "You need to keep 1. meter distance. There will be stickers on the floor to remind you of this.",
+      "context2": "The tables will also have more space in between them, and we encourage you to go back to your classroom when eating lunch, to make sure the social distancing is being kept."
     },
     "rule2": {
       "title": "2. In the classroom",
-      "context1" : "There will be more space in between the tables, to make sure you and your fellow classmates can keep a safe distance."
-    
+      "context1": "There will be more space in between the tables, to make sure you and your fellow classmates can keep a safe distance."
+    },
+    "rule3": {
+      "title": "3. At the bar -'The Basement'",
+      "context1": "Just as in the classroom, you need to keep a certain distance. There will be more space in between the tables, to make sure you keep the social distance.",
+      "context2": "We also require you to sit with at least 1 meter a part from each other."
+    }
+
   },
-  "rule3": {
-    "title": "3. At the bar -'The Basement'",
-    "context1" : "Just as in the classroom, you need to keep a certain distance. There will be more space in between the tables, to make sure you keep the social distance.",
-    "context2" : "We also require you to sit with at least 1 meter a part from each other."
+    "contact" :{
+      "title" : "HAVE SOME QUESTIONS?",
+      "intro" : "GET IN TOUCH WITH US!",
+      "firstname": "First name",
+      "lastname": "Last name", 
+      "email":"E-mail",
+      "questions" :"Question(s)",
+      "button": "SEND MESSAGE"
+  }
   
-}
-}
 }

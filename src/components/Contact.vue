@@ -6,10 +6,10 @@
       <v-container>
         <h2
           class="font-weight-bold mb-3 text-uppercase text-center black--text" style="font-size:50px"
-        >Have some questions?</h2>
+        >{{$t('contact.title')}}</h2>
         <h4
           class="font-weight-bold mb-3 text-uppercase text-center black--text" style="font-size:20px"
-        >GET IN TOUCH WITH US!</h4>
+        >{{$t('contact.intro')}}</h4>
         <v-responsive class="mx-auto mb-12" width="56">
           <v-divider class="mb-1"></v-divider>
 
@@ -37,7 +37,7 @@
                         :counter="12"
                         label="First name"
                         required
-                          rounded
+                        rounded
                       ></v-text-field>
                     </v-col>
 
@@ -88,7 +88,7 @@
                 width="300" 
                 class="white--text"
                 style="margin-top: -30%; font-size:15px;"
-                ><h2>Send message</h2></v-btn>
+                ><h2>{{$t('contact.button')}}</h2></v-btn>
               </v-col>
             </v-form>
           </v-row>

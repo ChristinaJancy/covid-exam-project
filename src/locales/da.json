@@ -82,5 +82,14 @@
             "context2" : "I skal sidde med mindst 1 meter imellem hinanden."
           
         }
+    },
+    "contact" :{
+        "title" : "Har du spørgsmål?",
+        "intro" : "Spørg løs!",
+        "firstname": "Fornavn",
+        "lastname": "Efternavn", 
+        "email":"E-mail",
+        "questions" :"Spørgsmål",
+        "button" :"SEND BESKED"
     }
 }
