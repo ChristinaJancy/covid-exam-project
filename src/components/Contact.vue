@@ -11,10 +11,17 @@
         <h4
           class="font-weight-bold mb-3 text-uppercase text-center black--text"
           style="font-size:20px"
-        >{{$t('contact.intro')}}</h4>
+        >{{$t('contact.intro')}}
+        </h4>
+<div class="text-center">
+       <a
+          href="mailto:educovid@outlook.com"
+          class="primary--text font-weight-bold"
+        >educovid@outlook.com</a>
+        </div>
+
         <v-responsive class="mx-auto mb-12" width="56">
           <v-divider class="mb-1"></v-divider>
-
           <v-divider></v-divider>
         </v-responsive>
 
@@ -25,7 +32,7 @@
                 <v-img width="auto" max-width="420" src="../assets/icons/contactus-alone.png"></v-img>
               </div>
             </v-col>
-
+                  
             <v-form v-model="valid" class="mx-auto">
               <v-container>
                 <v-row>
