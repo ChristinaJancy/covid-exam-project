@@ -29,8 +29,10 @@
     1. Wash your hands
 
         -------------------------------->
+        <v-col cols="12">
+           <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide1.title')}}</h1>
+        </v-col>
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide1.title')}}</h1>
           <v-img
             max-height="350"
             contain
@@ -61,8 +63,10 @@
     2. Avoid touching eyes, nose and mouth
 
         -------->
-        <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide2.title')}}</h1>
+        <v-col cols="12" class="secondary">  
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide2.title')}}</h1></v-col>
+        <v-col sm="12" md="6" class="secondary">
+        
           <v-img
             class="mx-auto"
             contain
@@ -71,7 +75,7 @@
             src="../assets/icons/touchingface.png"
           ></v-img>
         </v-col>
-        <v-col sm="12" md="6" class="my-auto">
+        <v-col sm="12" md="6" class="secondary">
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
             {{$t('guidelines.guide2.context1')}}
             {{$t('guidelines.guide2.context2')}}
@@ -83,8 +87,11 @@
     3. Maintain social distancing
 
         --------------------->
+        <v-col cols="12">
+             <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide3.title')}}</h1>
+        </v-col>
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide3.title')}}</h1>
+       
           <v-img
             class="mx-auto"
             max-height="350"
@@ -113,11 +120,14 @@
     4. if feeling symptoms, stay home and isolate
 
         --------------------->
-        <v-col sm="12" md="6">
-          <h1
+        <v-col cols="12" class="secondary">
+                    <h1
             class="my-12 pt-10 primary--text"
             style="font-size:32px;"
           >{{$t('guidelines.guide4.title')}}</h1>
+        </v-col>
+        <v-col sm="12" md="6" class="secondary">
+
           <v-row dense>
             <v-col cols="6">
               <v-img
@@ -148,7 +158,7 @@
             </v-col>
           </v-row>
         </v-col>
-        <v-col sm="12" md="6" class="my-auto pt-5">
+        <v-col sm="12" md="6" class="pt-5 secondary">
           <p class="mx-10 text-left" style="font-size: 20px;">
             {{$t('guidelines.guide4.context1')}}
             <br />
@@ -168,8 +178,11 @@
 5. Feeling worried?
 
         --------------------->
-        <v-col sm="12" md="6">
+        <v-col cols="12">
           <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide5.title')}}</h1>
+        </v-col>
+        <v-col sm="12" md="6">
+          
           <v-img
             class="mx-auto orangefilter"
             max-height="350"
@@ -178,7 +191,7 @@
             src="../assets/icons/confused.png"
           ></v-img>
         </v-col>
-        <v-col sm="12" md="6" class="my-auto">
+        <v-col sm="12" md="6" class="my-auto" >
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
             {{$t('guidelines.guide5.context1')}}
             <br />

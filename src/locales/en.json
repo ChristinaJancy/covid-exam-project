@@ -70,6 +70,17 @@
         "title": "1. In the canteen",
         "context1" : "You need to keep 1. meter distance. There will be stickers on the floor to remind you of this.",
         "context2" : "The tables will also have more space in between them, and we encourage you to go back to your classroom when eating lunch, to make sure the social distancing is being kept."
-    }
+    },
+    "rule2": {
+      "title": "2. In the classroom",
+      "context1" : "There will be more space in between the tables, to make sure you and your fellow classmates can keep a safe distance."
+    
+  },
+  "rule3": {
+    "title": "3. At the bar -'The Basement'",
+    "context1" : "Just as in the classroom, you need to keep a certain distance. There will be more space in between the tables, to make sure you keep the social distance.",
+    "context2" : "We also require you to sit with at least 1 meter a part from each other."
+  
+}
 }
 }

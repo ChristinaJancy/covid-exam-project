@@ -70,6 +70,16 @@
             "title": "1. I kantinen",
             "context1" : "Du skal holde 1 meters afstand. Der vil være klistermærker på gulvet som vil minde dig om dette.",
             "context2" : "Alle borde kommer til at have mere mellemrum imellem dem. Vi anbefaler at du vender tilbage til dit klasseværelse, for at spise din frokost, for at være sikker på at alle kan holde afstand til hinanden."
+        },
+        "rule2": {
+            "title": "2. I klasseværelset",
+            "context1" : "Der vil være mere mellemrum imellem bordene, så du og dine klassekammerater kan holde afstand, og sikre jeres alles sikkerhed."
+        },
+        "rule3": {
+            "title": "3. I baren - 'The Basement'",
+            "context1" : "Præcis som i klasseværelserne, skal der holdes en fysisk afstand på min. 1 meter. Der vil være mere plads mellem bordene, for at sikre alles sikkerhed.",
+            "context2" : "I skal sidde med mindst 1 meter imellem hinanden."
+          
         }
     }
 }

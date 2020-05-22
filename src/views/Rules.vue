@@ -28,8 +28,9 @@
     1. Distance in the cafeteria
 
         -------------------------------->
+        <v-col cols="12"><h1 class="my-12 primary--text" style="font-size:32px;">{{$t('rules.rule1.title')}}</h1></v-col>
         <v-col md="6" sm="12">
-          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('rules.rule1.title')}}</h1>
+          
           <v-img
             max-height="500"
             contain
@@ -55,10 +56,12 @@
     2. In the classrooms
 
 -------------------------------->
-        
+        <v-col cols="12">
+            <h1 class="my-12 primary--text" style="font-size:32px;"> {{$t('rules.rule2.title')}}</h1>
+        </v-col>
 
         <v-col md="6" sm="12">
-          <h1 class="my-12 primary--text" style="font-size:32px;">2. in the classrooms</h1>
+        
           <v-img
             max-height="500"
             contain
@@ -70,7 +73,7 @@
                 <v-col md="6" sm="12" class="my-auto">
           <br />
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
-    There will be more space in between the tables, to make sure you and your fellow classmates can keep a safe distance. 
+     {{$t('rules.rule2.context1')}}
 
           </p>
         </v-col>
@@ -81,9 +84,11 @@
 
 -------------------------------->
         
-
+<v-col cols="12">
+   <h1 class="my-12 primary--text" style="font-size:32px;">  {{$t('rules.rule3.title')}}</h1>
+</v-col>
         <v-col md="6" sm="12">
-          <h1 class="my-12 primary--text" style="font-size:32px;">3. At the bar</h1>
+         
           <v-img
             max-height="500"
             contain
@@ -95,10 +100,9 @@
                 <v-col md="6" sm="12" class="my-auto">
           <br />
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
-            Just as in the classroom, you need to keep a certain distance. 
-            There will be more space in between the tables, to make sure you keep the social distance.
+            {{$t('rules.rule3.context1')}}
           <br>
-          We also require you to sit with at least 1 meter a part from each other. 
+            {{$t('rules.rule3.context2')}}
           </p>
         </v-col>
 
