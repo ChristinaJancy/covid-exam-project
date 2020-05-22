@@ -7,13 +7,13 @@
     },
     "about": {
         "title": "Om os",
-        "content": "Vi er Educovid. "
+        "content": "Vi er Educovid, og vi vil guide dig igennem genåbningen af uddannelsesinstitutionerne her i Danmark. "
     },
     "values": {
         "headline": "Vi tror på",
-        "message": "Hej jeg er et budskab",
-        "goals": "Vi stræber efter at være den mest pålidelige og informerende platform angående covid og genåbningen af uddannelsesinstitutioner.",
-        "values": "values",
+        "message": "Vi hjælper de studerende med at forblive sunde, ved at give dem nemt og hurtigt overblik over, hvordan de skal opføre sig når uddannelsesintitutionerne åbner igen, samt levere daglige opdateringer.",
+        "goals": "Vi stræber efter at være de bedste til at holde de studerende velopdateret angående genåbningen af uddannelsesinstitutioner og covid-19. ",
+        "values": "Vi tror på at give pålidelige oplysninger og retningslinjer, for at hjælpe så mange som muligt igennem dette sunde og raske, og forhindre covid-19 i at sprede sig yderligere.",
         "valuestitle": "Værdier",
         "goalstitle": "Mål",
         "messagetitle": "Budskab"

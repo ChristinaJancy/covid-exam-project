@@ -47,7 +47,7 @@
         </v-responsive>
         <v-responsive class="mx-auto title font-weight-light mb-8" max-width="720">
           {{$t('about.content')}}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam
+        
         </v-responsive>
         <v-avatar class="elevation-12 mb-12" size="128">
           <v-img id="onlyvirus" src="../assets/onlyvirus.png" contain></v-img>
