@@ -195,7 +195,10 @@
             {{$t('guidelines.guide5.context3')}}
             <br />
             <br />
-            {{$t('guidelines.guide5.context4')}} @educovid.outlook.com
+            {{$t('guidelines.guide5.context4')}}  <a
+          href="mailto:educovid@outlook.com"
+          class="primary--text font-weight-bold"
+        >educovid@outlook.com</a>
           </p>
         </v-col>
       </v-row>
