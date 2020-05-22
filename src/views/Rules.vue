@@ -35,7 +35,7 @@
             contain
             class="mx-auto"
             style="width:calc(100% - 80px);"
-            src="../assets/rules/cafeteria.jpg"
+            src="../assets/rules/canteenscreen.png"
           ></v-img>
         </v-col>
 
