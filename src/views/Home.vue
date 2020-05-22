@@ -71,21 +71,21 @@
                   <v-avatar color="white" size="88">
                     <v-icon large color="icons">mdi-account</v-icon>
                   </v-avatar>
-                </div> -->
+                </div>-->
               </v-theme-provider>
               <v-card-title
-               class="justify-center font-weight-black white--text text-uppercase" style="font-size:40px; padding-bottom:30px;"
+                class="justify-center font-weight-black white--text text-uppercase"
+                style="font-size:40px; padding-bottom:30px;"
               >{{$t('values.messagetitle')}}</v-card-title>
               <v-card-text class="subtitle-1 white--text">{{$t('values.message')}}</v-card-text>
             </v-card>
           </v-col>
           <v-col cols="12" md="4">
             <v-card class="py-12 px-4" color="primary" flat height="300">
-              <v-theme-provider dark>
-  
-              </v-theme-provider>
+              <v-theme-provider dark></v-theme-provider>
               <v-card-title
-                class="justify-center font-weight-black white--text text-uppercase" style="font-size:40px; padding-bottom:30px;"
+                class="justify-center font-weight-black white--text text-uppercase"
+                style="font-size:40px; padding-bottom:30px;"
               >{{$t('values.goalstitle')}}</v-card-title>
               <v-card-text class="subtitle-1 white--text">{{$t('values.goals')}}</v-card-text>
             </v-card>
@@ -93,25 +93,28 @@
           <v-col cols="12" md="4">
             <v-card class="py-12 px-4" color="styling" flat height="300">
               <v-theme-provider dark>
-                
                 <!--<div>
                   <v-avatar color="white" size="88">
                     <v-icon large color="icons">mdi-account</v-icon>
                   </v-avatar>
-                </div> -->
+                </div>-->
               </v-theme-provider>
               <v-card-title
-               class="justify-center font-weight-black white--text text-uppercase" style="font-size:40px; padding-bottom:30px;"
+                class="justify-center font-weight-black white--text text-uppercase"
+                style="font-size:40px; padding-bottom:30px;"
               >{{$t('values.valuestitle')}}</v-card-title>
               <v-card-text class="subtitle-1 white--text">{{$t('values.values')}}</v-card-text>
             </v-card>
           </v-col>
         </v-row>
       </v-container>
-      
+
       <div class="py-12"></div>
       <section id="stats">
-        <v-parallax :height="$vuetify.breakpoint.smAndDown ? 700 : 500" src="../assets/home/bluevirus.jpg">
+        <v-parallax
+          :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
+          src="../assets/home/bluevirus.jpg"
+        >
           <v-container fill-height>
             <v-row class="mx-auto">
               <v-col v-for="[value, title] of stats" :key="title" cols="12" md="3">
@@ -135,13 +138,12 @@
 
 <script>
 // @ is an alias to /src
-import Contact from "../components/Contact.vue"
+import Contact from "../components/Contact.vue";
 
 export default {
-
   name: "Home",
   components: {
-    Contact,
+    Contact
   },
   data: () => ({
     features: [
@@ -182,19 +184,16 @@ export default {
   transition: transform 0.8s ease-in-out;
 }
 
-.para-to-contact{
+.para-to-contact {
   display: flex;
-      @media screen and (max-width:815px){
-        display: none;
-        
-      }
+  @media screen and (max-width: 815px) {
+    display: none;
+  }
 }
 
- @media screen and (max-width: 700px) {
-    #home{
-   margin-top:-104px;
-    }   
-
- } 
-
+@media screen and (max-width: 700px) {
+  #home {
+    margin-top: -104px;
+  }
+}
 </style>

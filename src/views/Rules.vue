@@ -21,15 +21,16 @@
         </v-container>
       </v-parallax>
     </section>
-    <br>
+    <br />
     <h3 class="pt-5 mx-12">
-    {{$t('rules.intro1')}}
-        <br>
-    {{$t('rules.intro2')}}
-  
+      {{$t('rules.intro1')}}
+      <br />
+
+      {{$t('rules.intro2')}}
     </h3>
     <section style="line-height:40px;">
-      <br><br>
+      <br />
+      <br />
       <v-row style="margin: 0 auto; padding: 0 auto;">
         <!-----------------------------
 
@@ -55,7 +56,6 @@
             {{$t('rules.rule1.context1')}}
             <br />
             <br />
-
             {{$t('rules.rule1.context2')}}
             <br />
           </p>
@@ -80,7 +80,10 @@
         </v-col>
         <v-col md="6" sm="12" class="secondary">
           <br />
-          <p class="pt-12 mt-12 mx-12 text-left" style="font-size: 20px;">{{$t('rules.rule2.context1')}}</p>
+          <p
+            class="pt-12 mt-12 mx-12 text-left"
+            style="font-size: 20px;"
+          >{{$t('rules.rule2.context1')}}</p>
         </v-col>
 
         <!-----------------------------

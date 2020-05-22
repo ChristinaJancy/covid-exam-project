@@ -5,10 +5,12 @@
 
       <v-container>
         <h2
-          class="font-weight-bold mb-3 text-uppercase text-center black--text" style="font-size:50px"
+          class="font-weight-bold mb-3 text-uppercase text-center black--text"
+          style="font-size:50px"
         >{{$t('contact.title')}}</h2>
         <h4
-          class="font-weight-bold mb-3 text-uppercase text-center black--text" style="font-size:20px"
+          class="font-weight-bold mb-3 text-uppercase text-center black--text"
+          style="font-size:20px"
         >{{$t('contact.intro')}}</h4>
         <v-responsive class="mx-auto mb-12" width="56">
           <v-divider class="mb-1"></v-divider>
@@ -19,7 +21,7 @@
         <v-theme-provider light>
           <v-row>
             <v-col md="6" sm="12" align="center">
-              <div class="mx-12 my-10" >
+              <div class="mx-12 my-10">
                 <v-img width="auto" max-width="420" src="../assets/icons/contactus-alone.png"></v-img>
               </div>
             </v-col>
@@ -30,7 +32,7 @@
                   <v-col sm="12">
                     <v-col cols="12">
                       <v-text-field
-                      style="margin-top: -20%;"
+                        style="margin-top: -20%;"
                         outlined
                         v-model="firstname"
                         :rules="nameRules"
@@ -43,20 +45,20 @@
 
                     <v-col cols="12">
                       <v-text-field
-                          style="margin-top: -10%;"
+                        style="margin-top: -10%;"
                         outlined
                         v-model="lastname"
                         :rules="nameRules"
                         :counter="12"
                         label="Last name"
                         required
-                          rounded
+                        rounded
                       ></v-text-field>
                     </v-col>
 
                     <v-col cols="12">
                       <v-text-field
-                      style="margin-top: -10%;"
+                        style="margin-top: -10%;"
                         outlined
                         v-model="email"
                         :rules="emailRules"
@@ -66,29 +68,29 @@
                       ></v-text-field>
                     </v-col>
                     <v-col cols="12">
-                      <v-textarea 
-                      outlined 
+                      <v-textarea
+                        outlined
                         rounded
-                      name="input-7-4" 
-                      label="Your question(s)..." 
-                      style="margin-top: -10%;"
-                       
-                      >
-                      </v-textarea>
+                        name="input-7-4"
+                        label="Your question(s)..."
+                        style="margin-top: -10%;"
+                      ></v-textarea>
                     </v-col>
                   </v-col>
                 </v-row>
               </v-container>
 
               <v-col class="mx-auto" cols="auto">
-                <v-btn 
+                <v-btn
                   rounded
-                color="icons" 
-                large 
-                width="300" 
-                class="white--text"
-                style="margin-top: -30%; font-size:15px;"
-                ><h2>{{$t('contact.button')}}</h2></v-btn>
+                  color="icons"
+                  large
+                  width="300"
+                  class="white--text"
+                  style="margin-top: -30%; font-size:15px;"
+                >
+                  <h2>{{$t('contact.button')}}</h2>
+                </v-btn>
               </v-col>
             </v-form>
           </v-row>

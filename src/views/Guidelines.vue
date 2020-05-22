@@ -30,7 +30,7 @@
 
         -------------------------------->
         <v-col cols="12">
-           <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide1.title')}}</h1>
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide1.title')}}</h1>
         </v-col>
         <v-col sm="12" md="6">
           <v-img
@@ -63,10 +63,10 @@
     2. Avoid touching eyes, nose and mouth
 
         -------->
-        <v-col cols="12" class="secondary">  
-          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide2.title')}}</h1></v-col>
+        <v-col cols="12" class="secondary">
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide2.title')}}</h1>
+        </v-col>
         <v-col sm="12" md="6" class="secondary">
-        
           <v-img
             class="mx-auto"
             contain
@@ -88,10 +88,9 @@
 
         --------------------->
         <v-col cols="12">
-             <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide3.title')}}</h1>
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide3.title')}}</h1>
         </v-col>
         <v-col sm="12" md="6">
-       
           <v-img
             class="mx-auto"
             max-height="350"
@@ -121,13 +120,9 @@
 
         --------------------->
         <v-col cols="12" class="secondary">
-                    <h1
-            class="my-12 primary--text"
-            style="font-size:32px;"
-          >{{$t('guidelines.guide4.title')}}</h1>
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide4.title')}}</h1>
         </v-col>
         <v-col sm="12" md="6" class="secondary">
-
           <v-row dense>
             <v-col cols="6">
               <v-img
@@ -182,7 +177,6 @@
           <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide5.title')}}</h1>
         </v-col>
         <v-col sm="12" md="6">
-          
           <v-img
             class="mx-auto orangefilter"
             max-height="300"
@@ -191,14 +185,13 @@
             src="../assets/icons/confused.png"
           ></v-img>
         </v-col>
-        <v-col sm="12" md="6" class="my-auto" >
+        <v-col sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
             {{$t('guidelines.guide5.context1')}}
             <br />
             <b class="primary--text">{{$t('guidelines.guide5.context2')}}</b>
             <br />
             <br />
-
             {{$t('guidelines.guide5.context3')}}
             <br />
             <br />

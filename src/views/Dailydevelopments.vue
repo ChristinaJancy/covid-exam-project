@@ -6,10 +6,9 @@
 
 
 <style lang="scss" scoped>
-
- @media screen and (max-width: 700px) {
-    #daily{
-   margin-top:-80px;
-    }   
- } 
+@media screen and (max-width: 700px) {
+  #daily {
+    margin-top: -80px;
+  }
+}
 </style>

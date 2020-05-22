@@ -12,17 +12,17 @@
         <!-----------------------
         Language dropdown menu
         ------------------------>
- 
-        <h4 style="color:black !important;" class="mr-2 mb-3"> {{$t('nav.language')}}</h4>
+
+        <h4 style="color:black !important;" class="mr-2 mb-3">{{$t('nav.language')}}</h4>
         <div style="color:#385170 !important;">
           <h2 class="mr-1">
-          <Languageswitcher />
+            <Languageswitcher />
           </h2>
         </div>
 
-          <!------------------------------
+        <!------------------------------
                       TABS
-          ----------------------------------->
+        ----------------------------------->
         <template v-slot:extension>
           <v-spacer></v-spacer>
           <div id="nav">
@@ -65,7 +65,11 @@
             </div>
 
             <div style="display:table-cell;">
-              <router-link to="/dailydevelopments" class="mx-1" style="font-family: 'Nunito', sans-serif;">
+              <router-link
+                to="/dailydevelopments"
+                class="mx-1"
+                style="font-family: 'Nunito', sans-serif;"
+              >
                 <v-img
                   contain
                   class="grayscale"
@@ -88,19 +92,18 @@
 
     -------------------->
     <div id="navphone">
-
       <v-system-bar color="grey darken-4" height="27">
         <v-spacer></v-spacer>
-        <h3 style="color:white !important;" class="mr-2 pt-1"> {{$t('nav.language')}}</h3>
+        <h3 style="color:white !important;" class="mr-2 pt-1">{{$t('nav.language')}}</h3>
         <div class="pt-4" style="color:#cc7500 !important;">
           <h1 class="mr-1">
-          <Languageswitcher />
+            <Languageswitcher />
           </h1>
         </div>
       </v-system-bar>
 
       <v-app-bar app bottom height="60" color="white">
-        <v-row >
+        <v-row>
           <v-col cols="3" align="center">
             <div class="img-gradient">
               <router-link to="/">
