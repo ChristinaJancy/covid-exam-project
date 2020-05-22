@@ -65,7 +65,8 @@
     },
     "rules": {
         "title": "REGLER",
-        "intro": "Vi håber at du for en sikker tilbagevenden til din uddannelsesinstitution. Til genåbningen af disse institutioner, vil der blive indført et nyt sæt regler, for at forhindre spredningen af COVID-19-virussen.",
+        "intro1": "Vi håber at du for en sikker tilbagevenden til din uddannelsesinstitution.",
+        "intro2" : "Til genåbningen af disse institutioner, vil der blive indført et nyt sæt regler, for at forhindre spredningen af COVID-19-virussen.",
         "rule1": {
             "title": "1. I kantinen",
             "context1" : "Du skal holde 1 meters afstand. Der vil være klistermærker på gulvet som vil minde dig om dette.",

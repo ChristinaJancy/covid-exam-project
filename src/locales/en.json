@@ -65,7 +65,8 @@
   },
   "rules": {
     "title": "RULES",
-    "intro": "We hope you get a safe return to your educational institution. For the reopening of these institutions, a new set of rules will be set in place, to stop the virus from spreading.",
+    "intro1": "We hope you get a safe return to your educational institution.",
+    "intro2" :"For the reopening of these institutions, a new set of rules will be set in place, to stop the virus from spreading.",
     "rule1": {
         "title": "1. In the canteen",
         "context1" : "You need to keep 1. meter distance. There will be stickers on the floor to remind you of this.",
