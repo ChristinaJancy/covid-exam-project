@@ -122,7 +122,7 @@
         --------------------->
         <v-col cols="12" class="secondary">
                     <h1
-            class="my-12 pt-10 primary--text"
+            class="my-12 primary--text"
             style="font-size:32px;"
           >{{$t('guidelines.guide4.title')}}</h1>
         </v-col>
