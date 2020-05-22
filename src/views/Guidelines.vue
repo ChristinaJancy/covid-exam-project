@@ -3,17 +3,18 @@
     <section>
       <v-parallax
         :height="$vuetify.breakpoint.smAndDown ? 400 : 300"
-       src="../assets/home/virusblue2.jpg"
+        src="../assets/home/virusblue2.jpg"
       >
         <v-container fill-height>
           <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
             <v-col cols="12">
               <div class="text-center">
-                 <span
-                    :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
-                    class="font-weight-light"
-                  ><h1>{{$t('guidelines.title')}}</h1></span>
-
+                <span
+                  :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
+                  class="font-weight-light"
+                >
+                  <h1>{{$t('guidelines.title')}}</h1>
+                </span>
               </div>
             </v-col>
           </v-row>
@@ -83,7 +84,7 @@
 
         --------------------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text" style="font-size:32px;">3. Maintain social distancing</h1>
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide3.title')}}</h1>
           <v-img
             class="mx-auto"
             max-height="350"
@@ -94,13 +95,16 @@
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
-            Maintain at least
-            <b class="primary--text">1 metre distance</b> yourself and others.
+            {{$t('guidelines.guide3.context1')}}
+            <b
+              class="primary--text"
+            >{{$t('guidelines.guide3.context2')}}</b>
             <br />
-            <br />When someone
-            <b class="primary--text">coughs, sneezes, or speaks</b> they spray small liquid droplets from their nose or mouth which may contain virus.
             <br />
-            <br />If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.
+            {{$t('guidelines.guide3.context3')}}
+            <br />
+            <br />
+            {{$t('guidelines.guide3.context4')}}
           </p>
         </v-col>
 
@@ -110,8 +114,10 @@
 
         --------------------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 pt-10 primary--text" style="font-size:32px;">4. If feeling symptoms
-</h1>
+          <h1
+            class="my-12 pt-10 primary--text"
+            style="font-size:32px;"
+          >{{$t('guidelines.guide4.title')}}</h1>
           <v-row dense>
             <v-col cols="6">
               <v-img
@@ -143,25 +149,27 @@
           </v-row>
         </v-col>
         <v-col sm="12" md="6" class="my-auto pt-5">
-          <p class=" mx-10 text-left" style="font-size: 20px;">
-           Stay home and self-isolate even with minor symptoms such as 
-<br><br>
-            <b class="primary--text">Cough, headache and mild fever </b> until you recover.
+          <p class="mx-10 text-left" style="font-size: 20px;">
+            {{$t('guidelines.guide4.context1')}}
             <br />
             <br />
-             Have someone bring you supplies. If you need to leave your house, wear a mask to avoid infecting others. 
-              <br />
-             Why? Avoiding contact with others will protect them from possible COVID-19 and other viruses.
+            <b class="primary--text">{{$t('guidelines.guide4.context2')}}</b>
+            {{$t('guidelines.guide4.context3')}}
+            <br />
+            <br />
+            {{$t('guidelines.guide4.context4')}}
+            <br />
+            {{$t('guidelines.guide4.context5')}}
           </p>
         </v-col>
 
-         <!---------------------
+        <!---------------------
 
 5. Feeling worried?
 
         --------------------->
         <v-col sm="12" md="6">
-          <h1 class="my-12 primary--text" style="font-size:32px;">5. Feeling worried?</h1>
+          <h1 class="my-12 primary--text" style="font-size:32px;">{{$t('guidelines.guide5.title')}}</h1>
           <v-img
             class="mx-auto orangefilter"
             max-height="350"
@@ -172,18 +180,18 @@
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
-           In a situation like this it is normal to feel 
-            <br>
-            <b class="primary--text">sad, worried, confused, scared or angry. </b>
+            {{$t('guidelines.guide5.context1')}}
             <br />
-            <br />Know that you are not alone and talk to someone you trust,
-           so that you can help keep yourself and your school safe and healthy. 
+            <b class="primary--text">{{$t('guidelines.guide5.context2')}}</b>
+            <br />
+            <br />
 
+            {{$t('guidelines.guide5.context3')}}
             <br />
-            <br />If you have any questions or concerns, feel free to contact us at @educovid.outlook.com
+            <br />
+            {{$t('guidelines.guide5.context4')}} @educovid.outlook.com
           </p>
         </v-col>
-
       </v-row>
     </section>
   </div>
@@ -191,9 +199,9 @@
 
 
 <style lang="scss" scoped>
-
 .orangefilter {
-filter: invert(40%) sepia(25%) saturate(10000%) hue-rotate(15deg) brightness(104%) contrast(90%);
+  filter: invert(40%) sepia(25%) saturate(10000%) hue-rotate(15deg)
+    brightness(104%) contrast(90%);
 }
 
 @media screen and (max-width: 700px) {

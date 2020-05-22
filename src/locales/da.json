@@ -4,46 +4,72 @@
         "guidelines": "Retningslinjer",
         "dailydevelopments": "Dalige Opdateringer",
         "language": "Sprog:"
-        },
+    },
     "about": {
         "title": "Om os",
         "content": "Vi er Educovid. "
-        },
+    },
     "values": {
-            "headline": "Vi tror på",
-            "message": "Hej jeg er et budskab",
-            "goals": "Vi stræber efter at være den mest pålidelige og informerende platform angående covid og genåbningen af uddannelsesinstitutioner.",
-            "values": "values",
-            "valuestitle": "Værdier",
-            "goalstitle": "Mål",
-            "messagetitle": "Budskab"
-          },
-    "home" :{
+        "headline": "Vi tror på",
+        "message": "Hej jeg er et budskab",
+        "goals": "Vi stræber efter at være den mest pålidelige og informerende platform angående covid og genåbningen af uddannelsesinstitutioner.",
+        "values": "values",
+        "valuestitle": "Værdier",
+        "goalstitle": "Mål",
+        "messagetitle": "Budskab"
+    },
+    "home": {
         "welcometo": "VELKOMMEN TIL"
     },
-    "guidelines" :{
-        "title" : "RETNINGSLINJER",
-        "intro" : "Du kan reducere dine chancer for at blive smittet- eller sprede COVID-19 ved at tage nogle enkle forholdsregler:",
-        "guide1" :{
-            "title" : "1. Vask dine hænder",
-            "context1" : "Vask altid dine hænder med sæbe og vand, i mindst 20 sekunder. Det er også anbefalet at bruge håndsprit jævnligt, især når du ikke har mulighed for at vaske hænder",
-            "context2" : "Du skal vaske dine hænder...",
-            "context3" : {
-                "li1" : "after host eller nys",
-                "li2" : "før, imens og efter du har tilberedt mad",
-                "li3" : "efter toiletbesøg", 
-                "li4" : "efter du har rørt ved et dyr"
+    "guidelines": {
+        "title": "RETNINGSLINJER",
+        "intro": "Du kan reducere dine chancer for at blive smittet- eller sprede COVID-19 ved at tage nogle enkle forholdsregler:",
+        "guide1": {
+            "title": "1. Vask dine hænder",
+            "context1": "Vask altid dine hænder med sæbe og vand, i mindst 20 sekunder. Det er også anbefalet at bruge håndsprit jævnligt, især når du ikke har mulighed for at vaske hænder",
+            "context2": "Du skal vaske dine hænder...",
+            "context3": {
+                "li1": "after host eller nys",
+                "li2": "før, imens og efter du har tilberedt mad",
+                "li3": "efter toiletbesøg",
+                "li4": "efter du har rørt ved et dyr"
             }
         },
-        "guide2" : {
-            "title":  "2. Undgå at røre ved dine øjne, næse og mund",
-            "context1" : "Hænder rører ved mange overflader, og kan herigennem opfange virus.",
-            "context2" : " Er hænderne først inficerede, kan de overføre virus til dine øjne, næse eller mund og herigennem smitte dig."
+        "guide2": {
+            "title": "2. Undgå at røre ved dine øjne, næse og mund",
+            "context1": "Hænder rører ved mange overflader, og kan herigennem opfange virus.",
+            "context2": " Er hænderne først inficerede, kan de overføre virus til dine øjne, næse eller mund og herigennem smitte dig."
         },
-        "guide3" : {
-            "title" : "3. Hold fysisk afstand",
-            "context1" : "Sørg for at holde min. 1 meters afstand til personer der hoster eller nyser. Dæk for din mund og næse med dit ærme eller en serviet når du hoster eller nyser. Smid servietten væk straks bagefter.",
-            "context2" : "Når man hoster eller nyser, sendes en sky af små dråber ud i luften fra næsen eller munden, som kan indeholde virus. Er du for tæt på, risikerer du at inhalere dråberne inkl. COVID-19 virus, hvis personen er smittet."
+        "guide3": {
+            "title": "3. Hold fysisk afstand",
+            "context1": "Sørg for at holde min.",
+            "context2": "1 meters afstand til personer der hoster eller nyser.",
+            "context3": "Når nogen hoster, nyser eller taler, spytter de små væskedråber fra deres næse eller mund, som kan indeholde virus.",
+            "context4": "Hvis du er for tæt på, kan du indånde dråberne, inklusiv COVID-19-virussen, hvis personen har sygdommen."
+        },
+        "guide4": {
+            "title": "4. I tilfælde af symptomer",
+            "context1": "Bliv hjemme og isolere dig selv, hvis du føler mindre symptomer som f.eks.:",
+            "context2": "hoste, hovedpine eller en mindre feber.",
+            "context3": "indtil du har det bedre.",
+            "context4": "Få nogen til at hjælpe dig med forsyninger. Hvis du har brug for at forlade dit hus, skal du bære maske for at undgå af inficere andre.",
+            "context5": "Hvorfor? Undgå kontakt med andre vil beskytte dem fra mulig COVID-19 og andre virusser."
+        },
+        "guide5": {
+            "title": "5. Føler du dig bekymret?",
+            "context1": "I en situation som denne, er det helt normalt at føle sig",
+            "context2": "trist, bekymret, forvirret, bange eller vred.",
+            "context3": "Husk du ikke er alene, og snak med en du stoler på, så du kan hjælpe dig selv og din skole, med at forblive sikker og rask.",
+            "context4": "Hvis du har nogle spørgsmål eller bekymringer, kan du altid kontakte os på"
+        }
+    },
+    "rules": {
+        "title": "REGLER",
+        "intro": "Vi håber at du for en sikker tilbagevenden til din uddannelsesinstitution. Til genåbningen af disse institutioner, vil der blive indført et nyt sæt regler, for at forhindre spredningen af COVID-19-virussen.",
+        "rule1": {
+            "title": "1. I kantinen",
+            "context1" : "Du skal holde 1 meters afstand. Der vil være klistermærker på gulvet som vil minde dig om dette.",
+            "context2" : "Alle borde kommer til at have mere mellemrum imellem dem. Vi anbefaler at du vender tilbage til dit klasseværelse, for at spise din frokost, for at være sikker på at alle kan holde afstand til hinanden."
         }
     }
-  }
+}

@@ -18,32 +18,58 @@
     "goalstitle": "Goals",
     "messagetitle": "Message"
   },
-  "home" :{
+  "home": {
     "welcometo": "WELCOME TO"
-},
-"guidelines" :{
-  "title" : "GUIDELINES",
-  "intro" : "You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:",
-  "guide1" :{
-      "title" : "1. Wash your hands",
-      "context1" : "Wash your hands, always with soap and water for at least 20 seconds. It is good to also regularly use hand sanitizer when not being able to wash your hands.",
-      "context2" : "You should wash your hands...",
-      "context3" : {
-          "li1" : "after coughing or sneezing",
-          "li2" : "before, during and after you prepare food",
-          "li3" : "after toilet use", 
-          "li4" : "after handling animals"
+  },
+  "guidelines": {
+    "title": "GUIDELINES",
+    "intro": "You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:",
+    "guide1": {
+      "title": "1. Wash your hands",
+      "context1": "Wash your hands, always with soap and water for at least 20 seconds. It is good to also regularly use hand sanitizer when not being able to wash your hands.",
+      "context2": "You should wash your hands...",
+      "context3": {
+        "li1": "after coughing or sneezing",
+        "li2": "before, during and after you prepare food",
+        "li3": "after toilet use",
+        "li4": "after handling animals"
       }
     },
-  "guide2" : {
-      "title":  "2. Avoid touching eyes, nose and mouth",
-      "context1" : "Hands touch many surfaces and can pick up viruses.",
-      "context2" : "Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and infect you."
+    "guide2": {
+      "title": "2. Avoid touching eyes, nose and mouth",
+      "context1": "Hands touch many surfaces and can pick up viruses.",
+      "context2": "Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and infect you."
+    },
+    "guide3": {
+      "title": "3. Maintain social distancing",
+      "context1": "Maintain at least",
+      "context2": "1 metre distance yourself and others.",
+      "context3": "When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus.",
+      "context4": "If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease."
+    },
+    "guide4": {
+      "title": "4. If feeling symptoms",
+      "context1": "Stay home and self-isolate even with minor symptoms such as: ",
+      "context2": "Cough, headache and mild fever.",
+      "context3": "until you have recovered.",
+      "context4": "Have someone bring you supplies. If you need to leave your house, wear a mask to avoid infecting others.",
+      "context5": "Why? Avoiding contact with others will protect them from possible COVID-19 and other viruses."
+    },
+    "guide5": {
+      "title": "5. Feeling worried?",
+      "context1": "In a situation like this it is normal to feel",
+      "context2": "sad, worried, confused, scared or angry.",
+      "context3": "Know that you are not alone and talk to someone you trust, so that you can help keep yourself and your school safe and healthy.",
+      "context4": "If you have any questions or concerns, feel free to contact us at"
+    }
   },
-  "guide3" : {
-      "title" : "3. Maintain social distancing",
-      "context1" : "Maintain at least 1 metre distance yourself and others.",
-      "context2" : "When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus."
-  }
+  "rules": {
+    "title": "RULES",
+    "intro": "We hope you get a safe return to your educational institution. For the reopening of these institutions, a new set of rules will be set in place, to stop the virus from spreading.",
+    "rule1": {
+        "title": "1. In the canteen",
+        "context1" : "You need to keep 1. meter distance. There will be stickers on the floor to remind you of this.",
+        "context2" : "The tables will also have more space in between them, and we encourage you to go back to your classroom when eating lunch, to make sure the social distancing is being kept."
+    }
 }
 }
