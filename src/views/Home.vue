@@ -111,7 +111,7 @@
       
       <div class="py-12"></div>
       <section id="stats">
-        <v-parallax :height="$vuetify.breakpoint.smAndDown ? 700 : 500" src="../assets/home/virusblue2.jpg">
+        <v-parallax :height="$vuetify.breakpoint.smAndDown ? 700 : 500" src="../assets/home/bluevirus.jpg">
           <v-container fill-height>
             <v-row class="mx-auto">
               <v-col v-for="[value, title] of stats" :key="title" cols="12" md="3">

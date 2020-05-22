@@ -75,7 +75,32 @@
           </p>
         </v-col>
         
+<!-----------------------------
 
+3. At the bar
+
+-------------------------------->
+        
+
+        <v-col md="6" sm="12">
+          <h1 class="my-12 primary--text" style="font-size:32px;">3. At the bar</h1>
+          <v-img
+            max-height="500"
+            contain
+            class="mx-auto"
+            style="width:calc(100% - 80px);"
+             src="../assets/rules/schoolbar.jpg"
+          ></v-img>
+        </v-col>
+                <v-col md="6" sm="12" class="my-auto">
+          <br />
+          <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
+            Just as in the classroom, you need to keep a certain distance. 
+            There will be more space in between the tables, to make sure you keep the social distance.
+          <br>
+          We also require you to sit with at least 1 meter a part from each other. 
+          </p>
+        </v-col>
 
       </v-row>
     </section>
