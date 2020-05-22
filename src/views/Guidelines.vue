@@ -185,7 +185,7 @@
           
           <v-img
             class="mx-auto orangefilter"
-            max-height="350"
+            max-height="300"
             contain
             style="width:calc(100% - 80px);"
             src="../assets/icons/confused.png"
