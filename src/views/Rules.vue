@@ -7,15 +7,25 @@
       >
         <v-container fill-height>
           <v-row class="mx-auto" style="margin: 0 auto; padding: 0 auto;">
-            <v-col cols="12">
-              <div class="text-center">
+            <v-col cols="12" align="center" class="my-auto mx-auto">
+                  <v-img
+                  class="my-5"
+                  contain
+                  width="auto"
+                  max-width="300"
+                  style="filter: url(#drop-shadow); -webkit-filter: drop-shadow(3px 1px 10px rgba(0,0,0)); filter:progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444');"
+                  src="../assets/icons/rules-alone.png"
+                ></v-img> 
+               
+               <!--  <div class="text-center">
                 <span
                   :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
                   class="font-weight-light"
                 >
                   <h1>{{$t('rules.title')}}</h1>
                 </span>
-              </div>
+              
+              </div>  -->
             </v-col>
           </v-row>
         </v-container>

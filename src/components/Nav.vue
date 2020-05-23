@@ -28,38 +28,38 @@
           <div id="nav">
             <div style="display:table-cell;" class="pr-5 pl-5 img-gradient">
               <router-link to="/" class="mx-1" style="font-family: 'Nunito', sans-serif;">
-                <v-img
+               <!-- <v-img
                   contain
                   style="float: left;"
                   class="grayscale"
                   width="25"
                   src="../assets/onlyvirus.png"
-                ></v-img>Home
+                ></v-img> -->Home
               </router-link>
             </div>
 
             <div style="display:table-cell;" class="pr-5">
               <router-link to="/rules" class="mx-1" style="font-family: 'Nunito', sans-serif;">
-                <v-img
+               <!-- <v-img
                   contain
                   class="grayscale"
                   style="float: left;"
                   width="35"
                   src="../assets/icons/rules-alone.png"
-                ></v-img>
+                ></v-img> -->
                 {{$t('nav.rules')}}
               </router-link>
             </div>
 
             <div style="display:table-cell;" class="pr-5">
               <router-link to="/guidelines" class="mx-1" style="font-family: 'Nunito', sans-serif;">
-                <v-img
+                <!-- <v-img
                   contain
                   class="grayscale"
                   style="float: left;"
                   width="25"
                   src="../assets/icons/guidelines-alone.png"
-                ></v-img>
+                ></v-img> -->
                 {{$t('nav.guidelines')}}
               </router-link>
             </div>
@@ -70,13 +70,14 @@
                 class="mx-1"
                 style="font-family: 'Nunito', sans-serif;"
               >
+              <!--
                 <v-img
                   contain
                   class="grayscale"
                   style="float: left;"
                   width="35"
                   src="../assets/icons/info-alone.png"
-                ></v-img>
+                ></v-img> -->
                 {{$t('nav.dailydevelopments')}}
               </router-link>
             </div>
