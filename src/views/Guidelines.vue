@@ -231,7 +231,7 @@
 
 .png-shadow {
   filter: url(#drop-shadow);
-  -webkit-filter: drop-shadow(3px 1px 10px rgba(0, 0, 0));
+  -webkit-filter: drop-shadow(3px 1px 5px rgba(0, 0, 0));
   filter: progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444');
 }
 </style>
