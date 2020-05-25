@@ -20,6 +20,20 @@
                     class="font-weight-black"
                   >EDUCOVID</span>
                 </v-col>
+                <v-col cols="12">
+                  <div style="padding-right:20%;padding-left:20%;">
+                  <v-text-field light label="Search.." 
+                  filled 
+                  rounded 
+                  solo
+                  background-color="white"
+                  dense
+                  prepend-inner-icon="mdi-magnify"
+                  clearable
+                  >
+                  </v-text-field>
+                  </div>
+                </v-col>
 
                 <v-btn
                   class="align-self-end"
@@ -39,16 +53,17 @@
 
     <section id="about-us">
       <div class="py-12"></div>
+
       <v-container class="text-center">
         <h2 class="font-weight-bold mb-3" style="font-size:50px;">{{$t('about.title')}}</h2>
         <v-responsive class="mx-auto mb-8" width="56">
           <v-divider class="mb-1"></v-divider>
           <v-divider></v-divider>
         </v-responsive>
-        <v-responsive class="mx-auto title font-weight-light mb-8" max-width="720">
-          {{$t('about.content')}}
-        
-        </v-responsive>
+        <v-responsive
+          class="mx-auto title font-weight-light mb-8"
+          max-width="720"
+        >{{$t('about.content')}}</v-responsive>
         <v-avatar class="elevation-12 mb-12" size="128">
           <v-img id="onlyvirus" src="../assets/onlyvirus.png" contain></v-img>
         </v-avatar>
