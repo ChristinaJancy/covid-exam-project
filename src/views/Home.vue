@@ -4,7 +4,7 @@
       <v-row no-gutters id="home">
         <v-img
           :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-          src="../assets/home/library.jpg"
+          src="../assets/home/library-dark.jpg"
         >
           <v-theme-provider dark>
             <v-container fill-height>
