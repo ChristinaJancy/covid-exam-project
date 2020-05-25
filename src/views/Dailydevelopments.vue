@@ -88,6 +88,7 @@
       :sort-desc="sortDesc"
       hide-default-footer
     >
+    
       <template v-slot:header>
         <v-toolbar
           dark
@@ -143,7 +144,63 @@
             </v-btn-toggle>
              -->
           </template>
+          
         </v-toolbar>
+                <v-row class="mt-2 mx-2" align="center" justify="center">
+          <span class="grey--text">Items per page</span>
+          <v-menu offset-y>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                dark
+                text
+                color="primary"
+                class="ml-2"
+                v-on="on"
+              >
+                {{ itemsPerPage }}
+                <v-icon>mdi-chevron-down</v-icon>
+              </v-btn>
+            </template>
+            <v-list>
+              <v-list-item
+                v-for="(number, index) in itemsPerPageArray"
+                :key="index"
+                @click="updateItemsPerPage(number)"
+              >
+                <v-list-item-title>{{ number }}</v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-menu>
+
+          <v-spacer></v-spacer>
+
+          <span
+            class="mr-4
+            grey--text"
+          >
+            Page {{ page }} of {{ numberOfPages }}
+          </span>
+          <v-btn
+            fab
+            dark
+             small
+            color="icons"
+            class="mr-1"
+            @click="formerPage"
+          >
+            <v-icon>mdi-chevron-left</v-icon>
+          </v-btn>
+          <v-btn
+            fab
+            dark
+            small
+            color="icons"
+            class="ml-1"
+            @click="nextPage"
+          >
+            <v-icon>mdi-chevron-right</v-icon>
+          </v-btn>
+        </v-row>
       </template>
 
       <template v-slot:default="props">
@@ -215,6 +272,7 @@
             dark
             color="icons"
             class="mr-1"
+            small
             @click="formerPage"
           >
             <v-icon>mdi-chevron-left</v-icon>
@@ -222,6 +280,7 @@
           <v-btn
             fab
             dark
+            small
             color="icons"
             class="ml-1"
             @click="nextPage"
