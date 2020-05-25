@@ -4,7 +4,7 @@
       <v-row no-gutters id="home">
         <v-img
           :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-          src="../assets/home/library-dark.jpg"
+          src="../assets/home/virusblue2.jpg"
         >
           <v-theme-provider dark>
             <v-container fill-height>
@@ -128,7 +128,7 @@
       <section id="stats">
         <v-parallax
           :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
-          src="../assets/home/bluevirus.jpg"
+          src="../assets/home/virusblue2.jpg"
         >
           <v-container fill-height>
             <v-row class="mx-auto">
