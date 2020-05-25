@@ -11,7 +11,7 @@
         >{{$t('contact.intro')}}
         </h4>
         <p class="text-center font-weight-bold">
-          If you have any questions, feel free to mail us.
+          If you have any questions, ideas, worries... feel free to mail us!
         </p>
 <div class="text-center">
        <a
