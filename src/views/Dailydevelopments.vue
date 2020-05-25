@@ -94,7 +94,7 @@
           color="primary"
           class="mb-1"
         >
-        <h1>All updates</h1>
+        <h1>Updates</h1>
           <v-spacer></v-spacer>
           <v-text-field
             v-model="search"
