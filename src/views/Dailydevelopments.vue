@@ -50,9 +50,7 @@
                 </v-col>
                 -->
                 <br>
-    <h3 class="pt-5 mx-10">Here you can see all daily updates connected to covid-19 and adults 18-25 year olds, with the main focus on educational institutions.
-
-    </h3>
+    <h3 class="pt-5 mx-10">Here you can see all updates about covid-19, focused on young adults.</h3>
        <br><br><br>
     <section style="line-height:40px;">
 
