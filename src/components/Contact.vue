@@ -4,15 +4,15 @@
       <div class="py-5"></div>
 
       <v-container>
-        <h2
-          class="font-weight-bold mb-3 text-uppercase text-center black--text"
-          style="font-size:50px"
-        >{{$t('contact.title')}}</h2>
+     
         <h4
           class="font-weight-bold mb-3 text-uppercase text-center black--text"
-          style="font-size:20px"
+          style="font-size:35px"
         >{{$t('contact.intro')}}
         </h4>
+        <p class="text-center font-weight-bold">
+          If you have any questions, feel free to mail us.
+        </p>
 <div class="text-center">
        <a
           href="mailto:educovid@outlook.com"
