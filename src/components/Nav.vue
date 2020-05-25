@@ -110,7 +110,7 @@
           <v-col cols="3" align="center">
             <div class="img-gradient">
               <router-link to="/">
-                <v-img contain class="grayscale" width="40" src="../assets/onlyvirus.png"></v-img>
+                <v-img contain class="grayscale" width="40" src="../assets/icons/LOGO-ALONE.png"></v-img>
               </router-link>
             </div>
           </v-col>
