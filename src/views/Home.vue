@@ -21,7 +21,7 @@
                   >EDUCOVID</span>
                 </v-col>
                 <v-col cols="12">
-                  <div style="padding-right:20%;padding-left:20%;">
+                  <div style="padding-right:25%; padding-left:25%;" >
                   <v-text-field light label="Search.." 
                   filled 
                   rounded 
