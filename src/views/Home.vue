@@ -121,13 +121,28 @@
               <v-card-text class="subtitle-1 white--text">{{$t('values.values')}}</v-card-text>
             </v-card>
           </v-col>
+        <v-col cols="12">
+          <br />
+          <br />
+            <h1 class="icons--text font-weight-black text-uppercase" style="font-size:40px;">Have some Questions?</h1> 
+            <br>
+                            <v-btn
+                  class="align-self-end"
+                  fab
+                  outlined
+                  color="icons"
+                  @click="$vuetify.goTo('#contact-us')"
+                >
+                  <v-icon>mdi-chevron-double-down</v-icon>
+                </v-btn>
+        </v-col>
         </v-row>
       </v-container>
 
       <div class="py-12"></div>
       <section id="stats">
         <v-parallax
-          :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
+          :height="$vuetify.breakpoint.smAndDown ? 600 : 500"
           src="../assets/home/virusblue2.jpg"
         >
           <v-container fill-height>
@@ -146,7 +161,7 @@
     </section>
 
     <!-- contact us section-->
-    <Contact></Contact>
+    <Contact id="contact-us"></Contact>
     <div class="py-12"></div>
   </div>
 </template>
