@@ -311,45 +311,45 @@
         keys: [
           'Date',
           'Name',
-          'Content',
+          'Update',
           
         ],
         items: [
           {
             name: 'Stage 2 opening of Denmark',
             date: "21st May",
-            content: "Stage 2 - Higher education can conduct oral exams physically as well as teaching activities that require physical attendance, from May 27th.",
+            update: "Higher education can now conduct oral exams physically as well as teaching activities that require physical attendance, from May 27th.",
            
           },
           {
                 name: 'Get tested for Corona',
             date: "18th May",
-            content: "Adults can now and in the future book a time to get corona tested, without a referral from their own doctor. The 18-25 yar olds got a head start to book a time starting Monday 18th. ",
+            update: "Adults can now and in the future book a time to get corona tested, without a referral from their own doctor. The 18-25 yar olds got a head start to book a time starting Monday 18th. ",
           },
                     {
                 name: 'Stage 1 Opening of Denmark',
             date: "6th April",
-            content: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+           update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
           },
                               {
                 name: 'Sdadadadada',
             date: "5th April",
-            content: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+            update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
           },
                               {
                 name: 'gdfgadgAG',
             date: "4th April",
-            content: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+            update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
           },
                               {
                 name: 'uytrewdfs',
             date: "3th April",
-            content: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+            update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
           },
                               {
                 name: 'piuytfsd',
             date: "2nd April",
-            content: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+            update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
           },
 
         ],
