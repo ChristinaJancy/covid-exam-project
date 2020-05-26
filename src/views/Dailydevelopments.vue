@@ -214,7 +214,7 @@
             lg="12"
           >
             <v-card>
-              <v-card-title class="subheading font-weight-bold" style="font-size:25px;">{{ item.name }}</v-card-title>
+              <v-card-title class="subheading font-weight-bold primary--text" style="font-size:25px;">{{ item.name }}</v-card-title>
 
               <v-divider></v-divider>
 
