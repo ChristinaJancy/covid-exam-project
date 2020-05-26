@@ -18,19 +18,17 @@
       <v-tab-item value="tab-1">
         <v-card flat>
           <v-row class="pa-0 ma-0">
-
-<!--------------------------------------
+            <!--------------------------------------
 
                       KEEP DISTANCE
 
-------------------------------------------->
+            ------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">KEEP DISTANCE</h1>
               <v-responsive class="mx-auto" width="56">
                 <v-divider class="mb-1"></v-divider>
                 <v-divider></v-divider>
               </v-responsive>
-
 
               <v-img
                 @click="overlay1 = !overlay1"
@@ -40,12 +38,12 @@
                 style="width:calc(100% - 80px);"
                 src="../assets/rules/cafeteria-poster.png"
               ></v-img>
-    
+
               <!----- Overlay  ----->
-              <v-overlay :value="overlay1">
+              <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay1">
                 <v-img
-                  max-height="90vh"
-                  max-width="90vw"
+                  width="auto"
+                  height="auto"
                   contain
                   class="mx-auto"
                   src="../assets/rules/cafeteria-poster.png"
@@ -64,11 +62,11 @@
               >Download (opens new tab)</a>
             </v-col>
 
-<!--------------------------------------
+            <!--------------------------------------
 
                     WASH HANDS
 
-------------------------------------------->
+            ------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">WASH YOUR HANDS</h1>
               <v-responsive class="mx-auto" width="56">
@@ -83,9 +81,10 @@
                 style="width:calc(100% - 80px);"
                 src="../assets/rules/bathroom-poster.png"
               ></v-img>
-              <v-overlay :value="overlay2">
+              <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay2">
                 <v-img
-                  max-height="90vh"
+                  width="auto"
+                  height="auto"
                   contain
                   class="mx-auto"
                   src="../assets/rules/bathroom-poster.png"
@@ -104,11 +103,11 @@
               </div>
             </v-col>
 
-<!--------------------------------------
+            <!--------------------------------------
 
                       STAY SAFE
 
-------------------------------------------->
+            ------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">STAY SAFE</h1>
               <v-responsive class="mx-auto" width="56">
@@ -123,9 +122,10 @@
                 style="width:calc(100% - 80px);"
                 src="../assets/rules/posterdesign-main.png"
               ></v-img>
-              <v-overlay :value="overlay3">
+              <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay3">
                 <v-img
-                  max-height="90vh"
+                  width="auto"
+                  height="auto"
                   contain
                   class="mx-auto"
                   src="../assets/rules/posterdesign-main.png"
@@ -149,12 +149,11 @@
       <v-tab-item value="tab-2">
         <v-card flat>
           <v-row class="pa-0 ma-0">
-
-<!--------------------------------------
+            <!--------------------------------------
 
                      HOLD FYSISK AFSTAND
 
-------------------------------------------->
+            ------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">HOLD FYSISK AFSTAND</h1>
               <v-responsive class="mx-auto" width="56">
@@ -169,9 +168,10 @@
                 style="width:calc(100% - 80px);"
                 src="../assets/rules/cafeteria-posterDAN.png"
               ></v-img>
-              <v-overlay :value="overlay4">
+              <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay4">
                 <v-img
-                  max-height="90vh"
+                  width="auto"
+                  height="auto"
                   contain
                   class="mx-auto"
                   src="../assets/rules/cafeteria-posterDAN.png"
@@ -187,11 +187,11 @@
                 target="_blank"
               >Download(åbner ny fane)</a>
             </v-col>
-<!---------------------------------------------
+            <!---------------------------------------------
 
                       VASK DINE HÆNDER
 
------------------------------------------------>
+            ----------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">VASK DINE HÆNDER</h1>
               <v-responsive class="mx-auto" width="56">
@@ -207,9 +207,10 @@
                 style="width:calc(100% - 80px);"
                 src="../assets/rules/bathroom-posterDAN.png"
               ></v-img>
-              <v-overlay :value="overlay5">
+              <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay5">
                 <v-img
-                  max-height="90vh"
+                  width="auto"
+                  height="auto"
                   contain
                   class="mx-auto"
                   src="../assets/rules/bathroom-posterDAN.png"
@@ -226,11 +227,11 @@
               >Download(åbner ny fane)</a>
             </v-col>
 
-<!-------------------------------------------------------
+            <!-------------------------------------------------------
 
                     PAS PÅ DIG SELV
 
---------------------------------------------------------->
+            --------------------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">PAS PÅ SIG SELV</h1>
               <v-responsive class="mx-auto" width="56">
@@ -245,9 +246,10 @@
                 style="width:calc(100% - 80px);"
                 src="../assets/rules/posterdesign-mainDAN.png"
               ></v-img>
-               <v-overlay :value="overlay6">
+              <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay6">
                 <v-img
-                  max-height="90vh"
+                  width="auto"
+                  height="auto"
                   contain
                   class="mx-auto"
                   src="../assets/rules/posterdesign-mainDAN.png"
