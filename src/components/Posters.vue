@@ -261,7 +261,7 @@
                 class
                 href="https://firebasestorage.googleapis.com/v0/b/portfolio-708bc.appspot.com/o/posterdesign-mainDAN.png?alt=media&token=9df08b92-9da3-48b2-9bba-bc9ca92956da"
                 target="_blank"
-              >Se større (åbner ny fane)</a>
+              >Download (åbner ny fane)</a>
             </v-col>
           </v-row>
         </v-card>
