@@ -42,8 +42,8 @@
               <!----- Overlay  ----->
               <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay1">
                 <v-img
-                  width="auto"
-                  height="auto"
+                  max-width="90vw"
+                  max-height="90vh"
                   contain
                   class="mx-auto"
                   src="../assets/rules/cafeteria-poster.png"
@@ -83,8 +83,8 @@
               ></v-img>
               <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay2">
                 <v-img
-                  width="auto"
-                  height="auto"
+                  max-width="90vw"
+                  max-height="90vh"
                   contain
                   class="mx-auto"
                   src="../assets/rules/bathroom-poster.png"
@@ -124,8 +124,8 @@
               ></v-img>
               <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay3">
                 <v-img
-                  width="auto"
-                  height="auto"
+                  max-width="90vw"
+                  max-height="90vh"
                   contain
                   class="mx-auto"
                   src="../assets/rules/posterdesign-main.png"
@@ -170,8 +170,8 @@
               ></v-img>
               <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay4">
                 <v-img
-                  width="auto"
-                  height="auto"
+                  max-width="90vw"
+                  max-height="90vh"
                   contain
                   class="mx-auto"
                   src="../assets/rules/cafeteria-posterDAN.png"
@@ -209,8 +209,8 @@
               ></v-img>
               <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay5">
                 <v-img
-                  width="auto"
-                  height="auto"
+                  max-width="90vw"
+                  max-height="90vh"
                   contain
                   class="mx-auto"
                   src="../assets/rules/bathroom-posterDAN.png"
@@ -248,8 +248,8 @@
               ></v-img>
               <v-overlay class="mx-auto" max-width="90%" max-height="90%" :value="overlay6">
                 <v-img
-                  width="auto"
-                  height="auto"
+                  max-width="90vw"
+                  max-height="90vh"
                   contain
                   class="mx-auto"
                   src="../assets/rules/posterdesign-mainDAN.png"
