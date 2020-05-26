@@ -91,6 +91,9 @@
       "email":"E-mail",
       "questions" :"Question(s)",
       "button": "SEND MESSAGE"
+  },
+  "dailydevelopments" : {
+    "title" : "DAILY DEVELOPMENT"
   }
   
 }

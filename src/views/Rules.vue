@@ -130,12 +130,43 @@
 Posters 
 
 --------------------->
+
+
+      </v-row>
+
          <v-col cols="12">
-          <h1 class="my-12 primary--text">These poster will be hanging around the educational institutions,
+          <h1 class="my-12 primary--text">To help you remember the rules and make sure they are kept,
             <br>
-            to help you remember the rules and make sure they are kept.</h1>
+             these poster will be hanging around the educational institutions,
+            <br>
+            </h1>
         </v-col>
-        <v-col md="4" sm="12">
+        <v-card>
+    <v-tabs
+      v-model="tab"
+      background-color="primary"
+      centered
+      dark
+      icons-and-text
+    >
+      <v-tabs-slider></v-tabs-slider>
+
+      <v-tab href="#tab-1">
+       English
+      </v-tab>
+
+      <v-tab href="#tab-2">
+        Danish
+      </v-tab>
+    </v-tabs>
+
+    <v-tabs-items v-model="tab">
+      <v-tab-item
+        value="tab-1"
+      >
+        <v-card flat>
+          <v-row>
+           <v-col md="4" sm="12">
 
           <v-img
             max-height="500"
@@ -166,7 +197,52 @@ Posters
           ></v-img>
             <h1 class="primary--text">STAY SAFE</h1>
         </v-col>
-      </v-row>
+        </v-row>
+        </v-card>
+      </v-tab-item>
+       <v-tab-item
+        value="tab-2"
+      >
+        <v-card flat>
+          <v-row>
+           <v-col md="4" sm="12">
+
+          <v-img
+            max-height="500"
+            contain
+            class="mx-auto"
+            style="width:calc(100% - 80px);"
+            src="../assets/rules/cafeteria-posterDAN.png"
+          ></v-img>
+                    <h1 class="primary--text">KEEP DISTANCE</h1>
+        </v-col>
+                <v-col md="4" sm="12">
+          <v-img
+            max-height="500"
+            contain
+            class="mx-auto"
+            style="width:calc(100% - 80px);"
+            src="../assets/rules/bathroom-posterDAN.png"
+          ></v-img>
+            <h1 class="primary--text">WASH YOUR HANDS</h1>
+        </v-col>
+                <v-col md="4" sm="12">
+          <v-img
+            max-height="500"
+            contain
+            class="mx-auto"
+            style="width:calc(100% - 80px);"
+            src="../assets/rules/posterdesign-mainDAN.png"
+          ></v-img>
+            <h1 class="primary--text">STAY SAFE</h1>
+        </v-col>
+        </v-row>
+        </v-card>
+      </v-tab-item>
+    </v-tabs-items>
+  </v-card>
+
+
     </section>
   </div>
 </template>
@@ -187,3 +263,14 @@ Posters
   filter:progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444');
 }
 </style>
+
+
+<script scoped>
+ export default {
+ data () {
+      return {
+        tab: null,
+      }
+ }
+ }
+</script> 

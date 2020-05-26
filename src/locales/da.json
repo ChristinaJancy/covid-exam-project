@@ -91,5 +91,8 @@
         "email":"E-mail",
         "questions" :"Spørgsmål",
         "button" :"SEND BESKED"
-    }
+    },
+    "dailydevelopments" : {
+        "title" : "DAGLIGE OPDATERINGER"
+      }
 }
