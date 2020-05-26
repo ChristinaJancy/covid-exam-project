@@ -18,11 +18,12 @@
       <v-tab-item value="tab-1">
         <v-card flat>
           <v-row class="pa-0 ma-0">
-            <!------------
 
-      KEEP DISTANCE
+<!--------------------------------------
 
-            ----------->
+                      KEEP DISTANCE
+
+------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">KEEP DISTANCE</h1>
               <v-responsive class="mx-auto" width="56">
@@ -30,7 +31,8 @@
                 <v-divider></v-divider>
               </v-responsive>
 
-              <v-img
+<v-hover  v-slot:default="{ hover }">
+              <v-img :elevation="hover ? 16 : 2"
                 @click="overlay1 = !overlay1"
                 max-height="500"
                 contain
@@ -38,6 +40,7 @@
                 style="width:calc(100% - 80px);"
                 src="../assets/rules/cafeteria-poster.png"
               ></v-img>
+              </v-hover>
               <!----- Overlay  ----->
               <v-overlay :value="overlay1">
                 <v-img
@@ -60,11 +63,11 @@
               >Download (opens new tab)</a>
             </v-col>
 
-            <!----------------------------
+<!--------------------------------------
 
-              WASH YOUR HANDS
+                    WASH HANDS
 
-            --------------------------->
+------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">WASH YOUR HANDS</h1>
               <v-responsive class="mx-auto" width="56">
@@ -100,11 +103,11 @@
               </div>
             </v-col>
 
-            <!-------------------------------------------
+<!--------------------------------------
 
-                  STAY SAFE 
+                      STAY SAFE
 
-            -------------------------------------------->
+------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">STAY SAFE</h1>
               <v-responsive class="mx-auto" width="56">
@@ -145,6 +148,12 @@
       <v-tab-item value="tab-2">
         <v-card flat>
           <v-row class="pa-0 ma-0">
+
+<!--------------------------------------
+
+                     HOLD FYSISK AFSTAND
+
+------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">HOLD FYSISK AFSTAND</h1>
               <v-responsive class="mx-auto" width="56">
@@ -177,7 +186,11 @@
                 target="_blank"
               >Download(åbner ny fane)</a>
             </v-col>
+<!---------------------------------------------
 
+                      VASK DINE HÆNDER
+
+----------------------------------------------->
             <v-col md="4" sm="12">
               <h1 class="primary--text">VASK DINE HÆNDER</h1>
               <v-responsive class="mx-auto" width="56">
