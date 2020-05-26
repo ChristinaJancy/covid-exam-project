@@ -115,6 +115,7 @@
             src="../assets/rules/schoolbar.jpg"
           ></v-img>
         </v-col>
+
         <v-col md="6" sm="12" class="my-auto">
           <br />
           <p class="pt-5 mx-10 text-left" style="font-size: 20px;">
@@ -122,6 +123,48 @@
             <br />
             {{$t('rules.rule3.context2')}}
           </p>
+        </v-col>
+
+<!--------------------
+
+Posters 
+
+--------------------->
+         <v-col cols="12">
+          <h1 class="my-12 primary--text">These poster will be hanging around the educational institutions,
+            <br>
+            to help you remember the rules and make sure they are kept.</h1>
+        </v-col>
+        <v-col md="4" sm="12">
+
+          <v-img
+            max-height="500"
+            contain
+            class="mx-auto"
+            style="width:calc(100% - 80px);"
+            src="../assets/rules/cafeteria-poster.png"
+          ></v-img>
+                    <h1 class="primary--text">KEEP DISTANCE</h1>
+        </v-col>
+                <v-col md="4" sm="12">
+          <v-img
+            max-height="500"
+            contain
+            class="mx-auto"
+            style="width:calc(100% - 80px);"
+            src="../assets/rules/bathroom-poster.png"
+          ></v-img>
+            <h1 class="primary--text">WASH YOUR HANDS</h1>
+        </v-col>
+                <v-col md="4" sm="12">
+          <v-img
+            max-height="500"
+            contain
+            class="mx-auto"
+            style="width:calc(100% - 80px);"
+            src="../assets/rules/posterdesign-main.png"
+          ></v-img>
+            <h1 class="primary--text">STAY SAFE</h1>
         </v-col>
       </v-row>
     </section>
