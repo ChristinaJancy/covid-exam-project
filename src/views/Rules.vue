@@ -219,7 +219,7 @@ Posters
           <!-- Danish posters -->
           <v-tab-item value="tab-2">
             <v-card flat>
-              <v-row>
+              <v-row class="pa-0 ma-0">
                 <v-col md="4" sm="12">
                   <h1 class="primary--text">HOLD FYSISK AFSTAND</h1>
                   <v-responsive class="mx-auto" width="56">
