@@ -188,7 +188,7 @@
             max-height="300"
             contain
             style="width:calc(100% - 80px);"
-            src="../assets/icons/confused.png"
+            src="../assets/icons/worried.png"
           ></v-img>
         </v-col>
         <v-col sm="12" md="6" class="my-auto">
@@ -215,10 +215,10 @@
 
 
 <style lang="scss" scoped>
-.orangefilter {
+/*.orangefilter {
   filter: invert(40%) sepia(25%) saturate(10000%) hue-rotate(15deg)
     brightness(104%) contrast(90%);
-}
+}*/
 
 @media screen and (max-width: 700px) {
   #guidelines {
