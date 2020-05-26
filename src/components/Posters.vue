@@ -31,8 +31,8 @@
                 <v-divider></v-divider>
               </v-responsive>
 
-<v-hover  v-slot:default="{ hover }">
-              <v-img :elevation="hover ? 16 : 2"
+
+              <v-img
                 @click="overlay1 = !overlay1"
                 max-height="500"
                 contain
@@ -40,11 +40,12 @@
                 style="width:calc(100% - 80px);"
                 src="../assets/rules/cafeteria-poster.png"
               ></v-img>
-              </v-hover>
+    
               <!----- Overlay  ----->
               <v-overlay :value="overlay1">
                 <v-img
                   max-height="90vh"
+                  max-width="90vh"
                   contain
                   class="mx-auto"
                   src="../assets/rules/cafeteria-poster.png"
