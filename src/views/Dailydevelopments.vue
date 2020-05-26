@@ -214,7 +214,7 @@
             lg="12"
           >
             <v-card>
-              <v-card-title class="subheading font-weight-bold">{{ item.name }}</v-card-title>
+              <v-card-title class="subheading font-weight-bold" style="font-size:25px;">{{ item.name }}</v-card-title>
 
               <v-divider></v-divider>
 
@@ -223,8 +223,16 @@
                   v-for="(key, index) in filteredKeys"
                   :key="index"
                 >
-                  <v-list-item-content :class="{ 'blue--text': sortBy === key }">{{ key }}:</v-list-item-content>
-                  <v-list-item-content class="align-end" :class="{ 'blue--text': sortBy === key }">{{ item[key.toLowerCase()] }}</v-list-item-content>
+                <v-row>
+                  <v-col cols="12" md="2" sm="12" xs="12">
+   <h3><v-list-item-content  :class="{ 'blue--text': sortBy === key }">{{ key }}:</v-list-item-content> </h3>
+                  </v-col>
+                  <v-col cols="12" md="10" sm="12" xs="12">
+  <v-list-item-content class="align-end" style="font-size:18px;" :class="{ 'blue--text': sortBy === key }">{{ item[key.toLowerCase()] }}</v-list-item-content>
+                  </v-col>
+                </v-row>
+               
+                
                 </v-list-item>
               </v-list>
             </v-card>
@@ -317,8 +325,8 @@
         items: [
           {
             name: 'Stage 2 opening of Denmark',
-            date: "21st May",
-            update: "Higher education can now conduct oral exams physically as well as teaching activities that require physical attendance, from May 27th.",
+            date: " 21st May",
+            update: " Higher education can now conduct oral exams physically as well as teaching activities that require physical attendance, from May 27th.",
            
           },
           {
