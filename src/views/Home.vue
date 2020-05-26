@@ -22,10 +22,12 @@
                 </v-col>
                 <v-col cols="12">
                   <div style="padding-right:25%; padding-left:25%;" >
-                  <v-text-field light label="Search.." 
+                  <v-text-field light 
+                  label="search the site..."
                   filled 
                   rounded 
                   solo
+                  style="black--text"
                   background-color="white"
                   dense
                   prepend-inner-icon="mdi-magnify"
