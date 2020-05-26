@@ -127,7 +127,17 @@
 Posters 
 
         --------------------->
+
+      
       </v-row>
+    <v-row class="pa-0 ma-0 primary" dense>
+             <v-col cols="12">
+          <h1 class="my-12 white--text" style="line-height:50px;">
+            To help you remember the rules and make sure they are kept,
+            <br />these poster will be hanging around the educational institutions.
+          </h1>
+        </v-col>
+    </v-row>
       <v-card flat tile class="mx-auto">
         <v-tabs v-model="tab" background-color="primary" centered dark icons-and-text>
           <v-tabs-slider></v-tabs-slider>
@@ -136,13 +146,7 @@ Posters
 
           <v-tab href="#tab-2">Danish</v-tab>
         </v-tabs>
-        <v-col cols="12">
-          <h1 class="my-12 primary--text">
-            To help you remember the rules and make sure they are kept,
-            <br />these poster will be hanging around the educational institutions.
-            <br />
-          </h1>
-        </v-col>
+  <p> <em>On mobile, swipe left/right to switch between languages. </em></p>
         <v-tabs-items v-model="tab">
           <!-- English posters -->
           <v-tab-item value="tab-1">
