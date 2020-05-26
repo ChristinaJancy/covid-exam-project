@@ -45,7 +45,7 @@
               <v-overlay :value="overlay1">
                 <v-img
                   max-height="90vh"
-                  max-width="90vh"
+                  max-width="90vw"
                   contain
                   class="mx-auto"
                   src="../assets/rules/cafeteria-poster.png"
