@@ -93,6 +93,26 @@
         "button" :"SEND BESKED"
     },
     "dailydevelopments" : {
-        "title" : "DAGLIGE OPDATERINGER"
-      }
+        "title" : "DAGLIGE OPDATERINGER",
+        "intro" : "Her kan du se alle opdateringer omkring covid-19, med fokus på unge voksne.",
+        "items-page" : "Updateringer pr. side",
+        "page" : "Side ",
+        "of" : "af "
+    },
+
+    "posters" :{
+        "intro1" : "For at hjælpe dig med at huske disse regler, og være sikker på at de bliver overholdt,",
+        "intro2" : "kommer der til at hænge disse plakater rundt på uddannelsesinstitutionerne.",
+        "intro3" : "Tryk på et billede for at forstørre det.",
+        "dk" : "DANSK", 
+        "en" : "ENGELSK", 
+        "swipe" : "På smartphone, swipe højre/venstre for at skifte mellem sprog.",
+        "link" : "Download(åbner ny fane)",
+        "keep-distanceEN" : "KEEP THE DISTANCE",
+        "wash-handsEN" : "WASH YOUR HANDS", 
+        "stay-safeEN" : "STAY SAFE", 
+        "keep-distanceDK" : "HOLD FYSISK AFSTAND",
+        "wash-handsDK" : "VASK DINE HÆNDER", 
+        "stay-safeDK" : "PAS PÅ DIG SELV"
+    }
 }

@@ -51,7 +51,7 @@
                 </v-col>
                 -->
                 <br>
-    <h3 class="pt-5 mx-10">Here you can see all updates about covid-19, focused on young adults.</h3>
+    <h3 class="pt-5 mx-10">{{$t('dailydevelopments.intro')}}</h3>
        <br><br><br>
     <section style="line-height:40px;">
 
@@ -148,7 +148,7 @@
           
         </v-toolbar>
                 <v-row class="mt-2 mx-2" align="center" justify="center">
-          <span class="grey--text">Items per page</span>
+          <span class="grey--text">{{$t('dailydevelopments.items-page')}}</span>
           <v-menu offset-y>
             <template v-slot:activator="{ on }">
               <v-btn
@@ -179,7 +179,7 @@
             class="mr-4
             grey--text"
           >
-            Page {{ page }} of {{ numberOfPages }}
+            {{$t('dailydevelopments.page')}} {{ page }} {{$t('dailydevelopments.of')}} {{ numberOfPages }}
           </span>
           <v-btn
             fab
@@ -243,7 +243,7 @@
 
       <template v-slot:footer>
         <v-row class="mt-2 mx-2" align="center" justify="center">
-          <span class="grey--text">Items per page</span>
+          <span class="grey--text">{{$t('dailydevelopments.items-page')}}</span>
           <v-menu offset-y>
             <template v-slot:activator="{ on }">
               <v-btn
@@ -274,7 +274,7 @@
             class="mr-4
             grey--text"
           >
-            Page {{ page }} of {{ numberOfPages }}
+           {{$t('dailydevelopments.page')}} {{ page }} {{$t('dailydevelopments.of')}} {{ numberOfPages }}
           </span>
           <v-btn
             fab

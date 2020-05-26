@@ -93,7 +93,26 @@
       "button": "SEND MESSAGE"
   },
   "dailydevelopments" : {
-    "title" : "DAILY DEVELOPMENT"
-  }
+    "title" : "DAILY DEVELOPMENT",
+    "intro" : "Here you can see all updates about covid-19, focused on young adults.",
+    "items-page" : "Items per page",
+    "page" : "Page ",
+    "of" : "of "
+  },
+  "posters" :{
+    "intro1" : "To help you remember the rules and make sure they are kept,",
+    "intro2" : "these poster will be hanging around the educational institutions.",
+    "intro3" : "Click on an image to view large version.",
+    "dk" : "DANISH", 
+    "en" : "ENGLISH", 
+    "swipe" : "On mobile, swipe left/right to switch between languages.",
+    "link" : "Download(opens new tab)",
+    "keep-distanceEN" : "KEEP THE DISTANCE",
+    "wash-handsEN" : "WASH YOUR HANDS", 
+    "stay-safeEN" : "STAY SAFE", 
+    "keep-distanceDK" : "HOLD FYSISK AFSTAND",
+    "wash-handsDK" : "VASK DINE HÆNDER", 
+    "stay-safeDK" : "PAS PÅ DIG SELV"
+}
   
 }

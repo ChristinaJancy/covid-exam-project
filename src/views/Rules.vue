@@ -133,10 +133,10 @@ Posters
     <v-row class="pa-0 ma-0 primary" dense>
              <v-col cols="12">
           <h1 class="my-12 white--text" style="line-height:50px;">
-            To help you remember the rules and make sure they are kept,
-            <br />these poster will be hanging around the educational institutions.
+           {{$t('posters.intro1')}}
+            <br />{{$t('posters.intro2')}}
           </h1>
-          <b class="white--text" style="font-size:20px;">Click image to view large version.</b>
+          <b class="white--text" style="font-size:20px;">{{$t('posters.intro3')}}</b>
         </v-col>
     </v-row>
       <Posters> </Posters>
