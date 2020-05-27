@@ -3,11 +3,13 @@
         "rules": "Regler",
         "guidelines": "Retningslinjer",
         "dailydevelopments": "Dalige Opdateringer",
-        "language": "Sprog:"
+        "language": "Sprog:",
+        "aboutus" : "Om Educovid"
     },
     "about": {
         "title": "Om os",
-        "content": "Vi er Educovid, og vi vil guide dig igennem genåbningen af uddannelsesinstitutionerne her i Danmark. "
+        "content": "Vi er Educovid, og vi vil guide dig igennem genåbningen af uddannelsesinstitutionerne her i Danmark. ",
+        "about" : "OM EDUCOVID"
     },
     "values": {
         "headline": "Vi tror på",

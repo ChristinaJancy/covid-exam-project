@@ -66,7 +66,7 @@
 
             <div style="display:table-cell;">
               <router-link
-                to="/dailydevelopments"
+                to="/about"
                 class="mx-1"
                 style="font-family: 'Nunito', sans-serif;"
               >
@@ -78,7 +78,7 @@
                   width="35"
                   src="../assets/icons/info-alone.png"
                 ></v-img> -->
-                {{$t('nav.dailydevelopments')}}
+                {{$t('nav.aboutus')}}
               </router-link>
             </div>
           </div>
@@ -110,7 +110,7 @@
           <v-col cols="3" align="center">
             <div class="img-gradient">
               <router-link to="/">
-                <v-img contain class="grayscale" width="40" src="../assets/icons/LOGO-ALONE.png"></v-img>
+                <v-img contain class="grayscale" width="50" src="../assets/icons/info-alone.png"></v-img>
               </router-link>
             </div>
           </v-col>
@@ -138,8 +138,8 @@
 
           <v-col cols="3" align="center">
             <div class="img-gradient">
-              <router-link to="/dailydevelopments">
-                <v-img contain class="grayscale" width="50" src="../assets/icons/info-alone.png"></v-img>
+              <router-link to="/about">
+                <v-img contain class="grayscale" width="65" src="../assets/icons/aboutus-alone.png"></v-img>
               </router-link>
             </div>
           </v-col>

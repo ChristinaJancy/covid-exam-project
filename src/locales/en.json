@@ -3,11 +3,13 @@
     "rules": "Rules",
     "guidelines": "Guidelines",
     "dailydevelopments": "Daily Developments",
-    "language": "Language:"
+    "language": "Language:",
+    "aboutus" : "About Educovid"
   },
   "about": {
     "title": "ABOUT US",
-    "content": "We are Educovid, and we'll guide you through the re-opening of Educational institutions."
+    "content": "We are Educovid, and we'll guide you through the re-opening of Educational institutions.",
+    "about" : "ABOUT EDUCOVID"
   },
   "values": {
     "headline": "We believe in",

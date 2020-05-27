@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="daily">
     <section id="hero">
       <v-row no-gutters id="home">
         <v-img
@@ -42,7 +42,7 @@
                   fab
                   outlined
                   color="white"
-                  @click="$vuetify.goTo('#about-us')"
+                  @click="$vuetify.goTo('.daily')"
                 >
                   <v-icon>mdi-chevron-double-down</v-icon>
                 </v-btn>
@@ -52,180 +52,431 @@
         </v-img>
       </v-row>
     </section>
+   <!-- <br />
+     <v-col cols="12">
+                  <div style="padding-right:20%;padding-left:20%;">
+                  <v-text-field light label="Search.." 
+                  filled 
+                  rounded 
+                  solo
+                  outlined 
+                  background-color="white"
+                  dense
+                  prepend-inner-icon="mdi-magnify"
+                  clearable
+                  >
+                  </v-text-field>
+                  </div>
+                </v-col>
+                -->
+                <br>
+    <h2 class="pt-5 mx-10 daily text-center">{{$t('dailydevelopments.intro')}}</h2>
+       <br><br><br>
+    <section style="line-height:40px;">
 
-    <section id="about-us">
-      <div class="py-12"></div>
+     <!-- <v-row style="margin: 0 auto; padding: 0 auto;" align="center">
 
-      <v-container class="text-center">
-        <h2 class="font-weight-bold mb-3" style="font-size:50px;">{{$t('about.title')}}</h2>
-        <v-responsive class="mx-auto mb-8" width="56">
-          <v-divider class="mb-1"></v-divider>
-          <v-divider></v-divider>
-        </v-responsive>
-        <v-responsive
-          class="mx-auto title font-weight-light mb-8"
-          max-width="720"
-        >{{$t('about.content')}}</v-responsive>
-        <v-avatar class="elevation-12 mb-12" size="128">
-          <v-img id="onlyvirus" src="../assets/onlyvirus.png" contain></v-img>
-        </v-avatar>
-      </v-container>
-    </section>
+<v-card class="mx-auto">
+    <v-card-title>
+      All Daily updates
+      <v-spacer></v-spacer>
+      <v-text-field
+        v-model="search"
+        append-icon="mdi-magnify"
+       label="Search (UPPER CASE ONLY)"
+        single-line
+        hide-details
+      ></v-text-field>
+    </v-card-title>
+<h3>
+    <v-data-table
+      :headers="headers"
+      :items="desserts"
+      :search="search"
+    ></v-data-table>
+</h3>
+  </v-card>
+      </v-row> -->
 
-    <section id="features" class="white">
-      <v-container class="text-center">
-        <!-- <h2 class="display-2 font-weight-bold mb-3">{{$t('values.headline')}}</h2> -->
-        <v-responsive class="mx-auto mb-12" width="56">
-          <v-divider class="mb-1"></v-divider>
-          <v-divider></v-divider>
-        </v-responsive>
-        <v-row>
-          <div class="py-12"></div>
-          <v-col cols="12" md="4">
-            <v-card class="py-12 px-4" color="styling" flat height="300">
-              <v-theme-provider dark>
-                <!--<div>
-                  <v-avatar color="white" size="88">
-                    <v-icon large color="icons">mdi-account</v-icon>
-                  </v-avatar>
-                </div>-->
-              </v-theme-provider>
-              <v-card-title
-                class="justify-center font-weight-black white--text text-uppercase"
-                style="font-size:40px; padding-bottom:30px;"
-              >{{$t('values.messagetitle')}}</v-card-title>
-              <v-card-text class="subtitle-1 white--text">{{$t('values.message')}}</v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="4">
-            <v-card class="py-12 px-4" color="primary" flat height="300">
-              <v-theme-provider dark></v-theme-provider>
-              <v-card-title
-                class="justify-center font-weight-black white--text text-uppercase"
-                style="font-size:40px; padding-bottom:30px;"
-              >{{$t('values.goalstitle')}}</v-card-title>
-              <v-card-text class="subtitle-1 white--text">{{$t('values.goals')}}</v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="4">
-            <v-card class="py-12 px-4" color="styling" flat height="300">
-              <v-theme-provider dark>
-                <!--<div>
-                  <v-avatar color="white" size="88">
-                    <v-icon large color="icons">mdi-account</v-icon>
-                  </v-avatar>
-                </div>-->
-              </v-theme-provider>
-              <v-card-title
-                class="justify-center font-weight-black white--text text-uppercase"
-                style="font-size:40px; padding-bottom:30px;"
-              >{{$t('values.valuestitle')}}</v-card-title>
-              <v-card-text class="subtitle-1 white--text">{{$t('values.values')}}</v-card-text>
-            </v-card>
-          </v-col>
-        <v-col cols="12">
-          <br />
-          <br />
-            <h1 class="icons--text font-weight-black text-uppercase" style="font-size:40px;">Have some Questions?</h1> 
-            <br>
-                            <v-btn
-                  class="align-self-end"
-                  fab
-                  outlined
-                  color="icons"
-                  @click="$vuetify.goTo('#contact-us')"
-                >
-                  <v-icon>mdi-chevron-double-down</v-icon>
-                </v-btn>
-        </v-col>
-        </v-row>
-      </v-container>
-
-      <div class="py-12"></div>
-      <section id="stats">
-        <v-parallax
-          :height="$vuetify.breakpoint.smAndDown ? 600 : 500"
-          src="../assets/home/virusblue2.jpg"
+      <v-container >
+    <v-data-iterator
+      :items="items"
+      :items-per-page.sync="itemsPerPage"
+      :page="page"
+      :search="search"
+      :sort-by="sortBy.toLowerCase()"
+      :sort-desc="sortDesc"
+      hide-default-footer
+    >
+    
+      <template v-slot:header>
+        <v-toolbar
+          dark
+          color="primary"
+          class="mb-1"
         >
-          <v-container fill-height>
-            <v-row class="mx-auto">
-              <v-col v-for="[value, title] of stats" :key="title" cols="12" md="3">
-                <div class="text-center">
-                  <div class="display-3 font-weight-black mb-4" v-text="value"></div>
-                  <div class="title font-weight-regular text-uppercase" v-text="title"></div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-parallax>
-      </section>
-      <div class="py-12 white para-to-contact"></div>
-    </section>
+        <h1>Updates</h1>
+          <v-spacer></v-spacer>
+          <v-text-field
+            v-model="search"
+            clearable
+            flat
+            solo-inverted
+            hide-details
+            prepend-inner-icon="mdi-magnify"
+            label="Search"
+          ></v-text-field>
+          <template v-if="$vuetify.breakpoint.mdAndUp">
+            
 
-    <!-- contact us section-->
-    <Contact id="contact-us"></Contact>
-    <div class="py-12"></div>
-  </div>
+            <!--
+            <v-select
+              v-model="sortBy"
+              flat
+              solo-inverted
+              hide-details
+              :items="keys"
+              prepend-inner-icon="mdi-magnify"
+              label="Sort by"
+            ></v-select>
+            <v-spacer></v-spacer>
+           
+            <v-btn-toggle
+              v-model="sortDesc"
+              mandatory
+            >
+              <v-btn
+                large
+                depressed
+                color="icons"
+                :value="false"
+              >
+                <v-icon>mdi-arrow-up</v-icon>
+              </v-btn>
+              <v-btn
+                large
+                depressed
+                color="icons"
+                :value="true"
+              >
+                <v-icon>mdi-arrow-down</v-icon>
+              </v-btn>
+            </v-btn-toggle>
+             -->
+          </template>
+          
+        </v-toolbar>
+                <v-row class="mt-2 mx-2" align="center" justify="center">
+          <span class="grey--text">{{$t('dailydevelopments.items-page')}}</span>
+          <v-menu offset-y>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                dark
+                text
+                color="primary"
+                class="ml-2"
+                v-on="on"
+              >
+                {{ itemsPerPage }}
+                <v-icon>mdi-chevron-down</v-icon>
+              </v-btn>
+            </template>
+            <v-list>
+              <v-list-item
+                v-for="(number, index) in itemsPerPageArray"
+                :key="index"
+                @click="updateItemsPerPage(number)"
+              >
+                <v-list-item-title>{{ number }}</v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-menu>
+
+          <v-spacer></v-spacer>
+
+          <span
+            class="mr-4
+            grey--text"
+          >
+            {{$t('dailydevelopments.page')}} {{ page }} {{$t('dailydevelopments.of')}} {{ numberOfPages }}
+          </span>
+          <v-btn
+            fab
+            dark
+             small
+            color="icons"
+            class="mr-1"
+            @click="formerPage"
+          >
+            <v-icon>mdi-chevron-left</v-icon>
+          </v-btn>
+          <v-btn
+            fab
+            dark
+            small
+            color="icons"
+            class="ml-1"
+            @click="nextPage"
+          >
+            <v-icon>mdi-chevron-right</v-icon>
+          </v-btn>
+        </v-row>
+      </template>
+
+      <template v-slot:default="props">
+        <v-row>
+          <v-col
+            v-for="item in props.items"
+            :key="item.name"
+            cols="12"
+            sm="12"
+            md="12"
+            lg="12"
+          >
+            <v-card>
+              <v-card-title class="subheading font-weight-bold primary--text" style="font-size:25px;">{{ item.name }}</v-card-title>
+
+              <v-divider></v-divider>
+
+              <v-list dense style="text-align:left;">
+                <v-list-item
+                  v-for="(key, index) in filteredKeys"
+                  :key="index"
+                >
+                <v-row>
+                  <v-col cols="12" md="2" sm="12" xs="12">
+   <h3><v-list-item-content  :class="{ 'blue--text': sortBy === key }">{{ key }}:</v-list-item-content> </h3>
+                  </v-col>
+                  <v-col cols="12" md="10" sm="12" xs="12">
+  <v-list-item-content class="align-end" style="font-size:18px;" :class="{ 'blue--text': sortBy === key }">{{ item[key.toLowerCase()] }}</v-list-item-content>
+                  </v-col>
+                </v-row>
+               
+                
+                </v-list-item>
+              </v-list>
+            </v-card>
+          </v-col>
+        </v-row>
+      </template>
+
+      <template v-slot:footer>
+        <v-row class="mt-2 mx-2" align="center" justify="center">
+          <span class="grey--text">{{$t('dailydevelopments.items-page')}}</span>
+          <v-menu offset-y>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                dark
+                text
+                color="primary"
+                class="ml-2"
+                v-on="on"
+              >
+                {{ itemsPerPage }}
+                <v-icon>mdi-chevron-down</v-icon>
+              </v-btn>
+            </template>
+            <v-list>
+              <v-list-item
+                v-for="(number, index) in itemsPerPageArray"
+                :key="index"
+                @click="updateItemsPerPage(number)"
+              >
+                <v-list-item-title>{{ number }}</v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-menu>
+
+          <v-spacer></v-spacer>
+
+          <span
+            class="mr-4
+            grey--text"
+          >
+           {{$t('dailydevelopments.page')}} {{ page }} {{$t('dailydevelopments.of')}} {{ numberOfPages }}
+          </span>
+          <v-btn
+            fab
+            dark
+            color="icons"
+            class="mr-1"
+            small
+            @click="formerPage"
+          >
+            <v-icon>mdi-chevron-left</v-icon>
+          </v-btn>
+          <v-btn
+            fab
+            dark
+            small
+            color="icons"
+            class="ml-1"
+            @click="nextPage"
+          >
+            <v-icon>mdi-chevron-right</v-icon>
+          </v-btn>
+        </v-row>
+      </template>
+    </v-data-iterator>
+  </v-container>
+    </section>
+ </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import Contact from "../components/Contact.vue";
+  
 
-export default {
-  name: "Home",
-  components: {
-    Contact
-  },
-  data: () => ({
-    features: [
-      {
-        icon: "mdi-account-group-outline",
-        title: "Message",
-        text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam"
-      },
-      {
-        icon: "mdi-account-group-outline",
-        title: "Goals",
-        text:
-          "We strive to be the number one trustworthy informational site about corona end educational institutions."
-      },
-      {
-        icon: "mdi-account-group-outline",
-        title: "Values",
-        text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam"
+<script>
+  export default {
+    data () {
+      return {
+        itemsPerPageArray: [4, 8, 12],
+        search: '',
+        filter: {},
+        sortDesc: false,
+        page: 1,
+        itemsPerPage: 4,
+        sortBy: '>Date',
+        keys: [
+          'Date',
+          'Name',
+          'Update',
+          
+        ],
+        items: [
+          {
+            name: 'Stage 2 opening of Denmark',
+            date: " 21st May",
+            update: " Higher education can now conduct oral exams physically as well as teaching activities that require physical attendance, from May 27th.",
+           
+          },
+          {
+                name: 'Get tested for Corona',
+            date: "18th May",
+            update: "Adults can now and in the future book a time to get corona tested, without a referral from their own doctor. The 18-25 yar olds got a head start to book a time starting Monday 18th. ",
+          },
+                    {
+                name: 'Stage 1 Opening of Denmark',
+            date: "6th April",
+           update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+          },
+                              {
+                name: 'Sdadadadada',
+            date: "5th April",
+            update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+          },
+                              {
+                name: 'gdfgadgAG',
+            date: "4th April",
+            update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+          },
+                              {
+                name: 'uytrewdfs',
+            date: "3th April",
+            update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+          },
+                              {
+                name: 'piuytfsd',
+            date: "2nd April",
+            update: "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations.",
+          },
+
+        ],
       }
-    ],
-    stats: [
-      ["", ""],
-      ["", ""],
-      ["", ""],
-      ["", ""]
-    ]
-  })
-};
+    },
+    computed: {
+      numberOfPages () {
+        return Math.ceil(this.items.length / this.itemsPerPage)
+      },
+      filteredKeys () {
+        return this.keys.filter(key => key !== `Name`)
+      },
+    },
+    methods: {
+      nextPage () {
+        if (this.page + 1 <= this.numberOfPages) this.page += 1
+      },
+      formerPage () {
+        if (this.page - 1 >= 1) this.page -= 1
+      },
+      updateItemsPerPage (number) {
+        this.itemsPerPage = number
+      },
+    },
+  }
 </script>
 
-<style lang="scss" scoped>
-#onlyvirus:hover {
-  transform: rotate(360deg);
-}
-#onlyvirus {
-  transition: transform 0.8s ease-in-out;
-}
 
-.para-to-contact {
-  display: flex;
-  @media screen and (max-width: 815px) {
+
+
+<!-- 
+<script>
+  export default {
+    data () {
+      return {
+        search: '',
+        headers: [
+          {
+            text: 'Date',
+            align: 'start',
+            sortable: false,
+            value: 'date',
+          },
+          { text: 'Update', value: 'name' },
+          { text: 'Content', value: 'content' },
+          { text: 'Valid from', value: 'valid' },
+        ],
+        desserts: [
+          {
+            name: 'Stage 2 opening',
+            date: "21st May",
+            content: "Stage 2 - Higher education can conduct oral exams physically as well as teaching activities that require physical attendance, from May 27th.",
+            valid: "27th May"
+          },
+          {
+            name: 'COVID TEST ',
+            date: "18th May",
+            content: "Adults can now and in the future book a time to get corona tested, without a referral from their own doctor. The 18-25 yar olds got a head start to book a time starting Monday 18th. ",
+            valid: "18th May"
+          },
+          {
+            name: 'Eclair',
+             date: 262,
+             content: 16.0,
+
+          },
+          {
+            name: 'Cupcake',
+             date: 305,
+             content: 3.7,
+
+          },
+          {
+            name: 'Gingerbread',
+            date: 356,
+             content: 16.0,
+
+          },
+        ],
+      }
+    },
+  }
+</script> 
+-->
+
+<style lang="scss" scoped>
+@media screen and (max-width: 700px) {
+  #daily {
+    margin-top: -104px;
+  }
+   .banner-img {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
-  #home {
-    margin-top: -104px;
-  }
+.png-shadow {
+  filter: url(#drop-shadow);
+  -webkit-filter: drop-shadow(3px 1px 5px rgba(0, 0, 0));
+  filter: progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444');
 }
 </style>
+

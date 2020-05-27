@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Rules from '../views/Rules.vue'
 import Guidelines from '../views/Guidelines.vue'
+import About from '../views/About.vue'
 import Dailydevelopments from '../views/Dailydevelopments.vue'
 //import i18n from '../i18n'
 
@@ -40,12 +41,12 @@ const routes = [
         component: Dailydevelopments
       },
       {
-        path: 'about',
+        path: '/about',
         name: 'About',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+        component: About
       }
     //]
   //}
