@@ -4,7 +4,6 @@ import Home from '../views/Home.vue'
 import Rules from '../views/Rules.vue'
 import Guidelines from '../views/Guidelines.vue'
 import About from '../views/About.vue'
-import Dailydevelopments from '../views/Dailydevelopments.vue'
 //import i18n from '../i18n'
 
 Vue.use(VueRouter)
@@ -34,11 +33,6 @@ const routes = [
         path: '/guidelines',
         name: 'Guidelines',
         component: Guidelines
-      },
-      {
-        path: '/dailydevelopments',
-        name: 'Dailydevelopments',
-        component: Dailydevelopments
       },
       {
         path: '/about',
