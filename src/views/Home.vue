@@ -190,15 +190,15 @@
             </v-toolbar>
             <v-row class="mt-2 mx-2" align="center" justify="center">
               <span class="grey--text">{{$t('dailydevelopments.items-page')}}</span>
-              <v-menu offset-y>
+              <v-menu offset-y >
                 <template v-slot:activator="{ on }">
                   <v-btn dark text color="primary" class="ml-2" v-on="on">
                     {{ itemsPerPage }}
-                    <v-icon>mdi-chevron-down</v-icon>
+                    <v-icon class="icons--text">mdi-chevron-down</v-icon>
                   </v-btn>
                 </template>
                 <v-list>
-                  <v-list-item
+                  <v-list-item 
                     v-for="(number, index) in itemsPerPageArray"
                     :key="index"
                     @click="updateItemsPerPage(number)"
@@ -265,7 +265,7 @@
                 <template v-slot:activator="{ on }">
                   <v-btn dark text color="primary" class="ml-2" v-on="on">
                     {{ itemsPerPage }}
-                    <v-icon>mdi-chevron-down</v-icon>
+                    <v-icon class="icons--text">mdi-chevron-down</v-icon>
                   </v-btn>
                 </template>
                 <v-list>
@@ -285,7 +285,7 @@
                 class="mr-4 grey--text"
               >{{$t('dailydevelopments.page')}} {{ page }} {{$t('dailydevelopments.of')}} {{ numberOfPages }}</span>
               <v-btn fab dark color="icons" class="mr-1" small @click="formerPage">
-                <v-icon>mdi-chevron-left</v-icon>
+                <v-icon >mdi-chevron-left</v-icon>
               </v-btn>
               <v-btn fab dark small color="icons" class="ml-1" @click="nextPage">
                 <v-icon>mdi-chevron-right</v-icon>
