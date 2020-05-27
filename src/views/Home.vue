@@ -45,14 +45,20 @@
                     class="font-weight-light"
                   >
                     <h4>
-                      We provide you with a quick overview of the
-                      <br />daily developments, rules and guidelines
+                      We provide you with an overview of the
+                      <br /> 
+                      <v-btn style=" text-decoration-line: underline; " color="transparent" depressed width="132" @click="$vuetify.goTo('.daily')"> daily updates, </v-btn>
+                       <router-link to="/rules" class="white--text"> 
+                            <v-btn color="transparent" depressed width="20">rules</v-btn> 
+                        </router-link>  
+                       and 
+                       <router-link to="/guidelines" class="white--text" > <v-btn width="100" color="transparent" depressed>guidelines </v-btn></router-link>
                       <br />for the re-opening of educational institutions.
                     </h4>
                   </span>
                   <br />
                 </v-col>
-                <v-btn color="white" rounded @click="$vuetify.goTo('.daily')">
+                <v-btn color="white" outlined rounded @click="$vuetify.goTo('.daily')">
                   <span
                     :class="[$vuetify.breakpoint.smAndDown ? 'title' : 'headline']"
                     class="font-weight icons--text"
@@ -433,6 +439,15 @@ export default {
 -->
 
 <style lang="scss" scoped>
+a {
+    color: rgb(255, 255, 255);
+   
+
+    &.router-link-exact-active {
+      text-decoration: none;
+      color: white;
+    }
+}
 @media screen and (max-width: 700px) {
   #daily {
     margin-top: -104px;
