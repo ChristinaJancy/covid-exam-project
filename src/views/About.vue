@@ -169,9 +169,12 @@ export default {
     Contact
   },
   data: () => ({
-    //
-  })
+      
+  }),
+  
 };
+
+
 </script>
 
 
