@@ -39,32 +39,18 @@
                   </v-text-field>
                   </div> 
                 </v-col>-->
-                <v-col cols="12" align="center">
-                  <span
-                    :class="[$vuetify.breakpoint.smAndDown ? 'subtitle-2': 'subtitle-1']"
-                    class="font-weight-light"
-                  >
-                    <h4>
-                      We provide you with an overview of the
-                      <br /> 
-                      <v-btn style=" text-decoration-line: underline; " color="transparent" depressed width="132" @click="$vuetify.goTo('.daily')"> daily updates, </v-btn>
-                       <router-link to="/rules" class="white--text"> 
-                            <v-btn color="transparent" depressed width="20">rules</v-btn> 
-                        </router-link>  
-                       and 
-                       <router-link to="/guidelines" class="white--text" > <v-btn width="100" color="transparent" depressed>guidelines </v-btn></router-link>
-                      <br />for the re-opening of educational institutions.
-                    </h4>
-                  </span>
+                <v-col cols="12" align="center" class="my-5">
+
                   <br />
-                </v-col>
-                <v-btn color="white" outlined rounded @click="$vuetify.goTo('.daily')">
+                                  <v-btn color="white" outlined rounded @click="$vuetify.goTo('.daily')">
                   <span
                     :class="[$vuetify.breakpoint.smAndDown ? 'title' : 'headline']"
                     class="font-weight icons--text"
                   >CHECK DAILY UPDATES</span>
                   <v-icon color="icons">mdi-chevron-double-down</v-icon>
                 </v-btn>
+                </v-col>
+
                 <!-- 
                 <v-btn
                   class="align-self-end"
