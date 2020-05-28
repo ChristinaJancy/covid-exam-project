@@ -27,7 +27,8 @@
         "messagetitle": "Budskab"
     },
     "home": {
-        "welcometo": "VELKOMMEN TIL"
+        "welcometo": "VELKOMMEN TIL",
+        "daily" : "DAGLIGE OPDATERINGER"
     },
     "guidelines": {
         "title": "RETNINGSLINJER",

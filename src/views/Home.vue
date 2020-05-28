@@ -45,7 +45,7 @@
                     <span
                       :class="[$vuetify.breakpoint.smAndDown ? 'title' : 'headline']"
                       class="font-weight icons--text"
-                    >CHECK DAILY UPDATES</span>
+                    >{{$t('home.daily')}}</span>
                     <v-icon color="icons">mdi-chevron-double-down</v-icon>
                   </v-btn>
                 </v-col>

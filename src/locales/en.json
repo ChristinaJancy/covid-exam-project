@@ -27,7 +27,8 @@
     "messagetitle": "Message"
   },
   "home": {
-    "welcometo": "WELCOME TO"
+    "welcometo": "WELCOME TO",
+    "daily" : "DAILY UPDATES"
   },
   "guidelines": {
     "title": "GUIDELINES",
