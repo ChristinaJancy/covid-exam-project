@@ -40,8 +40,8 @@
       <div class="py-12"></div>
       <v-container class="text-center">
         <v-responsive class="mx-auto title font-weight-light mb-8" max-width="720">
-                  <span :class="[$vuetify.breakpoint.smAndDown ? 'title': 'headline']">
-            <h3 style="line-height:60px;">
+<span :class="[$vuetify.breakpoint.smAndDown ? 'subtitle-2': 'subtitle-1']">
+            <h1 style="line-height:60px;">
               {{$t('about.content1')}}
               <br />
               <router-link to="/" class="icons--text">{{$t('about.update')}}</router-link>, 
@@ -50,10 +50,11 @@
               <router-link to="/guidelines" class="icons--text">{{$t('about.guidelines')}}</router-link>
               <br />
               {{$t('about.content2')}}
-            </h3>
+            </h1>
           </span>
           <br />
         </v-responsive>
+                          
         <v-avatar class="elevation-12 mb-12" size="128">
           <v-img id="onlyvirus" src="../assets/onlyvirus.png" contain></v-img>
         </v-avatar>
