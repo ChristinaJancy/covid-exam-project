@@ -8,8 +8,14 @@
     },
     "about": {
         "title": "Om os",
-        "content": "Vi er Educovid,",
-        "about" : "OM EDUCOVID"
+        "content": "Vi er Educovid",
+        "about" : "OM EDUCOVID",
+        "content1" : "Vi giver dig en oversigt over ",
+        "update" :"daglige opdateringer",
+        "rules" : "regler",
+        "and" : "og",
+        "guidelines" : "retningslinjer",
+        "content2" : "til genåbningen af uddannelsesintitutioner." 
     },
     "values": {
         "headline": "Vi tror på",

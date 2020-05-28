@@ -40,32 +40,24 @@
       <div class="py-12"></div>
       <v-container class="text-center">
         <v-responsive class="mx-auto title font-weight-light mb-8" max-width="720">
-          <h2>{{$t('about.content')}}</h2>
-          <br>
-          <span
-            :class="[$vuetify.breakpoint.smAndDown ? 'title': 'headline']"
-            class="font-weight-light"
-          >
-            <h4>
-              We provide you with an overview of the
+                  <span :class="[$vuetify.breakpoint.smAndDown ? 'title': 'headline']">
+            <h3 style="line-height:60px;">
+              {{$t('about.content1')}}
               <br />
-               <router-link to="/" class="white--text">
-              <v-btn class="icons--text" color="transparent" depressed width="130"><h3>daily updates</h3>
-                </v-btn> 
-               </router-link> ,
-              <router-link to="/rules" class="white--text">
-                <v-btn color="transparent" depressed width="70" class="icons--text"><h3>rules</h3></v-btn>
-              </router-link>and
-              <router-link to="/guidelines" class="white--text">
-                <v-btn width="110" color="transparent" depressed class="icons--text"><h3>guidelines</h3></v-btn>
-              </router-link>
-              <br />for the re-opening of educational institutions.
-            </h4>
+              <router-link to="/" class="icons--text">{{$t('about.update')}}</router-link>, 
+              <router-link to="/rules" class="icons--text">{{$t('about.rules')}}</router-link>
+              {{$t('about.and')}}
+              <router-link to="/guidelines" class="icons--text">{{$t('about.guidelines')}}</router-link>
+              <br />
+              {{$t('about.content2')}}
+            </h3>
           </span>
+          <br />
         </v-responsive>
         <v-avatar class="elevation-12 mb-12" size="128">
           <v-img id="onlyvirus" src="../assets/onlyvirus.png" contain></v-img>
         </v-avatar>
+
       </v-container>
     </section>
 
@@ -189,6 +181,16 @@ export default {
   }
   .banner-img {
     display: none;
+  }
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+  &.router-link-exact-active {
+    text-decoration: none;
+    color: white;
   }
 }
 

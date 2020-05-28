@@ -8,8 +8,14 @@
   },
   "about": {
     "title": "ABOUT US",
-    "content": "We are Educovid,",
-    "about" : "ABOUT EDUCOVID"
+    "content": "We are Educovid",
+    "about" : "ABOUT EDUCOVID",
+    "content1" : "We provide you with an overview of the",
+    "update" :"daily updates",
+    "rules" : "rules",
+    "and" : "and",
+    "guidelines" : "guidelines",
+    "content2" : "for the re-opening of educational institutions." 
   },
   "values": {
     "headline": "We believe in",
