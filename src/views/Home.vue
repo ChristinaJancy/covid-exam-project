@@ -212,9 +212,10 @@
               <v-col v-for="item in props.items" :key="item.name" cols="12" sm="12" md="12" lg="12">
                 <v-card>
                   <v-card-title
-                    class="subheading font-weight-bold primary--text"
-                    style="font-size:25px;"
-                  >{{ item.name }}</v-card-title>
+                    class="subheading font-weight-bold primary--text" 
+                    style="font-size:20px;"
+                  >{{ item.name }}
+                  </v-card-title>
 
                   <v-divider></v-divider>
 
@@ -225,12 +226,13 @@
                           <h3>
                             <v-list-item-content
                               :class="{ 'blue--text': sortBy === key }"
-                            >{{ key }}:</v-list-item-content>
+                            >{{ key }}:
+                            </v-list-item-content>
                           </h3>
                         </v-col>
                         <v-col cols="12" md="10" sm="12" xs="12">
                           <v-list-item-content
-                            class="align-end"
+                            class="align-end text-sm-left"
                             style="font-size:18px;"
                             :class="{ 'blue--text': sortBy === key }"
                           >{{ item[key.toLowerCase()] }}</v-list-item-content>
@@ -300,46 +302,35 @@ export default {
       items: [
         {
           name: "Stage 2 opening of Denmark",
-          date: " 21st May",
+          date: " 21st of May",
           update:
-            " Higher education can now conduct oral exams physically as well as teaching activities that require physical attendance, from May 27th."
+            "Higher education can now conduct oral exams physically as well as teaching activities that require physical attendance, from May 27th."
         },
         {
           name: "Get tested for Corona",
-          date: "18th May",
+          date: "18th of May",
           update:
             "Adults can now and in the future book a time to get corona tested, without a referral from their own doctor. The 18-25 yar olds got a head start to book a time starting Monday 18th. "
         },
         {
           name: "Stage 1 Opening of Denmark",
-          date: "6th April",
+          date: "6th of April",
           update:
-            "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations."
+            "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 2nd and 3rd grade classes, and care arrangements. Still no date when it comes to higher educations."
         },
-        {
-          name: "Sdadadadada",
-          date: "5th April",
+          {
+          name: "Reopening of higher educations prolonged",
+          date: "20th of April",
           update:
-            "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations."
+            "The education for students above 6th grade will stay continued in lockdown, with online classes from home. It is unknown when the higher educations will re-open."
         },
-        {
-          name: "gdfgadgAG",
-          date: "4th April",
+         {
+          name: "All educations closed",
+          date: "13th of March",
           update:
-            "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations."
+            "All educations in Denmark will from today, 13th of March, go into lockdown. This lockdown will last until 10th of May 2020."
         },
-        {
-          name: "uytrewdfs",
-          date: "3th April",
-          update:
-            "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations."
-        },
-        {
-          name: "piuytfsd",
-          date: "2nd April",
-          update:
-            "Prime Minister Mette Frederiksen announced how the first phase of the reopening of Denmark may proceed after the closure as a result of COVID-19, 15th April. So far: Elementary schools: 0-5. grade, secondary education 3rd and 2nd grade classes, and care arrangements. Still no date when it comes to higher educations."
-        }
+
       ]
     };
   },
