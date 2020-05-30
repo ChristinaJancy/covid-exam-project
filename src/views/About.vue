@@ -44,7 +44,8 @@
             <h1 style="line-height:60px;">
               {{$t('about.content1')}}
               <br />
-              <router-link to="/" class="icons--text">{{$t('about.update')}}</router-link>, 
+               {{$t('about.of-the')}}
+               <router-link to="/" class="icons--text">{{$t('about.update')}}</router-link>, 
               <router-link to="/rules" class="icons--text">{{$t('about.rules')}}</router-link>
               {{$t('about.and')}}
               <router-link to="/guidelines" class="icons--text">{{$t('about.guidelines')}}</router-link>
